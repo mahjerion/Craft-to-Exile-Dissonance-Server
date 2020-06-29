@@ -1,0 +1,1410 @@
+[28Jun2020 19:54:57.820] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 31.2.8, --fml.mcpVersion, 20200515.085601, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, nogui]
+[28Jun2020 19:54:57.824] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.1.0+69+master.79f13f7 starting: java version 1.8.0_251 by Oracle Corporation
+[28Jun2020 19:54:58.357] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[28Jun2020 19:54:58.490] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Users/Kelvin/Documents/My%20Games/Minecraft%20Server/Craft%20to%20Exile/mods/MixinBootstrap-1.0.3.jar Service=ModLauncher Env=SERVER
+[28Jun2020 19:54:59.252] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 13:99 token recognition error at: ';'
+[28Jun2020 19:54:59.881] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.performant.coremod.mixin.Connector]
+[28Jun2020 19:54:59.883] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [me.jellysquid.mods.phosphor.mixin.PhosphorMixinConnector]
+[28Jun2020 19:54:59.903] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[28Jun2020 19:54:59.979] [main/INFO] [com.performant.coremod.Performant/]: Performant configs loaded
+[28Jun2020 19:55:00.006] [main/INFO] [com.performant.coremod.Performant/]: Not enabling mixin forcom.performant.coremod.mixin.world.ServerWorldMixin as config disables it.
+[28Jun2020 19:55:00.648] [main/INFO] [net.minecraftforge.coremod.CoreMod.immersiveengineering/COREMODLOG]: Inserted wire collision callback
+[28Jun2020 19:55:00.981] [main/INFO] [net.minecraftforge.coremod.CoreMod.immersiveengineering/COREMODLOG]: Inserted block update callback
+[28Jun2020 19:55:01.607] [main/INFO] [net.minecraftforge.coremod.CoreMod.immersiveengineering/COREMODLOG]: Inserted wire collision callback
+[28Jun2020 19:55:09.673] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[28Jun2020 19:55:09.675] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[28Jun2020 19:55:09.676] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[28Jun2020 19:55:09.678] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[28Jun2020 19:55:09.680] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[28Jun2020 19:55:09.782] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.15.2
+[28Jun2020 19:55:10.266] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity clumps:xp_orb_big
+[28Jun2020 19:55:11.383] [modloading-worker-8/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.mmorpg.MMORPG:<init>:105]: Starting Mine and Slash
+[28Jun2020 19:55:11.738] [modloading-worker-15/INFO] [mod.azure.azurerpgitems.AzureRPGItemsMod/]: Loading config: C:\Users\Kelvin\Documents\My Games\Minecraft Server\Craft to Exile\config\azurerpgitems-config.toml
+[28Jun2020 19:55:11.739] [modloading-worker-15/INFO] [mod.azure.azurerpgitems.AzureRPGItemsMod/]: Built config: C:\Users\Kelvin\Documents\My Games\Minecraft Server\Craft to Exile\config\azurerpgitems-config.toml
+[28Jun2020 19:55:11.874] [modloading-worker-15/INFO] [mod.azure.azurerpgitems.AzureRPGItemsMod/]: Loaded config: C:\Users\Kelvin\Documents\My Games\Minecraft Server\Craft to Exile\config\azurerpgitems-config.toml
+[28Jun2020 19:55:12.109] [modloading-worker-15/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.2.8, for MC 1.15.2 with MCP 20200515.085601
+[28Jun2020 19:55:12.111] [modloading-worker-15/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.2.8 Initialized
+[28Jun2020 19:55:12.282] [modloading-worker-2/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 1.6.3...
+[28Jun2020 19:55:12.725] [modloading-worker-3/INFO] [roughmobsrevamped/]: Initializing Config...
+[28Jun2020 19:55:12.788] [modloading-worker-3/INFO] [roughmobsrevamped/]: Registering Entities...
+[28Jun2020 19:55:12.824] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity embellishcraft:entity_chair
+[28Jun2020 19:55:13.026] [modloading-worker-9/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading Bountiful listeners..
+[28Jun2020 19:55:13.523] [modloading-worker-6/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity midnight:rifter
+[28Jun2020 19:55:13.573] [modloading-worker-6/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity midnight:hunter
+[28Jun2020 19:55:13.581] [modloading-worker-6/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity midnight:bladeshroom_cap
+[28Jun2020 19:55:13.590] [modloading-worker-6/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity midnight:nova
+[28Jun2020 19:55:13.616] [modloading-worker-6/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity midnight:nova_spike
+[28Jun2020 19:55:13.622] [modloading-worker-6/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity midnight:crystal_bug
+[28Jun2020 19:55:13.625] [modloading-worker-6/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity midnight:penumbrian
+[28Jun2020 19:55:13.629] [modloading-worker-6/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity midnight:tree_hopper
+[28Jun2020 19:55:13.634] [modloading-worker-15/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquaculture:water_arrow
+[28Jun2020 19:55:13.639] [modloading-worker-6/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity midnight:stinger
+[28Jun2020 19:55:13.642] [modloading-worker-15/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquaculture:box_turtle
+[28Jun2020 19:55:13.646] [modloading-worker-15/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquaculture:arrau_turtle
+[28Jun2020 19:55:13.649] [modloading-worker-15/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquaculture:starshell_turtle
+[28Jun2020 19:55:13.650] [modloading-worker-15/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquaculture:oak_fish_mount
+[28Jun2020 19:55:13.650] [modloading-worker-15/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquaculture:spruce_fish_mount
+[28Jun2020 19:55:13.651] [modloading-worker-15/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquaculture:birch_fish_mount
+[28Jun2020 19:55:13.651] [modloading-worker-15/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquaculture:jungle_fish_mount
+[28Jun2020 19:55:13.652] [modloading-worker-15/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquaculture:acacia_fish_mount
+[28Jun2020 19:55:13.652] [modloading-worker-15/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquaculture:dark_oak_fish_mount
+[28Jun2020 19:55:13.659] [modloading-worker-6/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity midnight:nightstag
+[28Jun2020 19:55:13.672] [modloading-worker-6/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity midnight:deceitful_snapper
+[28Jun2020 19:55:13.675] [modloading-worker-6/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity midnight:bulb_angler
+[28Jun2020 19:55:13.727] [modloading-worker-6/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity midnight:skulk
+[28Jun2020 19:55:13.732] [modloading-worker-6/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity midnight:shade_squirrel
+[28Jun2020 19:55:13.757] [modloading-worker-6/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity midnight:thrown_geode
+[28Jun2020 19:55:13.778] [modloading-worker-6/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity midnight:spore_bomb
+[28Jun2020 19:55:13.782] [modloading-worker-6/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity midnight:cloud
+[28Jun2020 19:55:14.623] [modloading-worker-11/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity cfm:seat
+[28Jun2020 19:55:14.741] [modloading-worker-12/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity totem
+[28Jun2020 19:55:14.783] [modloading-worker-12/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity wrapped
+[28Jun2020 19:55:14.908] [modloading-worker-12/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity stoneling
+[28Jun2020 19:55:14.938] [modloading-worker-12/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity frog
+[28Jun2020 19:55:15.088] [modloading-worker-12/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity crab
+[28Jun2020 19:55:15.098] [modloading-worker-12/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity glass_frame
+[28Jun2020 19:55:15.099] [modloading-worker-12/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity colored_frame
+[28Jun2020 19:55:15.168] [modloading-worker-12/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity toretoise
+[28Jun2020 19:55:15.735] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity arisaur
+[28Jun2020 19:55:15.737] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity reiver
+[28Jun2020 19:55:15.742] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vespidqueen
+[28Jun2020 19:55:15.744] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity lacedon
+[28Jun2020 19:55:15.755] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity barghest
+[28Jun2020 19:55:15.764] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity kobold
+[28Jun2020 19:55:15.774] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity chupacabra
+[28Jun2020 19:55:15.781] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity cacodemon
+[28Jun2020 19:55:15.784] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity arix
+[28Jun2020 19:55:15.787] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity skylus
+[28Jun2020 19:55:15.795] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity wendigo
+[28Jun2020 19:55:15.801] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity maug
+[28Jun2020 19:55:15.805] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity crusk
+[28Jun2020 19:55:15.812] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity concapede
+[28Jun2020 19:55:15.815] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity uvaraptor
+[28Jun2020 19:55:15.824] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity ghoul
+[28Jun2020 19:55:15.827] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity manticore
+[28Jun2020 19:55:15.863] [modloading-worker-12/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity gravisand
+[28Jun2020 19:55:15.895] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity astaroth
+[28Jun2020 19:55:15.908] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity thresher
+[28Jun2020 19:55:15.911] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity geist
+[28Jun2020 19:55:15.914] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aglebemu
+[28Jun2020 19:55:15.917] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity eyewig
+[28Jun2020 19:55:15.946] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity khalk
+[28Jun2020 19:55:15.951] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity joust
+[28Jun2020 19:55:15.974] [modloading-worker-12/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity chest_passenger
+[28Jun2020 19:55:15.988] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity zoataur
+[28Jun2020 19:55:15.990] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity gorgomite
+[28Jun2020 19:55:15.998] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity serpix
+[28Jun2020 19:55:16.002] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity spectre
+[28Jun2020 19:55:16.004] [modloading-worker-12/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity foxhound
+[28Jun2020 19:55:16.008] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vespid
+[28Jun2020 19:55:16.012] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity warg
+[28Jun2020 19:55:16.015] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity cryptkeeper
+[28Jun2020 19:55:16.018] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity abtu
+[28Jun2020 19:55:16.026] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity ettin
+[28Jun2020 19:55:16.030] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity behemoth
+[28Jun2020 19:55:16.033] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity dawon
+[28Jun2020 19:55:16.036] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity morock
+[28Jun2020 19:55:16.039] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shambler
+[28Jun2020 19:55:16.045] [modloading-worker-12/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity pickarang
+[28Jun2020 19:55:16.069] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity lurker
+[28Jun2020 19:55:16.073] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity afrit
+[28Jun2020 19:55:16.077] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity beholder
+[28Jun2020 19:55:16.090] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity jabberwock
+[28Jun2020 19:55:16.157] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity lobber
+[28Jun2020 19:55:16.161] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity troll
+[28Jun2020 19:55:16.165] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity geken
+[28Jun2020 19:55:16.168] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity strider
+[28Jun2020 19:55:16.170] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity wraith
+[28Jun2020 19:55:16.173] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity quillbeast
+[28Jun2020 19:55:16.176] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity clink
+[28Jun2020 19:55:16.182] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity archvile
+[28Jun2020 19:55:16.185] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity ika
+[28Jun2020 19:55:16.189] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity herma
+[28Jun2020 19:55:16.226] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity treant
+[28Jun2020 19:55:16.229] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity reaper
+[28Jun2020 19:55:16.232] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity raiko
+[28Jun2020 19:55:16.235] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity grue
+[28Jun2020 19:55:16.238] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity silex
+[28Jun2020 19:55:16.241] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity quetzodracl
+[28Jun2020 19:55:16.244] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity wildkin
+[28Jun2020 19:55:16.247] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aspid
+[28Jun2020 19:55:16.250] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity pinky
+[28Jun2020 19:55:16.277] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity dweller
+[28Jun2020 19:55:16.280] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity gorger
+[28Jun2020 19:55:16.282] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity sutiramu
+[28Jun2020 19:55:16.308] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity banshee
+[28Jun2020 19:55:16.311] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shade
+[28Jun2020 19:55:16.317] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity krake
+[28Jun2020 19:55:16.320] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity erepede
+[28Jun2020 19:55:16.325] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity volcan
+[28Jun2020 19:55:16.333] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity yale
+[28Jun2020 19:55:16.335] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity yeti
+[28Jun2020 19:55:16.338] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity darkling
+[28Jun2020 19:55:16.341] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity epion
+[28Jun2020 19:55:16.344] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity ioray
+[28Jun2020 19:55:16.347] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity jengu
+[28Jun2020 19:55:16.348] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity trite
+[28Jun2020 19:55:16.350] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity roa
+[28Jun2020 19:55:16.354] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity roc
+[28Jun2020 19:55:16.356] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity salamander
+[28Jun2020 19:55:16.359] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity ventoraptor
+[28Jun2020 19:55:16.362] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity calpod
+[28Jun2020 19:55:16.366] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity remobra
+[28Jun2020 19:55:16.372] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity triffid
+[28Jun2020 19:55:16.374] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity belph
+[28Jun2020 19:55:16.397] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity cephignis
+[28Jun2020 19:55:16.400] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity maka
+[28Jun2020 19:55:16.404] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity feradon
+[28Jun2020 19:55:16.437] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity gnekk
+[28Jun2020 19:55:16.440] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity cockatrice
+[28Jun2020 19:55:16.442] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity wraamon
+[28Jun2020 19:55:16.446] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity conba
+[28Jun2020 19:55:16.449] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity ent
+[28Jun2020 19:55:16.452] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity tarantula
+[28Jun2020 19:55:16.556] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity frostweaver
+[28Jun2020 19:55:16.560] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity ignibus
+[28Jun2020 19:55:16.564] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity argus
+[28Jun2020 19:55:16.567] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity abaia
+[28Jun2020 19:55:16.570] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity spriggan
+[28Jun2020 19:55:16.576] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity djinn
+[28Jun2020 19:55:16.576] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity eechetik
+[28Jun2020 19:55:16.578] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity zephyr
+[28Jun2020 19:55:16.579] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity tremor
+[28Jun2020 19:55:16.579] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity geonach
+[28Jun2020 19:55:16.580] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity vapula
+[28Jun2020 19:55:16.581] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity cinder
+[28Jun2020 19:55:16.582] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity sylph
+[28Jun2020 19:55:16.583] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity pixen
+[28Jun2020 19:55:16.584] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity xaphan
+[28Jun2020 19:55:17.126] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aegis
+[28Jun2020 19:55:17.127] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity wisp
+[28Jun2020 19:55:17.128] [modloading-worker-13/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity nymph
+[28Jun2020 19:55:18.287] [modloading-worker-8/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.database.talent_tree.csv_parser.TalentParser:parse:27]: Registered all 349 perks to the talent tree!
+[28Jun2020 19:55:18.501] [modloading-worker-8/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.blocks.scrabble.ScrabbleTile:loadWordList:402]: Loaded 279496 words to the dictionary.
+[28Jun2020 19:55:18.594] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:holy_spear
+[28Jun2020 19:55:18.595] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:blizzard
+[28Jun2020 19:55:18.596] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:frostball
+[28Jun2020 19:55:18.596] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:whirlpool
+[28Jun2020 19:55:18.597] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:tidal_wave
+[28Jun2020 19:55:18.597] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:poison_ball
+[28Jun2020 19:55:18.598] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:thunderstorm
+[28Jun2020 19:55:18.598] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:thunder_spear
+[28Jun2020 19:55:18.598] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:lightning_totem
+[28Jun2020 19:55:18.599] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:fireball
+[28Jun2020 19:55:18.599] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:fire_bomb
+[28Jun2020 19:55:18.600] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:seeker_flame
+[28Jun2020 19:55:18.600] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:volcano
+[28Jun2020 19:55:18.601] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:ranger_arrow
+[28Jun2020 19:55:18.601] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:arrow_storm
+[28Jun2020 19:55:18.603] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:divine_tribulation
+[28Jun2020 19:55:18.604] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:seed_entity
+[28Jun2020 19:55:18.606] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:trader
+[28Jun2020 19:55:18.610] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:leaping_zombie
+[28Jun2020 19:55:18.612] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:spider_pet
+[28Jun2020 19:55:18.615] [modloading-worker-8/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mmorpg:spirit_wolf_pet
+[28Jun2020 19:55:18.631] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after CONSTRUCT: 4 jobs
+[28Jun2020 19:55:18.647] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.013
+[28Jun2020 19:55:19.597] [Server thread/INFO] [mcwbridges/]: Blocks registered.
+[28Jun2020 19:55:19.961] [Server thread/INFO] [STDOUT/]: [ejektaflex.bountiful.SetupLifecycle:registerBlocks:193]: Registering to: minecraft:block, class net.minecraft.block.Block
+[28Jun2020 19:55:19.975] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `crafting_table`, expected `fastbench`. This could be a intended override, but in most cases indicates a broken mod.
+[28Jun2020 19:55:19.978] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `crafting_table`, expected `fastbench`. This could be a intended override, but in most cases indicates a broken mod.
+[28Jun2020 19:55:20.590] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[28Jun2020 19:55:20.592] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[28Jun2020 19:55:20.594] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `blast_furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[28Jun2020 19:55:20.594] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `blast_furnace`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[28Jun2020 19:55:20.596] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `smoker`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[28Jun2020 19:55:20.596] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `smoker`, expected `fastfurnace`. This could be a intended override, but in most cases indicates a broken mod.
+[28Jun2020 19:55:20.629] [Server thread/INFO] [mcwfurnitures/]: Blocks registered.
+[28Jun2020 19:55:20.724] [Server thread/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.mmorpg.registers.common.GearItemRegisters:registerItems:120]: Registering Gear Items!
+[28Jun2020 19:55:20.765] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity goodnightsleep:unicorn
+[28Jun2020 19:55:20.766] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity goodnightsleep:gummy_bear
+[28Jun2020 19:55:20.785] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity goodnightsleep:baby_creeper
+[28Jun2020 19:55:20.786] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity goodnightsleep:tormenter
+[28Jun2020 19:55:20.788] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity goodnightsleep:herobrine
+[28Jun2020 19:55:20.789] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity goodnightsleep:gns_spawner
+[28Jun2020 19:55:20.802] [Server thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `end_crystal`, expected `endergetic`. This could be a intended override, but in most cases indicates a broken mod.
+[28Jun2020 19:55:20.836] [Server thread/INFO] [mcwbridges/]: Items registered.
+[28Jun2020 19:55:20.856] [Server thread/INFO] [mod.azure.azurerpgitems.AzureRPGItemsMod/]: All Items registered.
+[28Jun2020 19:55:20.871] [Server thread/INFO] [STDOUT/]: [ejektaflex.bountiful.SetupLifecycle:registerItems:183]: Registering to: minecraft:item, class net.minecraft.item.Item
+[28Jun2020 19:55:20.884] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity lava_monster:lava_monster
+[28Jun2020 19:55:20.979] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity animalium:bear
+[28Jun2020 19:55:20.983] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity animalium:piranha
+[28Jun2020 19:55:20.986] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity animalium:wild_dog
+[28Jun2020 19:55:20.987] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity animalium:bear_tamed
+[28Jun2020 19:55:20.990] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity animalium:rat
+[28Jun2020 19:55:21.043] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity minecolonies:citizen
+[28Jun2020 19:55:21.062] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity minecolonies:fishhook
+[28Jun2020 19:55:21.076] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity minecolonies:mercenary
+[28Jun2020 19:55:21.084] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity minecolonies:barbarian
+[28Jun2020 19:55:21.089] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity minecolonies:archerbarbarian
+[28Jun2020 19:55:21.094] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity minecolonies:chiefbarbarian
+[28Jun2020 19:55:21.101] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity minecolonies:pirate
+[28Jun2020 19:55:21.105] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity minecolonies:archerpirate
+[28Jun2020 19:55:21.109] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity minecolonies:chiefpirate
+[28Jun2020 19:55:21.111] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity minecolonies:sittingentity
+[28Jun2020 19:55:21.113] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity minecolonies:mcminecart
+[28Jun2020 19:55:21.121] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity minecolonies:mummy
+[28Jun2020 19:55:21.125] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity minecolonies:archermummy
+[28Jun2020 19:55:21.128] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity minecolonies:pharao
+[28Jun2020 19:55:21.135] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity minecolonies:amazon
+[28Jun2020 19:55:21.139] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity minecolonies:amazonchief
+[28Jun2020 19:55:21.141] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity minecolonies:firearrow
+[28Jun2020 19:55:21.148] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity minecolonies:shieldmaiden
+[28Jun2020 19:55:21.152] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity minecolonies:norsemenarcher
+[28Jun2020 19:55:21.156] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity minecolonies:norsemenchief
+[28Jun2020 19:55:21.172] [Server thread/INFO] [mcwfurnitures/]: Items registered.
+[28Jun2020 19:55:21.204] [Server thread/INFO] [net.minecraftforge.common.DimensionManager/DIMS]: Registered dimension goodnightsleep:good_dream of type goodnightsleep:good_dream and id 3
+[28Jun2020 19:55:21.210] [Server thread/INFO] [net.minecraftforge.common.DimensionManager/DIMS]: Registered dimension goodnightsleep:nightmare of type goodnightsleep:nightmare and id 4
+[28Jun2020 19:55:22.400] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity roughmobsrevamped:zombie_champion
+[28Jun2020 19:55:22.402] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity roughmobsrevamped:zombie_pigman_champion
+[28Jun2020 19:55:22.403] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity roughmobsrevamped:husk_champion
+[28Jun2020 19:55:22.405] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity roughmobsrevamped:skeleton_champion
+[28Jun2020 19:55:22.405] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity abnormals_core:boat
+[28Jun2020 19:55:22.405] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity buzzierbees:honey_slime
+[28Jun2020 19:55:22.406] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity buzzierbees:grizzly_bear
+[28Jun2020 19:55:22.406] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity buzzierbees:black_bear
+[28Jun2020 19:55:22.406] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity buzzierbees:bumblebee
+[28Jun2020 19:55:22.407] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity upgrade_aquatic:sonar_wave
+[28Jun2020 19:55:22.407] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity upgrade_aquatic:nautilus
+[28Jun2020 19:55:22.407] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity upgrade_aquatic:pike
+[28Jun2020 19:55:22.408] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity upgrade_aquatic:lionfish
+[28Jun2020 19:55:22.408] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity upgrade_aquatic:thrasher
+[28Jun2020 19:55:22.409] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity upgrade_aquatic:great_thrasher
+[28Jun2020 19:55:22.409] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity upgrade_aquatic:flare
+[28Jun2020 19:55:22.410] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity upgrade_aquatic:ululu
+[28Jun2020 19:55:22.412] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity upgrade_aquatic:box_jellyfish
+[28Jun2020 19:55:22.412] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity upgrade_aquatic:cassiopea_jellyfish
+[28Jun2020 19:55:22.412] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity upgrade_aquatic:immortal_jellyfish
+[28Jun2020 19:55:22.420] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity endergetic:poise_cluster
+[28Jun2020 19:55:22.420] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity endergetic:bolloom_fruit
+[28Jun2020 19:55:22.421] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity endergetic:boof_block
+[28Jun2020 19:55:22.421] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity endergetic:puff_bug
+[28Jun2020 19:55:22.422] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity endergetic:bolloom_balloon
+[28Jun2020 19:55:22.422] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity endergetic:bolloom_knot
+[28Jun2020 19:55:22.422] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity endergetic:booflo_baby
+[28Jun2020 19:55:22.423] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity endergetic:booflo_adolescent
+[28Jun2020 19:55:22.423] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity endergetic:booflo
+[28Jun2020 19:55:22.424] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity swampexpansion:slabfish
+[28Jun2020 19:55:22.425] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity immersiveengineering:chemthrower_shot
+[28Jun2020 19:55:22.426] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity immersiveengineering:fluorescent_tube
+[28Jun2020 19:55:22.429] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity immersiveengineering:explosive
+[28Jun2020 19:55:22.430] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity immersiveengineering:railgun_shot
+[28Jun2020 19:55:22.431] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity immersiveengineering:revolver_shot
+[28Jun2020 19:55:22.432] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity immersiveengineering:revolver_shot_flare
+[28Jun2020 19:55:22.432] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity immersiveengineering:revolver_shot_homing
+[28Jun2020 19:55:22.449] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity immersiveengineering:skyline_hook
+[28Jun2020 19:55:22.449] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity immersiveengineering:revolver_shot_wolfpack
+[28Jun2020 19:55:22.451] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity immersiveengineering:cart_woodencrate
+[28Jun2020 19:55:22.452] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity immersiveengineering:cart_reinforcedcrate
+[28Jun2020 19:55:22.452] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity immersiveengineering:cart_woodenbarrel
+[28Jun2020 19:55:22.453] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity immersiveengineering:cart_metalbarrel
+[28Jun2020 19:55:22.455] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity immersiveengineering:sawblade
+[28Jun2020 19:55:22.455] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity makaalpha
+[28Jun2020 19:55:22.455] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity fear
+[28Jun2020 19:55:22.456] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity amalgalich
+[28Jun2020 19:55:22.456] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity joustalpha
+[28Jun2020 19:55:22.456] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity asmodeus
+[28Jun2020 19:55:22.457] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity concapedesegment
+[28Jun2020 19:55:22.458] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity rahovart
+[28Jun2020 19:55:22.459] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity demonicspark
+[28Jun2020 19:55:22.460] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity tricksterflare
+[28Jun2020 19:55:22.460] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aetherwave
+[28Jun2020 19:55:22.460] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity scorchfireball
+[28Jun2020 19:55:22.461] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity magma
+[28Jun2020 19:55:22.461] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity acidsplash
+[28Jun2020 19:55:22.461] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity devilstar
+[28Jun2020 19:55:22.462] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity arcanelaser
+[28Jun2020 19:55:22.462] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity bloodleech
+[28Jun2020 19:55:22.463] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity whirlwind
+[28Jun2020 19:55:22.463] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity mudshot
+[28Jun2020 19:55:22.464] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity poop
+[28Jun2020 19:55:22.464] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity demonicblast
+[28Jun2020 19:55:22.465] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity venomshot
+[28Jun2020 19:55:22.466] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity hellfireball
+[28Jun2020 19:55:22.466] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity icefireball
+[28Jun2020 19:55:22.467] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity faebolt
+[28Jun2020 19:55:22.467] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity frostweb
+[28Jun2020 19:55:22.468] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity throwingscythe
+[28Jun2020 19:55:22.469] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity ember
+[28Jun2020 19:55:22.470] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity blizzard
+[28Jun2020 19:55:22.470] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity quill
+[28Jun2020 19:55:22.471] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity arcanelaserstorm
+[28Jun2020 19:55:22.471] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity doomfireball
+[28Jun2020 19:55:22.471] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity chaosorb
+[28Jun2020 19:55:22.472] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity poisonray
+[28Jun2020 19:55:22.473] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity aquapulse
+[28Jun2020 19:55:22.473] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity boulderblast
+[28Jun2020 19:55:22.473] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity lobdarklings
+[28Jun2020 19:55:22.474] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity tundra
+[28Jun2020 19:55:22.474] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity lightball
+[28Jun2020 19:55:22.475] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity summoningseed
+[28Jun2020 19:55:22.475] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity frostbolt
+[28Jun2020 19:55:22.476] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity spectralbolt
+[28Jun2020 19:55:22.477] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity lifedrain
+[28Jun2020 19:55:22.477] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity crystalshard
+[28Jun2020 19:55:22.477] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity waterjet
+[28Jun2020 19:55:22.478] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity helllaser
+[28Jun2020 19:55:22.481] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity hellfirewavepart
+[28Jun2020 19:55:22.481] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity hellfirewall
+[28Jun2020 19:55:22.481] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity hellfirebarrier
+[28Jun2020 19:55:22.482] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowfirebarrier
+[28Jun2020 19:55:22.483] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity laserend
+[28Jun2020 19:55:22.483] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity helllaserend
+[28Jun2020 19:55:22.483] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity rapidfire
+[28Jun2020 19:55:22.484] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity hellfireorb
+[28Jun2020 19:55:22.485] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity summoningportal
+[28Jun2020 19:55:22.485] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity hellfirewave
+[28Jun2020 19:55:22.486] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity hellfirebarrierpart
+[28Jun2020 19:55:22.486] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity hellshield
+[28Jun2020 19:55:22.487] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity devilgatling
+[28Jun2020 19:55:22.487] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity savageandravage:creepie
+[28Jun2020 19:55:22.487] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity savageandravage:skeleton_villager
+[28Jun2020 19:55:22.488] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity savageandravage:creeper_spore_cloud
+[28Jun2020 19:55:22.490] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity savageandravage:spore_bomb
+[28Jun2020 19:55:22.490] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity savageandravage:burning_banner
+[28Jun2020 19:55:22.491] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity savageandravage:rune_prison
+[28Jun2020 19:55:22.491] [Server thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity gravestone:player_ghost
+[28Jun2020 19:55:22.495] [Server thread/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.mmorpg.registers.common.WorldGenRegisters:register:28]: Registering Mine and Slash Map World Gen
+[28Jun2020 19:55:22.816] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Kelvin\Documents\My Games\Minecraft Server\Craft to Exile\config\aquaculture-common.toml is not correct. Correcting
+[28Jun2020 19:55:22.820] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key spawn options.box_turtle.exclude was corrected from [] to []
+[28Jun2020 19:55:22.822] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key spawn options.arrau_turtle.exclude was corrected from [] to []
+[28Jun2020 19:55:22.824] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key spawn options.starshell_turtle.exclude was corrected from [] to []
+[28Jun2020 19:55:22.840] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[28Jun2020 19:55:22.858] [modloading-worker-4/INFO] [tv.mapper.embellishcraft.EmbellishCraft/]: EmbellishCraft setup
+[28Jun2020 19:55:22.874] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[28Jun2020 19:55:22.874] [modloading-worker-13/INFO] [tv.mapper.mapperbase.MapperBase/]: Mapper Base setup started!
+[28Jun2020 19:55:22.875] [modloading-worker-4/INFO] [tv.mapper.embellishcraft.EmbellishCraft/]: Basalt blacklisted for biome minecraft:nether in the config.
+[28Jun2020 19:55:22.878] [modloading-worker-4/INFO] [tv.mapper.embellishcraft.EmbellishCraft/]: Slate blacklisted for biome minecraft:nether in the config.
+[28Jun2020 19:55:22.878] [modloading-worker-4/INFO] [tv.mapper.embellishcraft.EmbellishCraft/]: Marble blacklisted for biome minecraft:nether in the config.
+[28Jun2020 19:55:22.879] [modloading-worker-4/INFO] [tv.mapper.embellishcraft.EmbellishCraft/]: Gneiss blacklisted for biome minecraft:nether in the config.
+[28Jun2020 19:55:22.880] [modloading-worker-4/INFO] [tv.mapper.embellishcraft.EmbellishCraft/]: Jade blacklisted for biome minecraft:nether in the config.
+[28Jun2020 19:55:22.881] [modloading-worker-4/INFO] [tv.mapper.embellishcraft.EmbellishCraft/]: Larvikite blacklisted for biome minecraft:nether in the config.
+[28Jun2020 19:55:22.882] [modloading-worker-4/INFO] [tv.mapper.embellishcraft.EmbellishCraft/]: Basalt blacklisted for biome minecraft:the_end in the config.
+[28Jun2020 19:55:22.881] [modloading-worker-3/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.mmorpg.MMORPG:commonSetupEvent:149]: mmorpg:FMLCommonSetupEvent
+[28Jun2020 19:55:22.885] [modloading-worker-13/INFO] [tv.mapper.mapperbase.MapperBase/]: Bitumen ore blacklisted for biome minecraft:nether in the config.
+[28Jun2020 19:55:22.885] [modloading-worker-4/INFO] [tv.mapper.embellishcraft.EmbellishCraft/]: Slate blacklisted for biome minecraft:the_end in the config.
+[28Jun2020 19:55:22.887] [modloading-worker-13/INFO] [tv.mapper.mapperbase.MapperBase/]: Bitumen ore blacklisted for biome minecraft:the_end in the config.
+[28Jun2020 19:55:22.888] [modloading-worker-4/INFO] [tv.mapper.embellishcraft.EmbellishCraft/]: Marble blacklisted for biome minecraft:the_end in the config.
+[28Jun2020 19:55:22.891] [modloading-worker-4/INFO] [tv.mapper.embellishcraft.EmbellishCraft/]: Gneiss blacklisted for biome minecraft:the_end in the config.
+[28Jun2020 19:55:22.891] [modloading-worker-4/INFO] [tv.mapper.embellishcraft.EmbellishCraft/]: Jade blacklisted for biome minecraft:the_end in the config.
+[28Jun2020 19:55:22.891] [modloading-worker-13/INFO] [Dungeon Crawl/]: Common Setup
+[28Jun2020 19:55:22.892] [modloading-worker-4/INFO] [tv.mapper.embellishcraft.EmbellishCraft/]: Larvikite blacklisted for biome minecraft:the_end in the config.
+[28Jun2020 19:55:22.896] [modloading-worker-4/INFO] [mcwbridges/]: Setup method registered
+[28Jun2020 19:55:22.898] [modloading-worker-10/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome minecraft:bamboo_jungle, types have been assigned on a best-effort guess: [JUNGLE, HOT, WET]
+[28Jun2020 19:55:22.899] [modloading-worker-10/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome minecraft:bamboo_jungle_hills, types have been assigned on a best-effort guess: [JUNGLE, HOT, WET]
+[28Jun2020 19:55:22.908] [modloading-worker-10/INFO] [mcwfurnitures/]: Setup method registered
+[28Jun2020 19:55:22.952] [modloading-worker-10/ERROR] [net.minecraftforge.fml.common.ObfuscationReflectionHelper/]: Unable to locate any field maximumValue on type net.minecraft.entity.ai.attributes.RangedAttribute
+net.minecraftforge.fml.common.ObfuscationReflectionHelper$UnableToFindFieldException: java.lang.NoSuchFieldException: maximumValue
+	at net.minecraftforge.fml.common.ObfuscationReflectionHelper.findField(ObfuscationReflectionHelper.java:242) ~[?:?]
+	at net.minecraftforge.fml.common.ObfuscationReflectionHelper.setPrivateValue(ObfuscationReflectionHelper.java:120) ~[?:?]
+	at com.lycanitesmobs.core.helpers.LMReflectionHelper.setPrivateFinalValue(LMReflectionHelper.java:42) ~[?:1.15.2-2.2.3.2]
+	at com.lycanitesmobs.LycanitesMobs.commonSetup(LycanitesMobs.java:177) ~[?:1.15.2-2.2.3.2]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212) ~[eventbus-2.2.0-service.jar:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204) ~[eventbus-2.2.0-service.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:258) ~[eventbus-2.2.0-service.jar:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106) ~[?:31.2]
+	at java.util.function.Consumer.lambda$andThen$0(Unknown Source) ~[?:1.8.0_251]
+	at java.util.function.Consumer.lambda$andThen$0(Unknown Source) ~[?:1.8.0_251]
+	at net.minecraftforge.fml.ModContainer.transitionState(ModContainer.java:112) ~[?:?]
+	at net.minecraftforge.fml.ModList.lambda$null$10(ModList.java:135) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source) [?:1.8.0_251]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source) [?:1.8.0_251]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) [?:1.8.0_251]
+	at java.util.stream.ForEachOps$ForEachTask.compute(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.CountedCompleter.exec(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_251]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_251]
+Caused by: java.lang.NoSuchFieldException: maximumValue
+	at java.lang.Class.getDeclaredField(Unknown Source) ~[?:1.8.0_251]
+	at net.minecraftforge.fml.common.ObfuscationReflectionHelper.findField(ObfuscationReflectionHelper.java:236) ~[?:?]
+	... 20 more
+[28Jun2020 19:55:22.958] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: net.minecraftforge.fml.common.ObfuscationReflectionHelper$UnableToFindFieldException: java.lang.NoSuchFieldException: maximumValue
+[28Jun2020 19:55:22.961] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at net.minecraftforge.fml.common.ObfuscationReflectionHelper.findField(ObfuscationReflectionHelper.java:242)
+[28Jun2020 19:55:22.962] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at net.minecraftforge.fml.common.ObfuscationReflectionHelper.setPrivateValue(ObfuscationReflectionHelper.java:120)
+[28Jun2020 19:55:22.962] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at com.lycanitesmobs.core.helpers.LMReflectionHelper.setPrivateFinalValue(LMReflectionHelper.java:42)
+[28Jun2020 19:55:22.963] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at com.lycanitesmobs.LycanitesMobs.commonSetup(LycanitesMobs.java:177)
+[28Jun2020 19:55:22.964] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:212)
+[28Jun2020 19:55:22.965] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:204)
+[28Jun2020 19:55:22.966] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:258)
+[28Jun2020 19:55:22.967] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer.fireEvent(FMLModContainer.java:106)
+[28Jun2020 19:55:22.967] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at java.util.function.Consumer.lambda$andThen$0(Unknown Source)
+[28Jun2020 19:55:22.968] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at java.util.function.Consumer.lambda$andThen$0(Unknown Source)
+[28Jun2020 19:55:22.968] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at net.minecraftforge.fml.ModContainer.transitionState(ModContainer.java:112)
+[28Jun2020 19:55:22.969] [modloading-worker-1/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome mmorpg:dungeon_biome, types have been assigned on a best-effort guess: could not guess types
+[28Jun2020 19:55:22.972] [modloading-worker-13/INFO] [Dungeon Crawl/]: Calculating WeightedRandomBlocks
+[28Jun2020 19:55:22.969] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at net.minecraftforge.fml.ModList.lambda$null$10(ModList.java:135)
+[28Jun2020 19:55:22.973] [modloading-worker-1/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome mmorpg:dungeon_biome, types have been assigned on a best-effort guess: could not guess types
+[28Jun2020 19:55:22.974] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source)
+[28Jun2020 19:55:22.975] [modloading-worker-1/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome mmorpg:dungeon_biome, types have been assigned on a best-effort guess: could not guess types
+[28Jun2020 19:55:22.975] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source)
+[28Jun2020 19:55:22.977] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [roughmobsrevamped] Starting version check at https://api.npoint.io/0bfdf843f7f634c511c6
+[28Jun2020 19:55:22.976] [modloading-worker-1/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome mmorpg:dungeon_biome, types have been assigned on a best-effort guess: could not guess types
+[28Jun2020 19:55:22.977] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+[28Jun2020 19:55:22.979] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at java.util.stream.ForEachOps$ForEachTask.compute(Unknown Source)
+[28Jun2020 19:55:22.979] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at java.util.concurrent.CountedCompleter.exec(Unknown Source)
+[28Jun2020 19:55:22.980] [modloading-worker-1/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome mmorpg:dungeon_biome, types have been assigned on a best-effort guess: could not guess types
+[28Jun2020 19:55:22.980] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+[28Jun2020 19:55:22.983] [modloading-worker-13/INFO] [Dungeon Crawl/]: Finished calculations (11 ms)
+[28Jun2020 19:55:22.985] [modloading-worker-13/INFO] [Dungeon Crawl/]: Adding features and structures
+[28Jun2020 19:55:22.982] [modloading-worker-1/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome swampexpansion:mushroom_marsh, types have been assigned on a best-effort guess: [SWAMP, WET]
+[28Jun2020 19:55:22.984] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+[28Jun2020 19:55:22.988] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[28Jun2020 19:55:22.988] [modloading-worker-10/INFO] [STDERR/]: [com.lycanitesmobs.core.helpers.LMReflectionHelper:setPrivateFinalValue:52]: 	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[28Jun2020 19:55:22.989] [modloading-worker-10/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: Caused by: java.lang.NoSuchFieldException: maximumValue
+[28Jun2020 19:55:22.990] [modloading-worker-10/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at java.lang.Class.getDeclaredField(Unknown Source)
+[28Jun2020 19:55:22.991] [modloading-worker-4/INFO] [net.minecraft.world.biome.Biome/]: Performant loaded, lag begone!
+[28Jun2020 19:55:22.991] [modloading-worker-10/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	at net.minecraftforge.fml.common.ObfuscationReflectionHelper.findField(ObfuscationReflectionHelper.java:236)
+[28Jun2020 19:55:22.994] [modloading-worker-10/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:-1]: 	... 20 more
+[28Jun2020 19:55:23.016] [modloading-worker-13/INFO] [Dungeon Crawl/]: Loading C:\Users\Kelvin\Documents\My Games\Minecraft Server\Craft to Exile\config\DungeonCrawl\config.json
+[28Jun2020 19:55:23.027] [modloading-worker-15/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[28Jun2020 19:55:23.028] [modloading-worker-15/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[28Jun2020 19:55:23.029] [modloading-worker-15/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[28Jun2020 19:55:23.029] [modloading-worker-15/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[28Jun2020 19:55:23.030] [modloading-worker-15/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[28Jun2020 19:55:23.030] [modloading-worker-15/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[28Jun2020 19:55:23.031] [modloading-worker-15/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[28Jun2020 19:55:23.032] [modloading-worker-15/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[28Jun2020 19:55:23.033] [modloading-worker-15/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[28Jun2020 19:55:23.034] [modloading-worker-15/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[28Jun2020 19:55:23.035] [modloading-worker-15/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[28Jun2020 19:55:23.035] [modloading-worker-13/INFO] [Dungeon Crawl/]: Loading C:\Users\Kelvin\Documents\My Games\Minecraft Server\Craft to Exile\config\DungeonCrawl\loot\specialItemTags.json
+[28Jun2020 19:55:23.038] [modloading-worker-13/INFO] [Dungeon Crawl/]: Loading C:\Users\Kelvin\Documents\My Games\Minecraft Server\Craft to Exile\config\DungeonCrawl\obfuscationValues.json
+[28Jun2020 19:55:23.044] [modloading-worker-13/INFO] [Dungeon Crawl/]: Loading models
+[28Jun2020 19:55:23.068] [modloading-worker-6/INFO] [quark/]: Loading Module Chain Linkage
+[28Jun2020 19:55:23.069] [modloading-worker-6/INFO] [quark/]: Loading Module Chute
+[28Jun2020 19:55:23.070] [modloading-worker-6/INFO] [quark/]: Loading Module Color Slime
+[28Jun2020 19:55:23.070] [modloading-worker-6/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[28Jun2020 19:55:23.071] [modloading-worker-6/INFO] [quark/]: Loading Module Ender Watcher
+[28Jun2020 19:55:23.071] [modloading-worker-6/INFO] [quark/]: Loading Module Endermites Form Shulkers
+[28Jun2020 19:55:23.072] [modloading-worker-6/INFO] [quark/]: Loading Module Feeding Trough
+[28Jun2020 19:55:23.076] [modloading-worker-6/INFO] [quark/]: Loading Module Gravisand
+[28Jun2020 19:55:23.076] [modloading-worker-6/INFO] [quark/]: Loading Module Iron Rod
+[28Jun2020 19:55:23.077] [modloading-worker-6/INFO] [quark/]: Loading Module Metal Buttons
+[28Jun2020 19:55:23.078] [modloading-worker-6/INFO] [quark/]: Loading Module Obsidian Plate
+[28Jun2020 19:55:23.079] [modloading-worker-6/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[28Jun2020 19:55:23.081] [modloading-worker-6/INFO] [quark/]: Loading Module Redstone Circuit
+[28Jun2020 19:55:23.081] [modloading-worker-6/INFO] [quark/]: Loading Module Weather Sensor
+[28Jun2020 19:55:23.081] [modloading-worker-6/INFO] [quark/]: Loading Module Cobblestone Bricks
+[28Jun2020 19:55:23.082] [modloading-worker-6/INFO] [quark/]: Loading Module Compressed Blocks
+[28Jun2020 19:55:23.082] [modloading-worker-6/INFO] [quark/]: Loading Module Duskbound Blocks
+[28Jun2020 19:55:23.083] [modloading-worker-6/INFO] [quark/]: Loading Module Framed Glass
+[28Jun2020 19:55:23.083] [modloading-worker-6/INFO] [quark/]: Loading Module Gold Bars
+[28Jun2020 19:55:23.084] [modloading-worker-6/INFO] [quark/]: Loading Module Grate
+[28Jun2020 19:55:23.084] [modloading-worker-6/INFO] [quark/]: Loading Module Iron Plates
+[28Jun2020 19:55:23.085] [modloading-worker-6/INFO] [quark/]: Loading Module Item Frames
+[28Jun2020 19:55:23.085] [modloading-worker-6/INFO] [quark/]: Loading Module Leaf Carpet
+[28Jun2020 19:55:23.086] [modloading-worker-6/INFO] [quark/]: Loading Module Lit Lamp
+[28Jun2020 19:55:23.086] [modloading-worker-6/INFO] [quark/]: Loading Module Midori
+[28Jun2020 19:55:23.086] [modloading-worker-6/INFO] [quark/]: Loading Module More Brick Types
+[28Jun2020 19:55:23.087] [modloading-worker-6/INFO] [quark/]: Loading Module More Potted Plants
+[28Jun2020 19:55:23.088] [modloading-worker-6/INFO] [quark/]: Loading Module More Stone Variants
+[28Jun2020 19:55:23.089] [modloading-worker-6/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[28Jun2020 19:55:23.090] [modloading-worker-6/INFO] [quark/]: Loading Module Paper Decor
+[28Jun2020 19:55:23.090] [modloading-worker-6/INFO] [quark/]: Loading Module Quilted Wool
+[28Jun2020 19:55:23.091] [modloading-worker-6/INFO] [quark/]: Loading Module Rope
+[28Jun2020 19:55:23.091] [modloading-worker-6/INFO] [quark/]: Loading Module Shingles
+[28Jun2020 19:55:23.091] [modloading-worker-6/INFO] [quark/]: Loading Module Soul Sandstone
+[28Jun2020 19:55:23.092] [modloading-worker-6/INFO] [quark/]: Loading Module Stained Planks
+[28Jun2020 19:55:23.092] [modloading-worker-6/INFO] [quark/]: Loading Module Sturdy Stone
+[28Jun2020 19:55:23.093] [modloading-worker-6/INFO] [quark/]: Loading Module Tallow And Candles
+[28Jun2020 19:55:23.094] [modloading-worker-6/INFO] [quark/]: Loading Module Thatch
+[28Jun2020 19:55:23.094] [modloading-worker-6/INFO] [quark/]: Loading Module Turf
+[28Jun2020 19:55:23.095] [modloading-worker-6/INFO] [quark/]: Loading Module Variant Bookshelves
+[28Jun2020 19:55:23.095] [modloading-worker-6/INFO] [quark/]: Loading Module Variant Chests
+[28Jun2020 19:55:23.096] [modloading-worker-6/INFO] [quark/]: Loading Module Variant Ladders
+[28Jun2020 19:55:23.096] [modloading-worker-6/INFO] [quark/]: Loading Module Vertical Planks
+[28Jun2020 19:55:23.096] [modloading-worker-6/INFO] [quark/]: Loading Module Vertical Slabs
+[28Jun2020 19:55:23.097] [modloading-worker-6/INFO] [quark/]: Loading Module Fairy Rings
+[28Jun2020 19:55:23.099] [modloading-worker-6/INFO] [quark/]: Loading Module Chests In Boats
+[28Jun2020 19:55:23.100] [modloading-worker-6/INFO] [quark/]: Loading Module Easy Transfering
+[28Jun2020 19:55:23.100] [modloading-worker-6/INFO] [quark/]: Loading Module F To Switch
+[28Jun2020 19:55:23.101] [modloading-worker-6/INFO] [quark/]: Loading Module Hotbar Changer
+[28Jun2020 19:55:23.101] [modloading-worker-6/INFO] [quark/]: Loading Module Inventory Sorting
+[28Jun2020 19:55:23.102] [modloading-worker-6/INFO] [quark/]: Loading Module Item Sharing
+[28Jun2020 19:55:23.102] [modloading-worker-6/INFO] [quark/]: Loading Module Shulker Box Right Click
+[28Jun2020 19:55:23.103] [modloading-worker-6/INFO] [quark/]: Loading Module Ancient Tomes
+[28Jun2020 19:55:23.104] [modloading-worker-6/INFO] [quark/]: Loading Module Bottled Cloud
+[28Jun2020 19:55:23.104] [modloading-worker-6/INFO] [quark/]: Loading Module Camera
+[28Jun2020 19:55:23.105] [modloading-worker-6/INFO] [quark/]: Loading Module Color Runes
+[28Jun2020 19:55:23.370] [modloading-worker-6/INFO] [quark/]: Loading Module Pathfinder Maps
+[28Jun2020 19:55:23.371] [modloading-worker-6/INFO] [quark/]: Loading Module Pickarang
+[28Jun2020 19:55:23.371] [modloading-worker-6/INFO] [quark/]: Loading Module Slime In A Bucket
+[28Jun2020 19:55:23.372] [modloading-worker-6/INFO] [quark/]: Loading Module Trowel
+[28Jun2020 19:55:23.373] [modloading-worker-6/INFO] [quark/]: Loading Module Armed Armor Stands
+[28Jun2020 19:55:23.375] [modloading-worker-6/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[28Jun2020 19:55:23.376] [modloading-worker-6/INFO] [quark/]: Loading Module Axe Leaf Harvesting
+[28Jun2020 19:55:23.377] [modloading-worker-6/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[28Jun2020 19:55:23.378] [modloading-worker-6/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[28Jun2020 19:55:23.378] [modloading-worker-6/INFO] [quark/]: Loading Module Dirt To Path
+[28Jun2020 19:55:23.379] [modloading-worker-6/INFO] [quark/]: Loading Module Double Door Opening
+[28Jun2020 19:55:23.379] [modloading-worker-6/INFO] [quark/]: Loading Module Dragon Scales
+[28Jun2020 19:55:23.381] [modloading-worker-6/INFO] [quark/]: Loading Module Emotes
+[28Jun2020 19:55:23.381] [modloading-worker-6/INFO] [quark/]: Loading Module Enhanced Ladders
+[28Jun2020 19:55:23.383] [modloading-worker-6/INFO] [quark/]: Loading Module Glass Shard
+[28Jun2020 19:55:23.384] [modloading-worker-6/INFO] [quark/]: Loading Module Hoe Harvesting
+[28Jun2020 19:55:23.384] [modloading-worker-6/INFO] [quark/]: Loading Module Improved Sleeping
+[28Jun2020 19:55:23.386] [modloading-worker-6/INFO] [quark/]: Loading Module Lock Rotation
+[28Jun2020 19:55:23.389] [modloading-worker-6/INFO] [quark/]: Loading Module Note Block Mob Sounds
+[28Jun2020 19:55:23.396] [modloading-worker-6/INFO] [quark/]: Loading Module Pat The Dogs
+[28Jun2020 19:55:23.397] [modloading-worker-6/INFO] [quark/]: Loading Module Poison Potato Usage
+[28Jun2020 19:55:23.398] [modloading-worker-6/INFO] [quark/]: Loading Module Reacharound Placing
+[28Jun2020 19:55:23.399] [modloading-worker-6/INFO] [quark/]: Loading Module Replace Scaffolding
+[28Jun2020 19:55:23.400] [modloading-worker-6/INFO] [quark/]: Loading Module Sign Editing
+[28Jun2020 19:55:23.402] [modloading-worker-6/INFO] [quark/]: Loading Module Simple Harvest
+[28Jun2020 19:55:23.403] [modloading-worker-6/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[28Jun2020 19:55:23.404] [modloading-worker-6/INFO] [quark/]: Loading Module Springy Slime
+[28Jun2020 19:55:23.405] [modloading-worker-6/INFO] [quark/]: Loading Module Utility Recipes
+[28Jun2020 19:55:23.406] [modloading-worker-6/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[28Jun2020 19:55:23.406] [modloading-worker-6/INFO] [quark/]: Loading Module Big Dungeon
+[28Jun2020 19:55:23.407] [modloading-worker-6/INFO] [quark/]: Loading Module Big Stone Clusters
+[28Jun2020 19:55:23.407] [modloading-worker-6/INFO] [quark/]: Loading Module Biotite
+[28Jun2020 19:55:23.410] [modloading-worker-6/INFO] [quark/]: Loading Module Blossom Trees
+[28Jun2020 19:55:23.411] [modloading-worker-6/INFO] [quark/]: Loading Module Cave Roots
+[28Jun2020 19:55:23.411] [modloading-worker-6/INFO] [quark/]: Loading Module Crevices
+[28Jun2020 19:55:23.412] [modloading-worker-6/INFO] [quark/]: Loading Module Mega Caves
+[28Jun2020 19:55:23.412] [modloading-worker-6/INFO] [quark/]: Loading Module Monster Box
+[28Jun2020 19:55:23.413] [modloading-worker-6/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[28Jun2020 19:55:23.414] [modloading-worker-6/INFO] [quark/]: Loading Module New Stone Types
+[28Jun2020 19:55:23.414] [modloading-worker-6/INFO] [quark/]: Loading Module Speleothems
+[28Jun2020 19:55:23.415] [modloading-worker-6/INFO] [quark/]: Loading Module Underground Clay
+[28Jun2020 19:55:23.415] [modloading-worker-6/INFO] [quark/]: Loading Module Brimstone Underground Biome
+[28Jun2020 19:55:23.415] [modloading-worker-6/INFO] [quark/]: Loading Module Cave Crystal Underground Biome
+[28Jun2020 19:55:23.416] [modloading-worker-6/INFO] [quark/]: Loading Module Elder Prismarine Underground Biome
+[28Jun2020 19:55:23.416] [modloading-worker-6/INFO] [quark/]: Loading Module Glowshroom Underground Biome
+[28Jun2020 19:55:23.417] [modloading-worker-6/INFO] [quark/]: Loading Module Lush Underground Biome
+[28Jun2020 19:55:23.417] [modloading-worker-6/INFO] [quark/]: Loading Module Overgrown Underground Biome
+[28Jun2020 19:55:23.418] [modloading-worker-6/INFO] [quark/]: Loading Module Permafrost Underground Biome
+[28Jun2020 19:55:23.418] [modloading-worker-6/INFO] [quark/]: Loading Module Sandstone Underground Biome
+[28Jun2020 19:55:23.419] [modloading-worker-6/INFO] [quark/]: Loading Module Slime Underground Biome
+[28Jun2020 19:55:23.419] [modloading-worker-6/INFO] [quark/]: Loading Module Spider Nest Underground Biome
+[28Jun2020 19:55:23.421] [modloading-worker-6/INFO] [quark/]: Loading Module Crabs
+[28Jun2020 19:55:23.422] [modloading-worker-6/INFO] [quark/]: Loading Module Foxhound
+[28Jun2020 19:55:23.423] [modloading-worker-6/INFO] [quark/]: Loading Module Frogs
+[28Jun2020 19:55:23.425] [modloading-worker-6/INFO] [quark/]: Loading Module Stonelings
+[28Jun2020 19:55:23.425] [modloading-worker-6/INFO] [quark/]: Loading Module Toretoise
+[28Jun2020 19:55:23.426] [modloading-worker-6/INFO] [quark/]: Loading Module Back Button Keybind
+[28Jun2020 19:55:23.426] [modloading-worker-6/INFO] [quark/]: Loading Module Chest Searching
+[28Jun2020 19:55:23.427] [modloading-worker-6/INFO] [quark/]: Loading Module Greener Grass
+[28Jun2020 19:55:23.427] [modloading-worker-6/INFO] [quark/]: Loading Module Improved Mount Hud
+[28Jun2020 19:55:23.428] [modloading-worker-6/INFO] [quark/]: Loading Module Improved Tooltips
+[28Jun2020 19:55:23.428] [modloading-worker-6/INFO] [quark/]: Loading Module Usage Ticker
+[28Jun2020 19:55:23.429] [modloading-worker-6/INFO] [quark/]: Loading Module Variant Animal Textures
+[28Jun2020 19:55:23.429] [modloading-worker-6/INFO] [quark/]: Loading Module Backpack
+[28Jun2020 19:55:23.430] [modloading-worker-6/INFO] [quark/]: Loading Module Magnets
+[28Jun2020 19:55:23.431] [modloading-worker-6/INFO] [quark/]: Loading Module Matrix Enchanting
+[28Jun2020 19:55:23.432] [modloading-worker-6/INFO] [quark/]: Loading Module Pipes
+[28Jun2020 19:55:23.432] [modloading-worker-6/INFO] [quark/]: Loading Module Totem Of Holding
+[28Jun2020 19:55:23.432] [modloading-worker-6/INFO] [quark/]: Loading Module Adjustable Chat
+[28Jun2020 19:55:23.433] [modloading-worker-6/INFO] [quark/]: Loading Module Custom Underground Biome
+[28Jun2020 19:55:23.449] [modloading-worker-13/INFO] [Dungeon Crawl/Module Manager/]: There is one module present
+[28Jun2020 19:55:23.449] [modloading-worker-13/INFO] [Dungeon Crawl/Module Manager/]: Successfully loaded 0 Module , 0 failed.
+[28Jun2020 19:55:23.461] [modloading-worker-6/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome mmorpg:dungeon_biome, types have been assigned on a best-effort guess: could not guess types
+[28Jun2020 19:55:23.462] [modloading-worker-6/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome mmorpg:dungeon_biome, types have been assigned on a best-effort guess: could not guess types
+[28Jun2020 19:55:23.462] [modloading-worker-6/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome mmorpg:dungeon_biome, types have been assigned on a best-effort guess: could not guess types
+[28Jun2020 19:55:23.463] [modloading-worker-6/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome mmorpg:dungeon_biome, types have been assigned on a best-effort guess: could not guess types
+[28Jun2020 19:55:23.463] [modloading-worker-6/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome mmorpg:dungeon_biome, types have been assigned on a best-effort guess: could not guess types
+[28Jun2020 19:55:23.511] [modloading-worker-6/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome mmorpg:dungeon_biome, types have been assigned on a best-effort guess: could not guess types
+[28Jun2020 19:55:23.796] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [roughmobsrevamped] Found status: OUTDATED Current: version Target: 4.1.2
+[28Jun2020 19:55:23.798] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goodnightsleep] Starting version check at https://gitlab.com/modding-legacy/supporters/-/raw/master/good-nights-sleep.json
+[28Jun2020 19:55:23.879] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.IOException: Server returned HTTP response code: 403 for URL: https://gitlab.com/modding-legacy/supporters/-/raw/master/good-nights-sleep.json
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_251]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_251]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_251]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:189) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:206) ~[?:?]
+	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_251]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
+Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL: https://gitlab.com/modding-legacy/supporters/-/raw/master/good-nights-sleep.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_251]
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source) ~[?:1.8.0_251]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
+	... 3 more
+[28Jun2020 19:55:23.880] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[28Jun2020 19:55:23.898] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after COMMON_SETUP: 6 jobs
+[28Jun2020 19:55:23.919] [Server thread/INFO] [journeymap/]: Initializing Packet Registry
+[28Jun2020 19:55:23.939] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.041
+[28Jun2020 19:55:23.942] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[28Jun2020 19:55:23.950] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[28Jun2020 19:55:23.951] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
+[28Jun2020 19:55:24.012] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 31.2.8 Target: 31.2.27
+[28Jun2020 19:55:24.012] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[28Jun2020 19:55:24.024] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[28Jun2020 19:55:24.029] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[28Jun2020 19:55:24.031] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: UP_TO_DATE Current: 1.0.4 Target: null
+[28Jun2020 19:55:24.031] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.14/changelog.json
+[28Jun2020 19:55:24.091] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Found status: BETA Current: 0.15-101 Target: null
+[28Jun2020 19:55:24.091] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at http://maxhenkel.de/update/gravestone.json
+[28Jun2020 19:55:24.409] [modloading-worker-12/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.mmorpg.MMORPG:interModEnqueue:159]: mmorpg:InterModEnqueueEvent
+[28Jun2020 19:55:24.413] [modloading-worker-4/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.mmorpg.MMORPG:interModProcessEvent:165]: mmorpg:InterModProcessEvent
+[28Jun2020 19:55:24.449] [modloading-worker-15/INFO] [roughmobsrevamped/]: Registering 3rd Party Mod Compatibility...
+[28Jun2020 19:55:24.451] [modloading-worker-15/INFO] [roughmobsrevamped/]: roughmobsrevamped: Found Serene Seasons. Setting Up Compatibility...
+[28Jun2020 19:55:24.451] [modloading-worker-15/INFO] [roughmobsrevamped/]: Initializing Core Features...
+[28Jun2020 19:55:24.452] [modloading-worker-3/WARN] [minecolonies/]: FMLLoadCompleteEvent
+[28Jun2020 19:55:24.476] [modloading-worker-4/INFO] [Waila/]: Registered plugin at mcp.mobius.waila.addons.minecraft.PluginMinecraft
+[28Jun2020 19:55:24.498] [modloading-worker-3/WARN] [minecolonies.requestsystem/]: Updated logging config. RS Debug logging enabled: false
+[28Jun2020 19:55:24.498] [modloading-worker-3/WARN] [minecolonies/]: Register mappings
+[28Jun2020 19:55:24.503] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work after COMPLETE: 1 jobs
+[28Jun2020 19:55:24.505] [Server thread/INFO] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 00:00:00.001
+[28Jun2020 19:55:25.432] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.17.4 Target: 1.17.5
+[28Jun2020 19:55:25.432] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [lava_monster] Starting version check at https://gitlab.com/modding-legacy/supporters/-/raw/master/lava-monsters.json
+[28Jun2020 19:55:25.480] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.IOException: Server returned HTTP response code: 403 for URL: https://gitlab.com/modding-legacy/supporters/-/raw/master/lava-monsters.json
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_251]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_251]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_251]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_251]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_251]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:189) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:206) ~[?:?]
+	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_251]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
+Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL: https://gitlab.com/modding-legacy/supporters/-/raw/master/lava-monsters.json
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_251]
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source) ~[?:1.8.0_251]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source) ~[?:1.8.0_251]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
+	... 3 more
+[28Jun2020 19:55:25.481] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cfm/update.json
+[28Jun2020 19:55:25.494] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre16 Target: null
+[28Jun2020 19:55:25.495] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[28Jun2020 19:55:25.508] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 1.0.1 Target: null
+[28Jun2020 19:55:25.508] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastleafdecay] Starting version check at http://olafkeijsers.net/fastleafdecay-update.json
+[28Jun2020 19:55:26.360] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\the_bumblezone-server.toml is not correct. Correcting
+[28Jun2020 19:55:26.367] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\MineAndSlash-Server.toml is not correct. Correcting
+[28Jun2020 19:55:26.388] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Bountiful listening for resource reloads..
+[28Jun2020 19:55:26.438] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[28Jun2020 19:55:26.476] [Server thread/INFO] [net.minecraftforge.common.DimensionManager/DIMS]: Registered dimension goodnightsleep:good_dream of type goodnightsleep:good_dream and id 3
+[28Jun2020 19:55:26.477] [Server thread/INFO] [net.minecraftforge.common.DimensionManager/DIMS]: Registered dimension goodnightsleep:nightmare of type goodnightsleep:nightmare and id 4
+[28Jun2020 19:55:26.484] [Server thread/INFO] [net.minecraftforge.common.DimensionManager/DIMS]: Registered dimension midnight:midnight of type midnight:midnight and id 5
+[28Jun2020 19:55:26.484] [Server thread/INFO] [net.minecraftforge.common.DimensionManager/DIMS]: Registered dimension the_bumblezone:bumblezone of type the_bumblezone:ultraamplified and id 6
+[28Jun2020 19:55:26.484] [Server thread/INFO] [net.minecraftforge.common.DimensionManager/DIMS]: Registered dimension mmorpg:resettable_dungeon of type mmorpg:resettable_dungeon and id 7
+[28Jun2020 19:55:26.487] [Server thread/WARN] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: This world was saved with mod structurize version 0.10.324-ALPHA and it is now at version 0.13.1-ALPHA, things may not work well
+[28Jun2020 19:55:26.487] [Server thread/WARN] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: This world was saved with mod minecolonies version 1.15.2-0.11.961 and it is now at version 0.13.7-ALPHA, things may not work well
+[28Jun2020 19:55:26.562] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Block: Object did not get ID it asked for. Name: minecolonies:blockhutbeekeeper Expected: 5082 Got: 5871
+[28Jun2020 19:55:26.563] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Object did not get ID it asked for. Name: minecolonies:scepterbeekeeper Expected: 6345 Got: 7335
+[28Jun2020 19:55:26.563] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Item: Object did not get ID it asked for. Name: minecolonies:blockhutbeekeeper Expected: 6413 Got: 7336
+[28Jun2020 19:55:26.564] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.male.danger Expected: 3400 Got: 3452
+[28Jun2020 19:55:26.564] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.female.off_to_bed Expected: 3375 Got: 3453
+[28Jun2020 19:55:26.565] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.male.happy Expected: 3390 Got: 3454
+[28Jun2020 19:55:26.565] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.female.happy Expected: 3391 Got: 3455
+[28Jun2020 19:55:26.565] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.female.success Expected: 3399 Got: 3456
+[28Jun2020 19:55:26.566] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.female.saturation_low Expected: 3379 Got: 3457
+[28Jun2020 19:55:26.566] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.female.saturation_high Expected: 3381 Got: 3458
+[28Jun2020 19:55:26.567] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.male.saturation_low Expected: 3378 Got: 3459
+[28Jun2020 19:55:26.567] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.male.greeting Expected: 3384 Got: 3460
+[28Jun2020 19:55:26.567] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.male.farewell Expected: 3386 Got: 3461
+[28Jun2020 19:55:26.568] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.male.unhappy Expected: 3392 Got: 3462
+[28Jun2020 19:55:26.568] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.male.sickness Expected: 3394 Got: 3463
+[28Jun2020 19:55:26.568] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.female.interaction Expected: 3397 Got: 3464
+[28Jun2020 19:55:26.569] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.female.general Expected: 3371 Got: 3465
+[28Jun2020 19:55:26.569] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.female.missing_equipment Expected: 3389 Got: 3466
+[28Jun2020 19:55:26.569] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.male.interaction Expected: 3396 Got: 3467
+[28Jun2020 19:55:26.570] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.female.sickness Expected: 3395 Got: 3468
+[28Jun2020 19:55:26.570] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.male.missing_equipment Expected: 3388 Got: 3469
+[28Jun2020 19:55:26.571] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.female.greeting Expected: 3385 Got: 3470
+[28Jun2020 19:55:26.572] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.male.success Expected: 3398 Got: 3471
+[28Jun2020 19:55:26.573] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.female.bad_housing Expected: 3383 Got: 3472
+[28Jun2020 19:55:26.573] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.female.farewell Expected: 3387 Got: 3473
+[28Jun2020 19:55:26.573] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.female.danger Expected: 3401 Got: 3474
+[28Jun2020 19:55:26.574] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.male.bad_housing Expected: 3382 Got: 3475
+[28Jun2020 19:55:26.574] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.female.bad_weather Expected: 3377 Got: 3476
+[28Jun2020 19:55:26.574] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.male.saturation_high Expected: 3380 Got: 3477
+[28Jun2020 19:55:26.575] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.male.bad_weather Expected: 3376 Got: 3478
+[28Jun2020 19:55:26.575] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.female.unhappy Expected: 3393 Got: 3479
+[28Jun2020 19:55:26.576] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.male.noise Expected: 3372 Got: 3480
+[28Jun2020 19:55:26.576] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.female.noise Expected: 3373 Got: 3481
+[28Jun2020 19:55:26.576] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.male.general Expected: 3370 Got: 3482
+[28Jun2020 19:55:26.577] [Server thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry SoundEvent: Object did not get ID it asked for. Name: minecolonies:mob.beekeeper.male.off_to_bed Expected: 3374 Got: 3483
+[28Jun2020 19:55:27.492] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, TrashSlot_1.15.2-11.0.0.jar, roughmobsrevamped-1.15.2-4.1.2.jar, NetherPortalFix_1.15.2-6.0.2.jar, Mine+and+Slash-1.15.2-3.6.14.jar, jei-1.15.2-6.0.2.11.jar, Abnormals-Core-1.15.2-1.0.6.jar, Buzzier-Bees-1.15.2-1.5.1.jar, Upgrade-Aquatic-1.15.2-v1.6.1.jar, Waystones_1.15.2-6.0.1.jar, Clumps-5.0.2.jar, journeymap-1.15.2-5.7.0b3.jar, CookingForBlockheads_1.15.2-8.0.2.jar, Placebo-1.15.2-3.0.2.jar, good-nights-sleep-1.15.2-1.0.3.jar, SereneSeasons-1.15.2-3.0.0.69-universal.jar, DungeonCrawl-1.15.2-1.6.3.jar, The-Endergetic-Expansion-1.15.2-v1.3.1.jar, mapperbase-1.15.2-1.1.0.0.jar, Hwyla-forge-1.10.8-B72_1.15.2.jar, traverse-1.15.2-3.1.1.jar, JustEnoughResources-1.15.2-0.10.1.77.jar, Swamp-Expansion-1.15.2-v1.7.1.jar, forge-1.15.2-31.2.8-universal.jar, mysticallib-1.15.2-2.0.0.jar, beesourceful-1.2.2.jar, mcw-bridges-1.0.4fix-mc1.15.2.jar, embellishcraft-1.15.2-2.2.0.0.jar, ImmersiveEngineering-0.15-103.jar, phosphor-forge-mc1.15.2-0.5.2+build.4.jar, valhelsia_structures-15.0.3a.jar, AzureRPGItems+1.15.2-1.3.3.jar, simplefarming-1.15.2-1.2.7.jar, customquests-1.15.2-1.0.1.jar, lycanitesmobs-1.15.2-2.2.3.2.jar, Bountiful-1.15.2-3.1.2.jar, curios-FORGE-1.15.2-2.0.2.4.jar, Savage-and-Ravage-1.15.2-v1.1.2.jar, gravestone-1.17.4.jar, lava-monster-1.15.2-1.0.3.jar, FastWorkbench-1.15.1-3.0.0.jar, AutoRegLib-1.5-40.jar, Quark-r2.1-245.jar, StorageDrawers-1.15.2-7.0.2.jar, performant-1.15-2.11m.jar, SpawnInVillage-1.15.2-1.2.jar, themidnight-0.5.8.jar, Animalium-0.5.3.jar, structurize-0.13.1-ALPHA.jar, minecolonies-0.13.7-ALPHA-universal.jar, FastFurnace-1.15.1-3.0.0.jar, furniture-7.0.0-pre16-1.15.1.jar, AppleSkin-mc1.15.2-forge-1.0.13.jar, mcw-furniture-1.0.1-mc1.15.1+1.15.2.jar, Aquaculture-1.15.2-2.0.15.jar, the_bumblezone-1.15.2-1.3.6.jar, FastLeafDecay-v22.jar
+[28Jun2020 19:55:29.012] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 24 recipes
+[28Jun2020 19:55:29.015] [Server thread/INFO] [placebo/]: Registered 0 additional recipes.
+[28Jun2020 19:55:29.015] [Server thread/INFO] [placebo/]: Beginning replacement of all shapeless recipes...
+[28Jun2020 19:55:29.031] [Server thread/INFO] [placebo/]: Successfully replaced 2097 recipes with fast recipes.
+[28Jun2020 19:55:29.325] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fastleafdecay] Found status: BETA Current: v22 Target: null
+[28Jun2020 19:55:29.608] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table bountiful:blocks/bountyboard
+com.google.gson.JsonSyntaxException: Missing ops, expected to find a JsonArray
+	at net.minecraft.util.JSONUtils.func_151214_t(SourceFile:426) ~[?:?]
+	at net.minecraft.world.storage.loot.functions.CopyNbt$Serializer.func_186530_b(SourceFile:245) ~[?:?]
+	at net.minecraft.world.storage.loot.functions.CopyNbt$Serializer.func_186530_b(SourceFile:227) ~[?:?]
+	at net.minecraft.world.storage.loot.LootFunction$Serializer.func_212870_b_(SourceFile:104) ~[?:?]
+	at net.minecraft.world.storage.loot.LootFunction$Serializer.func_212870_b_(SourceFile:89) ~[?:?]
+	at net.minecraft.world.storage.loot.functions.LootFunctionManager$Serializer.deserialize(SourceFile:93) ~[?:?]
+	at net.minecraft.world.storage.loot.functions.LootFunctionManager$Serializer.deserialize(SourceFile:81) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.15.2-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.15.2-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.15.2-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.15.2-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.15.2-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.15.2-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:441) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188177_a(SourceFile:457) ~[?:?]
+	at net.minecraft.world.storage.loot.StandaloneLootEntry$Serializer.func_212865_b_(SourceFile:154) ~[?:?]
+	at net.minecraft.world.storage.loot.StandaloneLootEntry$Serializer.func_212865_b_(SourceFile:130) ~[?:?]
+	at net.minecraft.world.storage.loot.LootEntryManager$Serializer.deserialize(SourceFile:53) ~[?:?]
+	at net.minecraft.world.storage.loot.LootEntryManager$Serializer.deserialize(SourceFile:41) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.15.2-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.15.2-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.15.2-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.15.2-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.15.2-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.15.2-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:441) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188174_a(SourceFile:449) ~[?:?]
+	at net.minecraft.world.storage.loot.LootPool$Serializer.deserialize(LootPool.java:205) ~[?:?]
+	at net.minecraft.world.storage.loot.LootPool$Serializer.deserialize(LootPool.java:202) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.15.2-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.15.2-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.15.2-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.15.2-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.15.2-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.15.2-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:441) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188177_a(SourceFile:457) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable$Serializer.deserialize(LootTable.java:245) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable$Serializer.deserialize(LootTable.java:242) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.15.2-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.15.2-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.15.2-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:925) ~[server-1.15.2-extra.jar:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:824) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at java.util.HashMap.forEach(Unknown Source) ~[?:1.8.0_251]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_251]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_251]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_251]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(SourceFile:144) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:731) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:141) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(SourceFile:118) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:714) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:708) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(SourceFile:127) [?:?]
+	at net.minecraft.server.MinecraftServer.func_195568_a(MinecraftServer.java:1464) [?:?]
+	at net.minecraft.server.MinecraftServer.func_195560_a(MinecraftServer.java:450) [?:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:363) [?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:212) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:613) [?:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_251]
+[28Jun2020 19:55:29.787] [Server thread/INFO] [placebo/]: Registered 0 additional loot tables.
+[28Jun2020 19:55:29.976] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement buzzierbees:recipes/decorations/bop_jacaranda_beehive as it's conditions were not met
+[28Jun2020 19:55:29.979] [Server thread/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement bountiful:main/bounty_complete_epic: Invalid criterion trigger: bountiful:bounty_complete_epic
+[28Jun2020 19:55:29.992] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement buzzierbees:recipes/decorations/wisteria_beehive as it's conditions were not met
+[28Jun2020 19:55:29.992] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement buzzierbees:recipes/decorations/bop_hellbark_beehive as it's conditions were not met
+[28Jun2020 19:55:30.001] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement buzzierbees:recipes/decorations/aspen_beehive as it's conditions were not met
+[28Jun2020 19:55:30.005] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement buzzierbees:recipes/decorations/bop_cherry_beehive as it's conditions were not met
+[28Jun2020 19:55:30.007] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement buzzierbees:recipes/decorations/bop_palm_beehive as it's conditions were not met
+[28Jun2020 19:55:30.015] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement buzzierbees:recipes/decorations/kousa_beehive as it's conditions were not met
+[28Jun2020 19:55:30.016] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement buzzierbees:recipes/decorations/bop_fir_beehive as it's conditions were not met
+[28Jun2020 19:55:30.022] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement buzzierbees:recipes/decorations/bop_magic_beehive as it's conditions were not met
+[28Jun2020 19:55:30.024] [Server thread/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement bountiful:main/bounty_complete_rare: Invalid criterion trigger: bountiful:bounty_complete_rare
+[28Jun2020 19:55:30.027] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement buzzierbees:recipes/decorations/bop_mahogany_beehive as it's conditions were not met
+[28Jun2020 19:55:30.038] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement buzzierbees:recipes/decorations/bop_redwood_beehive as it's conditions were not met
+[28Jun2020 19:55:30.042] [Server thread/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement bountiful:main/bounty_complete_common: Invalid criterion trigger: bountiful:bounty_complete_common
+[28Jun2020 19:55:30.043] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement buzzierbees:recipes/decorations/maple_beehive as it's conditions were not met
+[28Jun2020 19:55:30.044] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement buzzierbees:recipes/decorations/yucca_beehive as it's conditions were not met
+[28Jun2020 19:55:30.045] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement buzzierbees:recipes/decorations/bamboo_beehive as it's conditions were not met
+[28Jun2020 19:55:30.049] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement buzzierbees:recipes/decorations/bop_dead_beehive as it's conditions were not met
+[28Jun2020 19:55:30.050] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement buzzierbees:recipes/decorations/rosewood_beehive as it's conditions were not met
+[28Jun2020 19:55:30.051] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement buzzierbees:recipes/decorations/bop_willow_beehive as it's conditions were not met
+[28Jun2020 19:55:30.053] [Server thread/INFO] [net.minecraft.advancements.AdvancementManager/]: Skipping loading advancement buzzierbees:recipes/decorations/bop_umbran_beehive as it's conditions were not met
+[28Jun2020 19:55:30.058] [Server thread/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement bountiful:main/bounty_complete_uncommon: Invalid criterion trigger: bountiful:bounty_complete_uncommon
+[28Jun2020 19:55:30.059] [Server thread/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement bountiful:main/royal_mandate: Invalid criterion trigger: bountiful:royal_mandate
+[28Jun2020 19:55:30.096] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3568 advancements
+[28Jun2020 19:55:30.242] [Thread-11/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 9 milliseconds
+[28Jun2020 19:55:30.259] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Bountiful reloading resources! :D
+[28Jun2020 19:55:30.340] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/decrees/bountiful}
+[28Jun2020 19:55:30.343] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/decrees/bountiful}
+[28Jun2020 19:55:30.343] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/decrees/bountiful}
+[28Jun2020 19:55:30.344] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/decrees/bountiful}
+[28Jun2020 19:55:30.344] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/decrees/bountiful}
+[28Jun2020 19:55:30.345] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/decrees/bountiful}
+[28Jun2020 19:55:30.345] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/decrees/bountiful}
+[28Jun2020 19:55:30.345] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/decrees/bountiful}
+[28Jun2020 19:55:30.346] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/decrees/bountiful}
+[28Jun2020 19:55:30.346] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/decrees/bountiful}
+[28Jun2020 19:55:30.347] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/decrees/bountiful}
+[28Jun2020 19:55:30.348] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/decrees/bountiful}
+[28Jun2020 19:55:30.348] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/decrees/bountiful}
+[28Jun2020 19:55:30.348] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/decrees/bountiful}
+[28Jun2020 19:55:30.350] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/decrees/bountiful}
+[28Jun2020 19:55:30.422] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.435] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/apotheosis}
+[28Jun2020 19:55:30.437] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/upgrade_aquatic}
+[28Jun2020 19:55:30.438] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.440] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/aquaculture}
+[28Jun2020 19:55:30.442] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/upgrade_aquatic}
+[28Jun2020 19:55:30.443] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.444] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/aquaculture}
+[28Jun2020 19:55:30.445] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/quark}
+[28Jun2020 19:55:30.445] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.446] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/storagedrawers}
+[28Jun2020 19:55:30.447] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/aquaculture}
+[28Jun2020 19:55:30.448] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.449] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.450] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/quark}
+[28Jun2020 19:55:30.450] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.452] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/quark}
+[28Jun2020 19:55:30.453] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.455] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/upgrademodifiers}
+[28Jun2020 19:55:30.456] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.457] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.457] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/simplefarming}
+[28Jun2020 19:55:30.458] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.460] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/vanillafoodpantry}
+[28Jun2020 19:55:30.462] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.463] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/vanillafoodpantry}
+[28Jun2020 19:55:30.464] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.465] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.466] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.467] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.467] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/quark}
+[28Jun2020 19:55:30.468] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/simplefarming}
+[28Jun2020 19:55:30.469] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.470] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/simplefarming}
+[28Jun2020 19:55:30.470] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.472] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/quark}
+[28Jun2020 19:55:30.472] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.473] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.474] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.475] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.475] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.476] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.477] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.478] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.479] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.480] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.482] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.482] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.483] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.484] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.484] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.485] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/quark}
+[28Jun2020 19:55:30.486] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/bountiful}
+[28Jun2020 19:55:30.487] [Server thread/INFO] [ejektaflex.bountiful.BountifulMod/]: Loading BR{bountiful/pools/upgrademodifiers}
+[28Jun2020 19:55:30.574] [Server thread/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.data_generation.BaseDataPackManager:apply:63]: TIER Registry succeeded loading: 6 datapack entries.
+[28Jun2020 19:55:30.579] [Server thread/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.data_generation.BaseDataPackManager:apply:63]: SET Registry succeeded loading: 30 datapack entries.
+[28Jun2020 19:55:30.588] [Server thread/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.data_generation.BaseDataPackManager:apply:63]: AFFIX Registry succeeded loading: 115 datapack entries.
+[28Jun2020 19:55:30.589] [Server thread/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.data_generation.BaseDataPackManager:apply:63]: RUNE Registry succeeded loading: 15 datapack entries.
+[28Jun2020 19:55:30.589] [Server thread/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.data_generation.BaseDataPackManager:apply:63]: MOB_AFFIX Registry succeeded loading: 13 datapack entries.
+[28Jun2020 19:55:30.590] [Server thread/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.data_generation.BaseDataPackManager:apply:63]: RUNEWORD Registry succeeded loading: 24 datapack entries.
+[28Jun2020 19:55:30.594] [Server thread/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.data_generation.BaseDataPackManager:apply:63]: UNIQUE_GEAR Registry succeeded loading: 90 datapack entries.
+[28Jun2020 19:55:30.595] [Server thread/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.data_generation.BaseDataPackManager:apply:63]: COMPATIBLE_ITEM Registry succeeded loading: 289 datapack entries.
+[28Jun2020 19:55:30.596] [Server thread/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.data_generation.rarities.BaseRarityDatapackManager:apply:42]: Starting to register rarity datapacks on the server from datapacks
+[28Jun2020 19:55:30.600] [Server thread/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.data_generation.rarities.BaseRarityDatapackManager:apply:62]: Rarity loading succeeded.
+[28Jun2020 19:55:31.449] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.immersiveengineering/COREMODLOG]: Inserted block update callback
+[28Jun2020 19:55:31.776] [Server thread/WARN] [structurize/]: FMLServerStartedEvent
+[28Jun2020 19:55:31.782] [Server thread/WARN] [structurize/]: file:///C:/Users/Kelvin/Documents/My%20Games/Minecraft%20Server/Craft%20to%20Exile/mods/minecolonies-0.13.7-ALPHA-universal.jar
+[28Jun2020 19:55:31.782] [Server thread/WARN] [structurize/]: C:/Users/Kelvin/Documents/My%20Games/Minecraft%20Server/Craft%20to%20Exile/mods/minecolonies-0.13.7-ALPHA-universal.jar
+[28Jun2020 19:55:31.790] [Server thread/WARN] [structurize/]: /assets/minecolonies
+[28Jun2020 19:55:31.791] [Server thread/INFO] [structurize/]: Load huts or decorations from jar
+[28Jun2020 19:55:48.240] [Server thread/WARN] [structurize/]: file:///C:/Users/Kelvin/Documents/My%20Games/Minecraft%20Server/Craft%20to%20Exile/mods/structurize-0.13.1-ALPHA.jar
+[28Jun2020 19:55:48.240] [Server thread/WARN] [structurize/]: C:/Users/Kelvin/Documents/My%20Games/Minecraft%20Server/Craft%20to%20Exile/mods/structurize-0.13.1-ALPHA.jar
+[28Jun2020 19:55:48.245] [Server thread/WARN] [structurize/]: /assets/structurize
+[28Jun2020 19:55:48.246] [Server thread/INFO] [structurize/]: Load huts or decorations from jar
+[28Jun2020 19:55:48.250] [Server thread/INFO] [structurize/]: Load additional huts or decorations from .\structurize/schematics
+[28Jun2020 19:55:48.251] [Server thread/INFO] [structurize/]: Load cached schematic from .\structurize/cache
+[28Jun2020 19:55:48.251] [Server thread/INFO] [structurize/]: Load cached schematic from .\structurize/cache
+[28Jun2020 19:55:48.615] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@5edf984b
+[28Jun2020 19:55:48.642] [Server thread/INFO] [minecolonies/]: Server UUID 18618311-a03e-4eda-ae55-84978abae3ae
+[28Jun2020 19:55:48.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[28Jun2020 19:55:48.812] [Server thread/WARN] [mixin/]: @Final field field_205522_c:Lnet/minecraft/util/palette/IResizeCallback; in performant.mixins.json:world.chunk.PalettedContainerMixin should be final
+[28Jun2020 19:55:49.262] [Server thread/WARN] [com.mojang.datafixers.types.templates.TaggedChoice/]: Unsupported key: bountiful:bounty-te in TaggedChoiceType[id, minecraft:shulker_box -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:mob_spawner -> MuType[V1931_4], 
+minecraft:dispenser -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jigsaw -> NilSave, 
+minecraft:end_gateway -> NilSave, 
+minecraft:bell -> NilSave, 
+minecraft:smoker -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jukebox -> ((Tag["RecordItem", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:ender_chest -> NilSave, 
+minecraft:comparator -> NilSave, 
+minecraft:hopper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:beacon -> NilSave, 
+minecraft:end_portal -> NilSave, 
+minecraft:bed -> NilSave, 
+minecraft:brewing_stand -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:lectern -> ((Tag["Book", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:enchanting_table -> NilSave, 
+minecraft:barrel -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:sign -> NilSave, 
+minecraft:conduit -> NilSave, 
+minecraft:banner -> NilSave, 
+minecraft:campfire -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+DUMMY -> NilSave, 
+minecraft:piston -> ((Tag["blockState", NamedType["block_state", NilSave]] | NilDrop), NilSave), 
+minecraft:structure_block -> NilSave, 
+minecraft:trapped_chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:dropper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:skull -> NilSave, 
+minecraft:chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:command_block -> NilSave, 
+minecraft:daylight_detector -> NilSave, 
+minecraft:blast_furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave)]
+
+[28Jun2020 19:55:49.456] [Server thread/ERROR] [net.minecraft.world.gen.feature.structure.Structures/]: Unknown structure piece id: minecraft:bigdungeon
+[28Jun2020 19:55:49.456] [Server thread/ERROR] [net.minecraft.world.gen.feature.structure.Structures/]: Unknown structure piece id: minecraft:bigdungeon
+[28Jun2020 19:55:49.457] [Server thread/ERROR] [net.minecraft.world.gen.feature.structure.Structures/]: Unknown structure piece id: minecraft:bigdungeon
+[28Jun2020 19:55:49.458] [Server thread/ERROR] [net.minecraft.world.gen.feature.structure.Structures/]: Unknown structure piece id: minecraft:bigdungeon
+[28Jun2020 19:55:49.458] [Server thread/ERROR] [net.minecraft.world.gen.feature.structure.Structures/]: Unknown structure piece id: minecraft:bigdungeon
+[28Jun2020 19:55:49.458] [Server thread/ERROR] [net.minecraft.world.gen.feature.structure.Structures/]: Unknown structure piece id: minecraft:bigdungeon
+[28Jun2020 19:55:49.459] [Server thread/ERROR] [net.minecraft.world.gen.feature.structure.Structures/]: Unknown structure piece id: minecraft:bigdungeon
+[28Jun2020 19:55:49.459] [Server thread/ERROR] [net.minecraft.world.gen.feature.structure.Structures/]: Unknown structure piece id: minecraft:bigdungeon
+[28Jun2020 19:55:49.459] [Server thread/ERROR] [net.minecraft.world.gen.feature.structure.Structures/]: Unknown structure piece id: minecraft:bigdungeon
+[28Jun2020 19:55:49.460] [Server thread/ERROR] [net.minecraft.world.gen.feature.structure.Structures/]: Unknown structure piece id: minecraft:bigdungeon
+[28Jun2020 19:55:49.460] [Server thread/ERROR] [net.minecraft.world.gen.feature.structure.Structures/]: Unknown structure piece id: minecraft:bigdungeon
+[28Jun2020 19:55:49.460] [Server thread/ERROR] [net.minecraft.world.gen.feature.structure.Structures/]: Unknown structure piece id: minecraft:bigdungeon
+[28Jun2020 19:55:49.461] [Server thread/ERROR] [net.minecraft.world.gen.feature.structure.Structures/]: Unknown structure piece id: minecraft:bigdungeon
+[28Jun2020 19:55:49.461] [Server thread/ERROR] [net.minecraft.world.gen.feature.structure.Structures/]: Unknown structure piece id: minecraft:bigdungeon
+[28Jun2020 19:55:49.461] [Server thread/ERROR] [net.minecraft.world.gen.feature.structure.Structures/]: Unknown structure piece id: minecraft:bigdungeon
+[28Jun2020 19:55:49.462] [Server thread/ERROR] [net.minecraft.world.gen.feature.structure.Structures/]: Unknown structure piece id: minecraft:bigdungeon
+[28Jun2020 19:55:49.462] [Server thread/ERROR] [net.minecraft.world.gen.feature.structure.Structures/]: Unknown structure piece id: minecraft:bigdungeon
+[28Jun2020 19:55:49.463] [Server thread/ERROR] [net.minecraft.world.gen.feature.structure.Structures/]: Unknown structure piece id: minecraft:bigdungeon
+[28Jun2020 19:55:49.463] [Server thread/ERROR] [net.minecraft.world.gen.feature.structure.Structures/]: Unknown structure piece id: minecraft:bigdungeon
+[28Jun2020 19:55:49.464] [Server thread/ERROR] [net.minecraft.world.gen.feature.structure.Structures/]: Unknown structure piece id: minecraft:bigdungeon
+[28Jun2020 19:55:50.053] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[28Jun2020 19:55:50.054] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[28Jun2020 19:55:50.054] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[28Jun2020 19:55:50.323] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 46%
+[28Jun2020 19:55:51.792] [Server-Worker-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[28Jun2020 19:55:51.793] [Server-Worker-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[28Jun2020 19:55:51.793] [Server-Worker-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[28Jun2020 19:55:52.239] [Server-Worker-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[28Jun2020 19:55:52.739] [Server-Worker-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[28Jun2020 19:55:52.777] [Server-Worker-13/INFO] [com.lycanitesmobs.LycanitesMobs/]: [LycanitesMobs] [Info] [] [Dungeon] Generated New Dungeon Instance Dungeon Instance - Schematic: desertcrypts - TP Command: /tp -1001 66 1831  - Origin: BlockPos{x=-1001, y=64, z=1831} - Complete: false - Seed: 6679854873643897462 - ID: 34317c92-8a90-5771-d79c-0cec91816577
+[28Jun2020 19:55:52.779] [Server-Worker-13/INFO] [com.lycanitesmobs.LycanitesMobs/]: [LycanitesMobs] [Info] [] [Dungeon] Generated New Dungeon Instance Dungeon Instance - Schematic: desertcrypts - TP Command: /tp -249 66 199  - Origin: BlockPos{x=-249, y=64, z=199} - Complete: false - Seed: -1489296874793537968 - ID: d3356908-5bff-3ee9-faa7-9736caffd230
+[28Jun2020 19:55:52.783] [Server-Worker-13/INFO] [com.lycanitesmobs.LycanitesMobs/]: [LycanitesMobs] [Info] [] [Dungeon] Generated New Dungeon Instance Dungeon Instance - Schematic: shadowlabyrinth - TP Command: /tp 231 66 -281  - Origin: BlockPos{x=231, y=64, z=-281} - Complete: false - Seed: 670199100069065247 - ID: 39de39f9-5c2c-eed4-07f2-075a499ede8f
+[28Jun2020 19:55:52.787] [Server-Worker-13/INFO] [com.lycanitesmobs.LycanitesMobs/]: [LycanitesMobs] [Info] [] [Dungeon] Generated New Dungeon Instance Dungeon Instance - Schematic: shadowlabyrinth - TP Command: /tp -1001 66 871  - Origin: BlockPos{x=-1001, y=64, z=871} - Complete: false - Seed: -2429474067133328145 - ID: 6a860316-681e-74a2-d015-aacf46a0b0b9
+[28Jun2020 19:55:53.240] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
+[28Jun2020 19:55:54.391] [Server-Worker-11/WARN] [net.minecraft.world.gen.feature.jigsaw.JigsawManager/]: Empty or none existent pool: minecraft:none
+[28Jun2020 19:55:54.790] [Server-Worker-11/WARN] [net.minecraft.world.gen.feature.jigsaw.JigsawManager/]: Empty or none existent pool: minecraft:none
+[28Jun2020 19:55:54.873] [Netty Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[28Jun2020 19:55:55.568] [Server-Worker-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
+[28Jun2020 19:55:55.571] [Server-Worker-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
+[28Jun2020 19:55:55.571] [Server-Worker-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
+[28Jun2020 19:55:55.572] [Server-Worker-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
+[28Jun2020 19:55:55.745] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
+[28Jun2020 19:55:56.240] [Server-Worker-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
+[28Jun2020 19:55:56.749] [Server-Worker-13/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 99%
+[28Jun2020 19:55:56.795] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 8056 ms
+[28Jun2020 19:55:56.796] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (30.458s)! For help, type "help"
+[28Jun2020 19:55:57.125] [Server thread/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.mmorpg.registers.server.CommandRegister:Register:22]: Registering Mine and Slash Commands.
+[28Jun2020 19:55:57.221] [Server thread/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.registry.SlashRegistry:unregisterInvalidEntries:278]: Starting Mine and Slash Registry auto validation.
+[28Jun2020 19:55:57.225] [Server thread/INFO] [STDOUT/]: [com.robertx22.mine_and_slash.registry.SlashRegistry:unregisterInvalidEntries:294]: All Mine and Slash registries appear valid.
+[28Jun2020 19:55:57.310] [Server thread/INFO] [minecolonies/]: Finished discovering saplings
+[28Jun2020 19:55:57.323] [Server thread/INFO] [minecolonies/]: Finished discovering Ores
+[28Jun2020 19:55:57.323] [Server thread/INFO] [minecolonies/]: Finished discovering oreBlocks
+[28Jun2020 19:55:57.372] [Server thread/INFO] [minecolonies/]: Finished discovering compostables
+[28Jun2020 19:55:57.391] [Server thread/INFO] [minecolonies/]: Finished discovering plantables
+[28Jun2020 19:55:57.391] [Server thread/INFO] [minecolonies/]: Finished discovering lucky oreBlocks
+[28Jun2020 19:55:57.394] [Server thread/INFO] [minecolonies/]: Finished discovering diseases
+[28Jun2020 19:55:57.395] [Server thread/INFO] [minecolonies/]: Finished initiating sifter config
+[28Jun2020 19:55:57.409] [Server thread/INFO] [minecolonies/]: Finished discovering food
+[28Jun2020 19:55:57.418] [Server thread/INFO] [minecolonies/]: Finished discovering fuel
+[28Jun2020 19:55:58.007] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (bumblezone): All chunks are saved
+[28Jun2020 19:55:58.009] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[28Jun2020 19:55:58.010] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (midnight): All chunks are saved
+[28Jun2020 19:55:58.011] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (good_dream): All chunks are saved
+[28Jun2020 19:55:58.012] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (resettable_dungeon): All chunks are saved
+[28Jun2020 19:55:58.014] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (nightmare): All chunks are saved
+[28Jun2020 19:55:58.015] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[28Jun2020 19:55:58.020] [Server thread/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome mmorpg:dungeon_biome, types have been assigned on a best-effort guess: could not guess types
+[28Jun2020 19:55:58.021] [Server thread/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome mmorpg:dungeon_biome, types have been assigned on a best-effort guess: could not guess types
+[28Jun2020 19:55:58.022] [Server thread/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome mmorpg:dungeon_biome, types have been assigned on a best-effort guess: could not guess types
+[28Jun2020 19:55:58.023] [Server thread/WARN] [net.minecraftforge.common.BiomeDictionary/]: No types have been added to Biome mmorpg:dungeon_biome, types have been assigned on a best-effort guess: could not guess types
+[28Jun2020 19:56:03.542] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Mageronix is 078e6d6a-2636-4628-9d0d-28d4dd831d5f
+[28Jun2020 19:56:03.604] [Netty Server IO #2/INFO] [journeymap/]: Dev Mode?
+[28Jun2020 19:56:05.847] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@46b47ee2
+[28Jun2020 19:56:05.875] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Mageronix[/127.0.0.1:6577] logged in with entity id 789 at (251.85201867006091, 66.0, 206.5570736685684)
+[28Jun2020 19:56:05.903] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Mageronix joined the game
+[28Jun2020 19:56:05.990] [Server thread/INFO] [Waila/]: Syncing config to Mageronix (078e6d6a-2636-4628-9d0d-28d4dd831d5f)
+[28Jun2020 19:56:06.002] [Server thread/INFO] [structurize/]: New Server UUID f16a5c86-364b-4fe2-b229-28f5c6c2ea37
+[28Jun2020 19:56:06.030] [Netty Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@7738f8d7 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[28Jun2020 19:56:06.031] [Netty Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@1b927060 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[28Jun2020 19:56:06.032] [Netty Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@40ba6fe0 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[28Jun2020 19:56:06.033] [Netty Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize blusunrize.immersiveengineering.common.util.commands.CommandMineral$MineralArgument@59d01e9a (class blusunrize.immersiveengineering.common.util.commands.CommandMineral$MineralArgument) - will not be sent to client!
+[28Jun2020 19:56:06.033] [Netty Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize com.ldtteam.structurize.commands.arguments.MultipleStringArgument@4c780533 (class com.ldtteam.structurize.commands.arguments.MultipleStringArgument) - will not be sent to client!
+[28Jun2020 19:56:06.366] [Thread-43/INFO] [com.lycanitesmobs.LycanitesMobs/]: [LycanitesMobs] [Info] [] Online donations file read successfully.
+[28Jun2020 19:56:06.834] [Server-Worker-11/WARN] [com.mojang.datafixers.types.templates.TaggedChoice/]: Unsupported key: immersiveengineering:woodencrate in TaggedChoiceType[id, minecraft:shulker_box -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:mob_spawner -> MuType[V1931_4], 
+minecraft:dispenser -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jigsaw -> NilSave, 
+minecraft:end_gateway -> NilSave, 
+minecraft:bell -> NilSave, 
+minecraft:smoker -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jukebox -> ((Tag["RecordItem", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:ender_chest -> NilSave, 
+minecraft:comparator -> NilSave, 
+minecraft:hopper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:beacon -> NilSave, 
+minecraft:end_portal -> NilSave, 
+minecraft:bed -> NilSave, 
+minecraft:brewing_stand -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:lectern -> ((Tag["Book", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:enchanting_table -> NilSave, 
+minecraft:barrel -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:sign -> NilSave, 
+minecraft:conduit -> NilSave, 
+minecraft:banner -> NilSave, 
+minecraft:campfire -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+DUMMY -> NilSave, 
+minecraft:piston -> ((Tag["blockState", NamedType["block_state", NilSave]] | NilDrop), NilSave), 
+minecraft:structure_block -> NilSave, 
+minecraft:trapped_chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:dropper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:skull -> NilSave, 
+minecraft:chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:command_block -> NilSave, 
+minecraft:daylight_detector -> NilSave, 
+minecraft:blast_furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave)]
+
+[28Jun2020 19:56:06.835] [Server-Worker-11/WARN] [com.mojang.datafixers.types.templates.TaggedChoice/]: Unsupported key: immersiveengineering:woodencrate in TaggedChoiceType[id, minecraft:shulker_box -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:mob_spawner -> MuType[V1931_4], 
+minecraft:dispenser -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jigsaw -> NilSave, 
+minecraft:end_gateway -> NilSave, 
+minecraft:bell -> NilSave, 
+minecraft:smoker -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jukebox -> ((Tag["RecordItem", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:ender_chest -> NilSave, 
+minecraft:comparator -> NilSave, 
+minecraft:hopper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:beacon -> NilSave, 
+minecraft:end_portal -> NilSave, 
+minecraft:bed -> NilSave, 
+minecraft:brewing_stand -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:lectern -> ((Tag["Book", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:enchanting_table -> NilSave, 
+minecraft:barrel -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:sign -> NilSave, 
+minecraft:conduit -> NilSave, 
+minecraft:banner -> NilSave, 
+minecraft:campfire -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+DUMMY -> NilSave, 
+minecraft:piston -> ((Tag["blockState", NamedType["block_state", NilSave]] | NilDrop), NilSave), 
+minecraft:structure_block -> NilSave, 
+minecraft:trapped_chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:dropper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:skull -> NilSave, 
+minecraft:chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:command_block -> NilSave, 
+minecraft:daylight_detector -> NilSave, 
+minecraft:blast_furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave)]
+
+[28Jun2020 19:56:06.889] [Server-Worker-11/WARN] [com.mojang.datafixers.types.templates.TaggedChoice/]: Unsupported key: immersiveengineering:energymeter in TaggedChoiceType[id, minecraft:shulker_box -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:mob_spawner -> MuType[V1931_4], 
+minecraft:dispenser -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jigsaw -> NilSave, 
+minecraft:end_gateway -> NilSave, 
+minecraft:bell -> NilSave, 
+minecraft:smoker -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jukebox -> ((Tag["RecordItem", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:ender_chest -> NilSave, 
+minecraft:comparator -> NilSave, 
+minecraft:hopper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:beacon -> NilSave, 
+minecraft:end_portal -> NilSave, 
+minecraft:bed -> NilSave, 
+minecraft:brewing_stand -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:lectern -> ((Tag["Book", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:enchanting_table -> NilSave, 
+minecraft:barrel -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:sign -> NilSave, 
+minecraft:conduit -> NilSave, 
+minecraft:banner -> NilSave, 
+minecraft:campfire -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+DUMMY -> NilSave, 
+minecraft:piston -> ((Tag["blockState", NamedType["block_state", NilSave]] | NilDrop), NilSave), 
+minecraft:structure_block -> NilSave, 
+minecraft:trapped_chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:dropper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:skull -> NilSave, 
+minecraft:chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:command_block -> NilSave, 
+minecraft:daylight_detector -> NilSave, 
+minecraft:blast_furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave)]
+
+[28Jun2020 19:56:06.890] [Server-Worker-11/WARN] [com.mojang.datafixers.types.templates.TaggedChoice/]: Unsupported key: immersiveengineering:energymeter in TaggedChoiceType[id, minecraft:shulker_box -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:mob_spawner -> MuType[V1931_4], 
+minecraft:dispenser -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jigsaw -> NilSave, 
+minecraft:end_gateway -> NilSave, 
+minecraft:bell -> NilSave, 
+minecraft:smoker -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jukebox -> ((Tag["RecordItem", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:ender_chest -> NilSave, 
+minecraft:comparator -> NilSave, 
+minecraft:hopper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:beacon -> NilSave, 
+minecraft:end_portal -> NilSave, 
+minecraft:bed -> NilSave, 
+minecraft:brewing_stand -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:lectern -> ((Tag["Book", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:enchanting_table -> NilSave, 
+minecraft:barrel -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:sign -> NilSave, 
+minecraft:conduit -> NilSave, 
+minecraft:banner -> NilSave, 
+minecraft:campfire -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+DUMMY -> NilSave, 
+minecraft:piston -> ((Tag["blockState", NamedType["block_state", NilSave]] | NilDrop), NilSave), 
+minecraft:structure_block -> NilSave, 
+minecraft:trapped_chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:dropper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:skull -> NilSave, 
+minecraft:chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:command_block -> NilSave, 
+minecraft:daylight_detector -> NilSave, 
+minecraft:blast_furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave)]
+
+[28Jun2020 19:56:06.896] [Server-Worker-11/WARN] [com.mojang.datafixers.types.templates.TaggedChoice/]: Unsupported key: immersiveengineering:craftingtable in TaggedChoiceType[id, minecraft:shulker_box -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:mob_spawner -> MuType[V1931_4], 
+minecraft:dispenser -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jigsaw -> NilSave, 
+minecraft:end_gateway -> NilSave, 
+minecraft:bell -> NilSave, 
+minecraft:smoker -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jukebox -> ((Tag["RecordItem", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:ender_chest -> NilSave, 
+minecraft:comparator -> NilSave, 
+minecraft:hopper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:beacon -> NilSave, 
+minecraft:end_portal -> NilSave, 
+minecraft:bed -> NilSave, 
+minecraft:brewing_stand -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:lectern -> ((Tag["Book", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:enchanting_table -> NilSave, 
+minecraft:barrel -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:sign -> NilSave, 
+minecraft:conduit -> NilSave, 
+minecraft:banner -> NilSave, 
+minecraft:campfire -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+DUMMY -> NilSave, 
+minecraft:piston -> ((Tag["blockState", NamedType["block_state", NilSave]] | NilDrop), NilSave), 
+minecraft:structure_block -> NilSave, 
+minecraft:trapped_chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:dropper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:skull -> NilSave, 
+minecraft:chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:command_block -> NilSave, 
+minecraft:daylight_detector -> NilSave, 
+minecraft:blast_furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave)]
+
+[28Jun2020 19:56:06.898] [Server-Worker-11/WARN] [com.mojang.datafixers.types.templates.TaggedChoice/]: Unsupported key: immersiveengineering:modworkbench in TaggedChoiceType[id, minecraft:shulker_box -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:mob_spawner -> MuType[V1931_4], 
+minecraft:dispenser -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jigsaw -> NilSave, 
+minecraft:end_gateway -> NilSave, 
+minecraft:bell -> NilSave, 
+minecraft:smoker -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jukebox -> ((Tag["RecordItem", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:ender_chest -> NilSave, 
+minecraft:comparator -> NilSave, 
+minecraft:hopper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:beacon -> NilSave, 
+minecraft:end_portal -> NilSave, 
+minecraft:bed -> NilSave, 
+minecraft:brewing_stand -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:lectern -> ((Tag["Book", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:enchanting_table -> NilSave, 
+minecraft:barrel -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:sign -> NilSave, 
+minecraft:conduit -> NilSave, 
+minecraft:banner -> NilSave, 
+minecraft:campfire -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+DUMMY -> NilSave, 
+minecraft:piston -> ((Tag["blockState", NamedType["block_state", NilSave]] | NilDrop), NilSave), 
+minecraft:structure_block -> NilSave, 
+minecraft:trapped_chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:dropper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:skull -> NilSave, 
+minecraft:chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:command_block -> NilSave, 
+minecraft:daylight_detector -> NilSave, 
+minecraft:blast_furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave)]
+
+[28Jun2020 19:56:06.899] [Server-Worker-11/WARN] [com.mojang.datafixers.types.templates.TaggedChoice/]: Unsupported key: immersiveengineering:modworkbench in TaggedChoiceType[id, minecraft:shulker_box -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:mob_spawner -> MuType[V1931_4], 
+minecraft:dispenser -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jigsaw -> NilSave, 
+minecraft:end_gateway -> NilSave, 
+minecraft:bell -> NilSave, 
+minecraft:smoker -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jukebox -> ((Tag["RecordItem", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:ender_chest -> NilSave, 
+minecraft:comparator -> NilSave, 
+minecraft:hopper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:beacon -> NilSave, 
+minecraft:end_portal -> NilSave, 
+minecraft:bed -> NilSave, 
+minecraft:brewing_stand -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:lectern -> ((Tag["Book", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:enchanting_table -> NilSave, 
+minecraft:barrel -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:sign -> NilSave, 
+minecraft:conduit -> NilSave, 
+minecraft:banner -> NilSave, 
+minecraft:campfire -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+DUMMY -> NilSave, 
+minecraft:piston -> ((Tag["blockState", NamedType["block_state", NilSave]] | NilDrop), NilSave), 
+minecraft:structure_block -> NilSave, 
+minecraft:trapped_chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:dropper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:skull -> NilSave, 
+minecraft:chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:command_block -> NilSave, 
+minecraft:daylight_detector -> NilSave, 
+minecraft:blast_furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave)]
+
+[28Jun2020 19:56:06.901] [Server-Worker-11/WARN] [com.mojang.datafixers.types.templates.TaggedChoice/]: Unsupported key: immersiveengineering:shaderbanner in TaggedChoiceType[id, minecraft:shulker_box -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:mob_spawner -> MuType[V1931_4], 
+minecraft:dispenser -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jigsaw -> NilSave, 
+minecraft:end_gateway -> NilSave, 
+minecraft:bell -> NilSave, 
+minecraft:smoker -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jukebox -> ((Tag["RecordItem", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:ender_chest -> NilSave, 
+minecraft:comparator -> NilSave, 
+minecraft:hopper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:beacon -> NilSave, 
+minecraft:end_portal -> NilSave, 
+minecraft:bed -> NilSave, 
+minecraft:brewing_stand -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:lectern -> ((Tag["Book", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:enchanting_table -> NilSave, 
+minecraft:barrel -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:sign -> NilSave, 
+minecraft:conduit -> NilSave, 
+minecraft:banner -> NilSave, 
+minecraft:campfire -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+DUMMY -> NilSave, 
+minecraft:piston -> ((Tag["blockState", NamedType["block_state", NilSave]] | NilDrop), NilSave), 
+minecraft:structure_block -> NilSave, 
+minecraft:trapped_chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:dropper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:skull -> NilSave, 
+minecraft:chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:command_block -> NilSave, 
+minecraft:daylight_detector -> NilSave, 
+minecraft:blast_furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave)]
+
+[28Jun2020 19:56:06.964] [Server-Worker-11/WARN] [com.mojang.datafixers.types.templates.TaggedChoice/]: Unsupported key: immersiveengineering:woodencrate in TaggedChoiceType[id, minecraft:shulker_box -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:mob_spawner -> MuType[V1931_4], 
+minecraft:dispenser -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jigsaw -> NilSave, 
+minecraft:end_gateway -> NilSave, 
+minecraft:bell -> NilSave, 
+minecraft:smoker -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jukebox -> ((Tag["RecordItem", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:ender_chest -> NilSave, 
+minecraft:comparator -> NilSave, 
+minecraft:hopper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:beacon -> NilSave, 
+minecraft:end_portal -> NilSave, 
+minecraft:bed -> NilSave, 
+minecraft:brewing_stand -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:lectern -> ((Tag["Book", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:enchanting_table -> NilSave, 
+minecraft:barrel -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:sign -> NilSave, 
+minecraft:conduit -> NilSave, 
+minecraft:banner -> NilSave, 
+minecraft:campfire -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+DUMMY -> NilSave, 
+minecraft:piston -> ((Tag["blockState", NamedType["block_state", NilSave]] | NilDrop), NilSave), 
+minecraft:structure_block -> NilSave, 
+minecraft:trapped_chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:dropper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:skull -> NilSave, 
+minecraft:chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:command_block -> NilSave, 
+minecraft:daylight_detector -> NilSave, 
+minecraft:blast_furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave)]
+
+[28Jun2020 19:56:06.964] [Server-Worker-11/WARN] [com.mojang.datafixers.types.templates.TaggedChoice/]: Unsupported key: immersiveengineering:woodencrate in TaggedChoiceType[id, minecraft:shulker_box -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:mob_spawner -> MuType[V1931_4], 
+minecraft:dispenser -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jigsaw -> NilSave, 
+minecraft:end_gateway -> NilSave, 
+minecraft:bell -> NilSave, 
+minecraft:smoker -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:jukebox -> ((Tag["RecordItem", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:ender_chest -> NilSave, 
+minecraft:comparator -> NilSave, 
+minecraft:hopper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:beacon -> NilSave, 
+minecraft:end_portal -> NilSave, 
+minecraft:bed -> NilSave, 
+minecraft:brewing_stand -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:lectern -> ((Tag["Book", MuType[V1931_3]] | NilDrop), NilSave), 
+minecraft:enchanting_table -> NilSave, 
+minecraft:barrel -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:sign -> NilSave, 
+minecraft:conduit -> NilSave, 
+minecraft:banner -> NilSave, 
+minecraft:campfire -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+DUMMY -> NilSave, 
+minecraft:piston -> ((Tag["blockState", NamedType["block_state", NilSave]] | NilDrop), NilSave), 
+minecraft:structure_block -> NilSave, 
+minecraft:trapped_chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:dropper -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:skull -> NilSave, 
+minecraft:chest -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave), 
+minecraft:command_block -> NilSave, 
+minecraft:daylight_detector -> NilSave, 
+minecraft:blast_furnace -> ((Tag["Items", List[MuType[V1931_3]]] | NilDrop), NilSave)]
+
+[28Jun2020 19:58:15.990] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Mageronix has made the advancement [Ice Bucket Challenge]
+[28Jun2020 19:58:15.993] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Mageronix: Gave 20    [Obsidian] to Mageronix]
+[28Jun2020 19:58:34.935] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Mageronix: Gave 1    [Flint and Steel] to Mageronix]
+[28Jun2020 19:58:39.436] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Mageronix: Set own game mode to Creative Mode]
+[28Jun2020 19:58:42.451] [Netty Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.ModIdArgument@7738f8d7 (class net.minecraftforge.server.command.ModIdArgument) - will not be sent to client!
+[28Jun2020 19:58:42.451] [Netty Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@1b927060 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[28Jun2020 19:58:42.452] [Netty Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize net.minecraftforge.server.command.EnumArgument@40ba6fe0 (class net.minecraftforge.server.command.EnumArgument) - will not be sent to client!
+[28Jun2020 19:58:42.452] [Netty Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize blusunrize.immersiveengineering.common.util.commands.CommandMineral$MineralArgument@59d01e9a (class blusunrize.immersiveengineering.common.util.commands.CommandMineral$MineralArgument) - will not be sent to client!
+[28Jun2020 19:58:42.453] [Netty Server IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not serialize com.ldtteam.structurize.commands.arguments.MultipleStringArgument@4c780533 (class com.ldtteam.structurize.commands.arguments.MultipleStringArgument) - will not be sent to client!
+[28Jun2020 19:58:43.632] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Mageronix has made the advancement [We Need to Go Deeper]
+[28Jun2020 19:58:46.059] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Mageronix moved too quickly! -9.93622701254542,1.5442431629671063,0.18782590084005513
+[28Jun2020 19:58:46.074] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3549ms or 70 ticks behind
+[28Jun2020 19:59:50.729] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Mageronix: Set own game mode to Survival Mode]
+[28Jun2020 19:59:55.342] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Mageronix has made the advancement [A Terrible Fortress]
+[28Jun2020 20:01:01.779] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Mageronix lost connection: Disconnected
+[28Jun2020 20:01:01.780] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Mageronix left the game
+[28Jun2020 20:01:02.601] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved

@@ -1,0 +1,12 @@
+.mixin.out/
+crash-reports/
+structurize/
+tutorials/
+world/
+banned-ips.json
+banned-player.json
+ops.json
+server.properties
+usercache.json
+usernamecache.json
+whitelist.json
