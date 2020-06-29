@@ -10,3 +10,4 @@ server.properties
 usercache.json
 usernamecache.json
 whitelist.json
+logs/
