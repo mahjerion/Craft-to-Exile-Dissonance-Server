@@ -922,7 +922,7 @@
 		98,
 		99,
 		100,
-		105
+		106
       ],
       "requirements": [
         {
@@ -4202,7 +4202,7 @@
           "type": "ITEM_DETECT",
           "sub_requirements": [
             {
-              "item": "cookingforblockheads:backpack_small",
+              "item": "usefulbackpacks:backpack_small",
               "amount": 1,
               "nbt": "{}"
             }
@@ -4236,6 +4236,7 @@
       "title": "Your Engineering Degree",
       "text": "Immersive Engineering is a tech mod that is included with Craft to Exile. Unfortunately the scope of the mod is very broad and it's unlikely that progression will be implemented for IE. However, IE happens to have a great engineer's manual which will provide you with all the information you need!",
       "dependencies": [
+		0
       ],
       "requirements": [
         {
@@ -4522,9 +4523,9 @@
     },
     {
       "id": 103,
-      "icon": "midnight:shroom_clump",
+      "icon": "midnight:rockshroom_clump",
       "title": "Bad Kind Of Shroom",
-      "text": "These shrooms look radical... Let's bring some back for SCIENCE.",
+      "text": "Rock on! These shrooms look radical... Let's bring some back for SCIENCE.",
       "dependencies": [
         102
       ],
@@ -4533,7 +4534,7 @@
           "type": "ITEM_DELIVER",
           "sub_requirements": [
             {
-              "item": "midnight:shroom_clump",
+              "item": "midnight:rockshroom_clump",
               "amount": 64,
               "nbt": "{}"
             }
@@ -4706,11 +4707,9 @@
       ],
       "rewards": [
         {
-          "type": "ITEMS",
+          "type": "COMMAND",
           "content": {
-            "item": "slash give map @p 80 random 0 0 3",
-            "amount": 1,
-            "nbt": "{}"
+            "command": "slash give map @p 80 random 0 0 3"
           }
         },
         {
