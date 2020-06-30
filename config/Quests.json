@@ -38,7 +38,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore1",
+            "item": "mmorpg:ore0",
             "amount": 3,
             "nbt": "{}"
           }
@@ -78,7 +78,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore1",
+            "item": "mmorpg:ore0",
             "amount": 10,
             "nbt": "{}"
           }
@@ -109,15 +109,15 @@
           "sub_requirements": [
             {
               "entity": "minecraft:zombie",
-              "amount": 8
+              "amount": 6
             },
             {
               "entity": "minecraft:skeleton",
-              "amount": 4
+              "amount": 2
             },
             {
               "entity": "minecraft:creeper",
-              "amount": 2
+              "amount": 1
             }
           ]
         }
@@ -169,7 +169,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore1",
+            "item": "mmorpg:ore0",
             "amount": 10,
             "nbt": "{}"
           }
@@ -188,7 +188,7 @@
     },
     {
       "id": 4,
-      "icon": "mmorpg:ore1",
+      "icon": "mmorpg:ore0",
       "title": "Ores",
       "text": "In Craft to Exile, special ores spawn in the overworld. These important ores have different rarities and can be used to repair gear or craft special items. Check JEI for more information.",
       "dependencies": [
@@ -199,7 +199,7 @@
           "type": "ITEM_DETECT",
           "sub_requirements": [
             {
-              "item": "mmorpg:ore1",
+              "item": "mmorpg:ore0",
               "amount": 5,
               "nbt": "{}"
             }
@@ -210,7 +210,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore1",
+            "item": "mmorpg:ore0",
             "amount": 20,
             "nbt": "{}"
           }
@@ -433,7 +433,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore3",
+            "item": "mmorpg:ore2",
             "amount": 3,
             "nbt": "{}"
           }
@@ -479,7 +479,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore2",
+            "item": "mmorpg:ore1",
             "amount": 3,
             "nbt": "{}"
           }
@@ -583,8 +583,8 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore3",
-            "amount": 10,
+            "item": "mmorpg:ore2",
+            "amount": 3,
             "nbt": "{}"
           }
         },
@@ -813,7 +813,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore2",
+            "item": "mmorpg:ore1",
             "amount": 5,
             "nbt": "{}"
           }
@@ -854,7 +854,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore1",
+            "item": "mmorpg:ore0",
             "amount": 10,
             "nbt": "{}"
           }
@@ -977,7 +977,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore2",
+            "item": "mmorpg:ore1",
             "amount": 10,
             "nbt": "{}"
           }
@@ -1018,7 +1018,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore2",
+            "item": "mmorpg:ore1",
             "amount": 20,
             "nbt": "{}"
           }
@@ -1059,7 +1059,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore3",
+            "item": "mmorpg:ore2",
             "amount": 10,
             "nbt": "{}"
           }
@@ -1345,7 +1345,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore4",
+            "item": "mmorpg:ore3",
             "amount": 2,
             "nbt": "{}"
           }
@@ -1617,7 +1617,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore4",
+            "item": "mmorpg:ore3",
             "amount": 10,
             "nbt": "{}"
           }
@@ -1821,7 +1821,7 @@
       ],
       "position": [
         0,
-        250
+        200
       ]
     },
     {
@@ -1862,7 +1862,7 @@
       ],
       "position": [
         50,
-        250
+        200
       ]
     },
     {
@@ -1911,7 +1911,7 @@
       ],
       "position": [
         100,
-        250
+        200
       ]
     },
     {
@@ -1978,7 +1978,7 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:ore4",
+            "item": "mmorpg:ore3",
             "amount": 3,
             "nbt": "{}"
           }
