@@ -11,3 +11,4 @@ usercache.json
 usernamecache.json
 whitelist.json
 logs/
+*.log
