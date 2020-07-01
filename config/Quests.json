@@ -916,13 +916,13 @@
       "id": 20,
       "icon": "mmorpg:map_device",
       "title": "End Game",
-      "text": "Congratulations. You're in the end game now! The max level is 99. Good luck!",
+      "text": "Congratulations. You\u0027re in the end game now! The max level is 99. Good luck!",
       "dependencies": [
         97,
-		98,
-		99,
-		100,
-		106
+        98,
+        99,
+        100,
+        106
       ],
       "requirements": [
         {
@@ -1583,7 +1583,7 @@
             "nbt": "{}"
           }
         },
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:alchemy/instant/misc/reset_stats",
@@ -1591,7 +1591,7 @@
             "nbt": "{}"
           }
         },
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:alchemy/instant/misc/reset_spells",
@@ -1599,7 +1599,7 @@
             "nbt": "{}"
           }
         },
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:alchemy/instant/misc/reset_talents",
@@ -1607,7 +1607,7 @@
             "nbt": "{}"
           }
         },
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "quark:dragon_scale",
@@ -2042,11 +2042,11 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "minecraft:pig",
+              "entity": "minecolonies:chiefbarbarian",
               "amount": 1
             },
             {
-              "entity": "minecraft:pig",
+              "entity": "minecolonies:barbarian",
               "amount": 10
             }
           ]
@@ -3481,15 +3481,15 @@
         }
       ],
       "rewards": [
-		{
+        {
           "type": "ITEMS",
           "content": {
-            "item": "mmorgp:ore2",
-            "amount": 3,
+            "item": "minecraft:air",
+            "amount": 0,
             "nbt": "{}"
           }
         },
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
@@ -3530,11 +3530,11 @@
         }
       ],
       "rewards": [
-		{
+        {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:lootbox/large_currency_lootbox_4",
-            "amount": 1,
+            "item": "minecraft:air",
+            "amount": 0,
             "nbt": "{}"
           }
         },
@@ -3570,11 +3570,11 @@
         }
       ],
       "rewards": [
-		{
+        {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:lootbox/large_currency_lootbox_3",
-            "amount": 1,
+            "item": "minecraft:air",
+            "amount": 0,
             "nbt": "{}"
           }
         },
@@ -3610,11 +3610,11 @@
         }
       ],
       "rewards": [
-		{
+        {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:lootbox/large_currency_lootbox_3",
-            "amount": 1,
+            "item": "minecraft:air",
+            "amount": 0,
             "nbt": "{}"
           }
         },
@@ -3650,11 +3650,11 @@
         }
       ],
       "rewards": [
-		{
+        {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:lootbox/large_currency_lootbox_3",
-            "amount": 1,
+            "item": "minecraft:air",
+            "amount": 0,
             "nbt": "{}"
           }
         },
@@ -3690,11 +3690,11 @@
         }
       ],
       "rewards": [
-		{
+        {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:lootbox/large_currency_lootbox_3",
-            "amount": 1,
+            "item": "minecraft:air",
+            "amount": 0,
             "nbt": "{}"
           }
         },
@@ -3714,7 +3714,7 @@
       "id": 85,
       "icon": "minecraft:writable_book",
       "title": "Beastiary V",
-      "text": "The uvaraptor is a creature that was able to slip into the Good Dream realm during a rift event. Although the uvaraptor's wings glisten like a rainbow, the creature originally came from The Midnight. Be careful when hunting these beautiful creatures.",
+      "text": "The uvaraptor is a creature that was able to slip into the Good Dream realm during a rift event. Although the uvaraptor\u0027s wings glisten like a rainbow, the creature originally came from The Midnight. Be careful when hunting these beautiful creatures.",
       "dependencies": [
         36
       ],
@@ -3730,11 +3730,11 @@
         }
       ],
       "rewards": [
-		{
+        {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:lootbox/large_currency_lootbox_3",
-            "amount": 1,
+            "item": "minecraft:air",
+            "amount": 0,
             "nbt": "{}"
           }
         },
@@ -3770,11 +3770,11 @@
         }
       ],
       "rewards": [
-		{
+        {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:lootbox/large_currency_lootbox_3",
-            "amount": 1,
+            "item": "minecraft:air",
+            "amount": 0,
             "nbt": "{}"
           }
         },
@@ -3793,8 +3793,8 @@
     {
       "id": 87,
       "icon": "sereneseasons:calendar",
-      "title": "What's The Date?",
-      "text": "Craft to Exile offers seasons to add more complexity to farming. With Serene Seasons, Simple Farming, and Cooking for Blockheads, the farming and cooking experience is more complex and enjoyable. To start off, it's a good idea to craft a calendar, which will tell you what the current season is. By doing so, you can plant the appropriate seeds.",
+      "title": "What\u0027s The Date?",
+      "text": "Craft to Exile offers seasons to add more complexity to farming. With Serene Seasons, Simple Farming, and Cooking for Blockheads, the farming and cooking experience is more complex and enjoyable. To start off, it\u0027s a good idea to craft a calendar, which will tell you what the current season is. By doing so, you can plant the appropriate seeds.",
       "dependencies": [
         0
       ],
@@ -3811,7 +3811,7 @@
         }
       ],
       "rewards": [
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "simplefarming:sweet_potato_seeds",
@@ -3819,7 +3819,7 @@
             "nbt": "{}"
           }
         },
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "simplefarming:pea_seeds",
@@ -3827,7 +3827,7 @@
             "nbt": "{}"
           }
         },
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
@@ -3850,7 +3850,7 @@
     {
       "id": 88,
       "icon": "minecraft:milk_bucket",
-      "title": "Milkin' It",
+      "title": "Milkin\u0027 It",
       "text": "Milk is an essential ingredient to most cooking recipes, including cheese. Milk a cow using a bucket.",
       "dependencies": [
         87
@@ -3868,7 +3868,7 @@
         }
       ],
       "rewards": [
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "minecraft:glass_bottle",
@@ -3876,7 +3876,7 @@
             "nbt": "{}"
           }
         },
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
@@ -3900,7 +3900,7 @@
       "id": 89,
       "icon": "simplefarming:cheese_slice",
       "title": "Gouda Job!",
-      "text": "Cheese is used in a lot of recipes in Simple Farming. But you'll notice that there is no way to craft a cheese slice. That's because to get a cheese slice, you must place a wheel of cheese down and click it (similar to cake).",
+      "text": "Cheese is used in a lot of recipes in Simple Farming. But you\u0027ll notice that there is no way to craft a cheese slice. That\u0027s because to get a cheese slice, you must place a wheel of cheese down and click it (similar to cake).",
       "dependencies": [
         88
       ],
@@ -3917,7 +3917,7 @@
         }
       ],
       "rewards": [
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "simplefarming:cheeseburger",
@@ -3925,7 +3925,7 @@
             "nbt": "{}"
           }
         },
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
@@ -3949,7 +3949,7 @@
       "id": 90,
       "icon": "cookingforblockheads:recipe_book",
       "title": "A Recipe For Disaster",
-      "text": "You're probably feeling overwhelmed by all the possible foods you can make. Don't worry! You can just farm and worry about cooking later with the recipe book 'Cooking for Blockheads I'! By using the book, you can see which foods you can make with the things you have in your inventory.",
+      "text": "You\u0027re probably feeling overwhelmed by all the possible foods you can make. Don\u0027t worry! You can just farm and worry about cooking later with the recipe book \u0027Cooking for Blockheads I\u0027! By using the book, you can see which foods you can make with the things you have in your inventory.",
       "dependencies": [
         89
       ],
@@ -3966,7 +3966,7 @@
         }
       ],
       "rewards": [
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "cookingforblockheads:fruit_basket",
@@ -3974,7 +3974,7 @@
             "nbt": "{}"
           }
         },
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
@@ -4015,7 +4015,7 @@
         }
       ],
       "rewards": [
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "simplefarming:honeydew_seeds",
@@ -4023,7 +4023,7 @@
             "nbt": "{}"
           }
         },
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
@@ -4047,7 +4047,7 @@
       "id": 92,
       "icon": "cookingforblockheads:oven",
       "title": "Upgrading Your Kitchen",
-      "text": "It was mentioned before that you can upgrade your kitchen, so we're going to do exactly that. The oven enables smelting abilities in your kitchen - try it out!",
+      "text": "It was mentioned before that you can upgrade your kitchen, so we\u0027re going to do exactly that. The oven enables smelting abilities in your kitchen - try it out!",
       "dependencies": [
         91
       ],
@@ -4064,15 +4064,15 @@
         }
       ],
       "rewards": [
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "minecraft:iron_block",
-            "amount": 3,
+            "amount": 1,
             "nbt": "{}"
           }
         },
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
@@ -4096,7 +4096,7 @@
       "id": 93,
       "icon": "cookingforblockheads:no_filter_edition",
       "title": "The Possibilities!",
-      "text": "While 'Cooking for Blockheads I' can be mighty useful, sometimes you just want to see all the available recipes (and without scouring JEI). You can make an unfiltered recipe book to look at available foods to cook!",
+      "text": "While \u0027Cooking for Blockheads I\u0027 can be mighty useful, sometimes you just want to see all the available recipes (and without scouring JEI). You can make an unfiltered recipe book to look at available foods to cook!",
       "dependencies": [
         90
       ],
@@ -4113,7 +4113,7 @@
         }
       ],
       "rewards": [
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "simplefarming:cheese_block",
@@ -4121,7 +4121,7 @@
             "nbt": "{}"
           }
         },
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
@@ -4162,7 +4162,7 @@
         }
       ],
       "rewards": [
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "cookingforblockheads:spice_rack",
@@ -4170,7 +4170,7 @@
             "nbt": "{}"
           }
         },
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
@@ -4193,10 +4193,9 @@
     {
       "id": 95,
       "icon": "usefulbackpacks:backpack_small",
-      "title": "I Can't Carry Anymore",
+      "title": "I Can\u0027t Carry Anymore",
       "text": "Sometimes you just want the good old fashioned travel storage solution.",
-      "dependencies": [
-      ],
+      "dependencies": [],
       "requirements": [
         {
           "type": "ITEM_DETECT",
@@ -4210,7 +4209,7 @@
         }
       ],
       "rewards": [
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "minecraft:diamond",
@@ -4234,9 +4233,9 @@
       "id": 96,
       "icon": "immersiveengineering:manual",
       "title": "Your Engineering Degree",
-      "text": "Immersive Engineering is a tech mod that is included with Craft to Exile. Unfortunately the scope of the mod is very broad and it's unlikely that progression will be implemented for IE. However, IE happens to have a great engineer's manual which will provide you with all the information you need!",
+      "text": "Immersive Engineering is a tech mod that is included with Craft to Exile. Unfortunately the scope of the mod is very broad and it\u0027s unlikely that progression will be implemented for IE. However, IE happens to have a great engineer\u0027s manual which will provide you with all the information you need!",
       "dependencies": [
-		0
+        0
       ],
       "requirements": [
         {
@@ -4251,7 +4250,7 @@
         }
       ],
       "rewards": [
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "minecraft:iron_block",
@@ -4259,7 +4258,7 @@
             "nbt": "{}"
           }
         },
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
@@ -4302,8 +4301,8 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:lootbox/large_currency_lootbox_3",
-            "amount": 1,
+            "item": "minecraft:air",
+            "amount": 0,
             "nbt": "{}"
           }
         },
@@ -4342,8 +4341,8 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:lootbox/large_currency_lootbox_3",
-            "amount": 1,
+            "item": "minecraft:air",
+            "amount": 0,
             "nbt": "{}"
           }
         },
@@ -4362,8 +4361,8 @@
     {
       "id": 99,
       "icon": "midnight:stinger_spawn_egg",
-      "title": "This Ain't The Bumblezone",
-      "text": "These tiny scorpion-looking things have enough venom in their stingers to kill you in 10 seconds... If you don't do anything.",
+      "title": "This Ain\u0027t The Bumblezone",
+      "text": "These tiny scorpion-looking things have enough venom in their stingers to kill you in 10 seconds... If you don\u0027t do anything.",
       "dependencies": [
         78
       ],
@@ -4382,8 +4381,8 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:lootbox/large_currency_lootbox_3",
-            "amount": 1,
+            "item": "minecraft:air",
+            "amount": 0,
             "nbt": "{}"
           }
         },
@@ -4403,7 +4402,7 @@
       "id": 100,
       "icon": "midnight:skulk_spawn_egg",
       "title": "From The Shadows",
-      "text": "Don't be deceived by the adorable look these creatures can give you. They say skulks bring more misfortune to those they cross than black cats. Be warned, skulks have the ability to blend with their surroundings.",
+      "text": "Don\u0027t be deceived by the adorable look these creatures can give you. They say skulks bring more misfortune to those they cross than black cats. Be warned, skulks have the ability to blend with their surroundings.",
       "dependencies": [
         78
       ],
@@ -4422,8 +4421,8 @@
         {
           "type": "ITEMS",
           "content": {
-            "item": "mmorpg:lootbox/large_currency_lootbox_3",
-            "amount": 1,
+            "item": "minecraft:air",
+            "amount": 0,
             "nbt": "{}"
           }
         },
@@ -4484,7 +4483,7 @@
       "id": 102,
       "icon": "midnight:nightstone",
       "title": "Obsidian?",
-      "text": "Nightstone is native to The Midnight. Rumours have it that if you stare into nightstone for too long, you'll succumb to eternal darkness.",
+      "text": "Nightstone is native to The Midnight. Rumours have it that if you stare into nightstone for too long, you\u0027ll succumb to eternal darkness.",
       "dependencies": [
         101
       ],
@@ -4525,7 +4524,7 @@
       "id": 103,
       "icon": "midnight:rockshroom_clump",
       "title": "Bad Kind Of Shroom",
-      "text": "Rock on! These shrooms look radical... Let's bring some back for SCIENCE.",
+      "text": "Rock on! These shrooms look radical... Let\u0027s bring some back for SCIENCE.",
       "dependencies": [
         102
       ],
@@ -4566,7 +4565,7 @@
       "id": 104,
       "icon": "midnight:ebonite_ore",
       "title": "Midnight Rifts",
-      "text": "Ebonite ore literally stands for black ore. It's even darker than nightstone, so it's probably a good idea to grab what we need and leave.",
+      "text": "Ebonite ore literally stands for black ore. It\u0027s even darker than nightstone, so it\u0027s probably a good idea to grab what we need and leave.",
       "dependencies": [
         103
       ],
@@ -4607,7 +4606,7 @@
       "id": 105,
       "icon": "midnight:nagrilite_ore",
       "title": "Pitch Black",
-      "text": "Nagrilite possesses a unique characteristic: it's dark and shiny!",
+      "text": "Nagrilite possesses a unique characteristic: it\u0027s dark and shiny!",
       "dependencies": [
         104
       ],
