@@ -26,7 +26,7 @@ Nightstone = Level 63-65
 
 Ebonite = Level 66-68			Tenebrum = Level 66-70
 
-Nagrilite = 68-70
+Nagrilite = 69-70
 
 Tenebrum = 71-72
 
