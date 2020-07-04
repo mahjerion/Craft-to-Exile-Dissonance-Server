@@ -1821,7 +1821,7 @@
       "id": 42,
       "icon": "waystones:warp_stone",
       "title": "Point The Way",
-      "text": "Waystones is a mod that allows the player to set up waystones. These waystones can be teleported to from each other, or by using warp stones or scrolls. This will take care of the leg work!",
+      "text": "Waystones is a mod that allows the player to teleport between waystones using warp stones or scrolls. They can be found naturally spawning around the world in large towers. It is possible to rename or configure the waystone into a global waystone. Global waystones can be teleported to interdimensionally. The warp stone allows you to teleport to any waystone at a cost. It has a longer cooldown than using scrolls.",
       "dependencies": [
         0
       ],
@@ -1860,9 +1860,9 @@
     },
     {
       "id": 43,
-      "icon": "waystones:waystone",
+      "icon": "waystones:return_scroll",
       "title": "Show Me The Way",
-      "text": "Waystones are devices you can teleport to using other waystones, the warp stone, or scrolls. You can configure waystones to be global - this allows you teleport to them interdimensionally at an additional cost. They spawn naturally in towers in the world.",
+      "text": "Scrolls are a fast way of teleporting to a waystone. They are one-time use, but cheaper and faster than warp stones.",
       "dependencies": [
         42
       ],
@@ -1871,8 +1871,8 @@
           "type": "ITEM_DETECT",
           "sub_requirements": [
             {
-              "item": "waystones:waystone",
-              "amount": 1,
+              "item": "waystones:return_scroll",
+              "amount": 3,
               "nbt": "{}"
             }
           ]
