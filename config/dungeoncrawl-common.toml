@@ -4,14 +4,6 @@
 	#If set to true, dungeon crawl will use the old dungeon registry name. This will prevent errors when playing in worlds that have been used with Dungeon Crawl 1.4.0 or earlier before. If that is not the case, DO NOT activate this!
 	compatiblity_mode = false
 
-#World Generation Settings
-[world_generation]
-	#The probability of a dungeon getting generated on each fitting chunk.
-	#Range: 1.0E-4 ~ 1.0
-	dungeon_probability = 0.15
-	#If set to true, the dungeon generation will ignore the dimension and use only the biome blacklists to determine generation eligibility.
-	ignore_dimension = false
-
 #Dungeon Settings
 [dungeon]
 	#If you dont like the fact that the dungeons contain lots of mob spawners, set this to true! Mobs will get spawned manually during the dungeon generation then. Note that this is a lot more performance demanding than enabling spawners. (Which also depends on the mob spawn rate)
@@ -40,4 +32,12 @@
 	#The amount of extra rooms per dungeon layer. A random number in the range [0 ~ layer_extra_additions-1] will be used.
 	#Range: 1 ~ 24
 	layer_extra_additions = 6
+
+#World Generation Settings
+[world_generation]
+	#The probability of a dungeon getting generated on each fitting chunk.
+	#Range: 1.0E-4 ~ 1.0
+	dungeon_probability = 0.15
+	#If set to true, the dungeon generation will ignore the dimension and use only the biome blacklists to determine generation eligibility.
+	ignore_dimension = false
 

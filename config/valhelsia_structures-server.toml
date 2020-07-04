@@ -76,7 +76,7 @@
 		generate = true
 		#Small Dungeon Spawn Chance [default: 0.7]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.85
+		spawn_chance = 0.8
 		#Small Dungeon Distance (in chunks) [default: 30]
 		#Range: 1 ~ 500
 		distance = 30
@@ -89,7 +89,7 @@
 		generate = true
 		#Tower Ruin Spawn Chance [default: 0.8]
 		#Range: 0.0 ~ 1.0
-		spawn_chance = 0.85
+		spawn_chance = 0.8
 		#Tower Ruin Distance (in chunks) [default: 25]
 		#Range: 1 ~ 500
 		distance = 25
