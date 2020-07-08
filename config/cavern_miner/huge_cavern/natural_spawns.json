@@ -81,6 +81,14 @@
         "min": 8,
         "max": 8
       }
+    },
+    {
+      "name": "cavern:caveman",
+      "weight": 10,
+      "group_count": {
+        "min": 1,
+        "max": 1
+      }
     }
   ]
 }

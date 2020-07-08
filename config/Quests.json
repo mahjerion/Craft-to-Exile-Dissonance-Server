@@ -3851,7 +3851,7 @@
       "id": 88,
       "icon": "minecraft:milk_bucket",
       "title": "Milkin\u0027 It",
-      "text": "Milk is an essential ingredient to most cooking recipes, including cheese. Milk a cow using a bucket.",
+      "text": "Milk is an essential ingredient to most cooking recipes, including cheese. Milk a cow using a bucket. Did you know that eating unique foods will permanently increase your health? Get to cookin\u0027 (use\u0027/foodlist size\u0027 to see how many foods you\u0027ve eaten)!",
       "dependencies": [
         87
       ],
@@ -5075,6 +5075,47 @@
       ],
       "position": [
         150,
+        200
+      ]
+    },
+    {
+      "id": 116,
+      "icon": "comforts:sleeping_bag_white",
+      "title": "Sleeping On The Job",
+      "text": "Can\u0027t deal with mobs at night while travelling? Tired of lugging an entire bed frame? Craft the sleeping bag and sleep whenever, wherever! Some conditions may apply.",
+      "dependencies": [
+        115
+      ],
+      "requirements": [
+        {
+          "type": "ITEM_DETECT",
+          "sub_requirements": [
+            {
+              "item": "comforts:sleeping_bag_white",
+              "amount": 1,
+              "nbt": "{}"
+            }
+          ]
+        }
+      ],
+      "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "mmorpg:ore2",
+            "amount": 3,
+            "nbt": "{}"
+          }
+        },
+        {
+          "type": "COMMAND",
+          "content": {
+            "command": "slash give exp @p 10000"
+          }
+        }
+      ],
+      "position": [
+        200,
         200
       ]
     }
