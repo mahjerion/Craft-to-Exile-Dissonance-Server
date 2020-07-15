@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <Console name="Console">
+            <PatternLayout disableansi="false" pattern="%highlight{[%d{HH:mm:ss} %level]: %msg%n%xEx}"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console" />
+            <Filters>
+                <RegexFilter regex=".*No data map found, returning blank default.*" onMatch="DENY" onMismatch="NEUTRAL" />
+                <RegexFilter regex=".*Failed getting map data for pos.*" onMatch="DENY" onMismatch="NEUTRAL" />
+            </Filters>
+        </Root>
+    </Loggers>
+</Configuration>

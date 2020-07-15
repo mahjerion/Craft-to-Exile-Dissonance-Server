@@ -5,13 +5,15 @@ Craft to Exile is a modpack designed around exploration and progression. Mods in
 Craft to Exile has a focus on progression with more dimensions becoming available as you increase your level.
 
 Included Mods:
-- The Bumblezone, Endergetic Expansion, Good Night's Sleep, The Midnight
+- Mine and Slash
+- The Bumblezone, Endergetic Expansion, Atum 2: Return to the Sands, Good Night's Sleep, The Midnight
 - Custom Quests (with full progression log)
-- Traverse: Legacy, Valhelsia Structures, Dungeon Crawl
-- MineColonies, Simple Farming, Immersive Engineering
-- Mods integrated into Mine and Slash progression including LycanitesMobs and Spice of Life: Carrot Edition!
+- Create and Immersive Engineering - fully integrated into the quest log and with each other.
+- Traverse: Legacy, Valhelsia Structures, Dungeon Crawl for fun world gen.
+- MineColonies, Simple Farming, Pam's HarvestCraft 2
+- LycanitesMobs and Spice of Life: Carrot Edition (both integrated with Mine and Slash)!
 - And many more!
 
 Curse Page: https://www.curseforge.com/minecraft/modpacks/crafttoexile
 Discord: https://discord.gg/cJS6ZHs
-Images: https://imgur.com/gallery/wX676Wh
+Images: https://imgur.com/gallery/A4Op8Mq
