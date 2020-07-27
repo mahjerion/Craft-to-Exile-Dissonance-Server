@@ -96,7 +96,7 @@
 	#Sets weither or not Colony structures are destroyed automatically. [Default: true]
 	autodestroycolonyblocks = true
 	#Should the player be allowed to use the '/mc rtp' command? [Default: true]
-	canplayerusertpcommand = true
+	canplayerusertpcommand = false
 	#minecolonies.config.numberofattemptsforsafetp.comment
 	#Range: 1 ~ 10
 	numberofattemptsforsafetp = 4
@@ -113,7 +113,7 @@
 	#Range: 30 ~ 99999
 	teleportbuffer = 120
 	#Should the player be allowed to use the '/mc home' command? [Default: true]
-	canplayerusehometpcommand = true
+	canplayerusehometpcommand = false
 	#Can Player Teleport to allied colonies? [Default:true]
 	canplayeruseallytownhallteleport = true
 	#Should the player be allowed to use the '/mc citizens kill' command? [Default: true]

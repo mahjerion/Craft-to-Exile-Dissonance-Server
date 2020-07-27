@@ -22,7 +22,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:0.5070422291755676
 renderDistance:12
-guiScale:3
+guiScale:0
 particles:0
 maxFps:60
 difficulty:2
@@ -30,16 +30,16 @@ fancyGraphics:true
 ao:2
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","packmenu","file/CrafttoExileMusic"]
+resourcePacks:["vanilla","mod_resources","packmenu","file/CrafttoExileMusic","file/CustomQuests-Book.zip"]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:127.0.0.1
 lang:en_us
 chatVisibility:0
 chatOpacity:1.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -48,7 +48,7 @@ chatHeightFocused:1.0
 chatHeightUnfocused:0.44366195797920227
 chatScale:1.0
 chatWidth:1.0
-mipmapLevels:3
+mipmapLevels:4
 useNativeTransport:true
 mainHand:right
 attackIndicator:1
@@ -59,7 +59,7 @@ rawMouseInput:true
 glDebugVerbosity:1
 skipMultiplayerWarning:false
 soundCategory_master:1.0
-soundCategory_music:0.5023474
+soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
