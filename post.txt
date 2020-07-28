@@ -1,17 +1,18 @@
-Minecraft Meets Diablo II + Path of Exile!
+Minecraft Meets Path of Exile & Diablo!
 
-Craft to Exile is a modpack designed around exploration and progression. Mods in the modpack aim to enhance the players' experience with Mine and Slash. This mod draws inspiration from popular action RPGs such as Diablo II and Path of Exile.
+Craft to Exile is a modpack designed around exploration. Mods in Craft to Exile aim to enhance the players' experience with Mine and Slash - a thorough ARPG mod dedicated to progression. Mine and Slash draws inspiration from popular action RPGs such as Diablo and Path of Exile.
 
 Craft to Exile has a focus on progression with more dimensions becoming available as you increase your level.
 
-Included Mods:
-- Mine and Slash
-- The Bumblezone, Endergetic Expansion, Atum 2: Return to the Sands, Good Night's Sleep, The Midnight
-- Custom Quests (with full progression log)
+Featured:
+- Mine and Slash - turns Minecraft into an ARPG!
+- The Bumblezone, Endergetic Expansion, Atum 2: Return to the Sands, Good Night's Sleep, The Midnight.
+- Custom Quests - with fully developed quest log.
+- Traverse: Legacy, Valhelsia Structures, Dungeon Crawl, Dungeons Plus - for fun world gen.
 - Create and Immersive Engineering - fully integrated into the quest log and with each other.
-- Traverse: Legacy, Valhelsia Structures, Dungeon Crawl for fun world gen.
-- MineColonies, Simple Farming, Pam's HarvestCraft 2
-- LycanitesMobs and Spice of Life: Carrot Edition (both integrated with Mine and Slash)!
+- MineColonies, Simple Farming, Pam's HarvestCraft 2, Aquaculture 2
+- Spice of Life: Carrot Edition - fully integrated with Mine and Slash!
+- A unique summoning system from a stripped-down Lycanites Mobs - summon 2 of 6 primal elementals to fuse them into stronger para-elementals!
 - And many more!
 
 Curse Page: https://www.curseforge.com/minecraft/modpacks/crafttoexile
