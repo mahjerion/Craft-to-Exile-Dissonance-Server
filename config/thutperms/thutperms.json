@@ -1,0 +1,46 @@
+{
+  "groups": [],
+  "initial": {
+    "members": [
+      "078e6d6a-2636-4628-9d0d-28d4dd831d5f"
+    ],
+    "name": "default",
+    "prefix": "",
+    "suffix": "",
+    "all": false,
+    "all_non_op": true,
+    "allowedCommands": [
+      "command.team"
+    ],
+    "bannedCommands": [
+      "command.customquests",
+      "command.bo",
+      "command.crafttweaker",
+      "command.ie",
+      "command.create",
+      "command.libnonymous",
+      "command.lm",
+      "command.me",
+      "command.uteamcore",
+      "command.structurize",
+      "command.trigger",
+      "command.riddlechests",
+      "command.performant",
+      "command.ct",
+      "command.kiwi",
+      "command.config"
+    ]
+  },
+  "mods": {
+    "members": [],
+    "name": "mods",
+    "prefix": "",
+    "suffix": "",
+    "all": true,
+    "all_non_op": true,
+    "allowedCommands": [],
+    "bannedCommands": [
+      "command.customquests"
+    ]
+  }
+}
