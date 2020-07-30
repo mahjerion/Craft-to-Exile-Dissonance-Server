@@ -22,7 +22,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:0.5070422291755676
 renderDistance:12
-guiScale:0
+guiScale:3
 particles:0
 maxFps:60
 difficulty:2
