@@ -22,7 +22,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:0.5070422291755676
 renderDistance:12
-guiScale:3
+guiScale:2
 particles:0
 maxFps:60
 difficulty:2
@@ -58,7 +58,7 @@ mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
 skipMultiplayerWarning:false
-soundCategory_master:1.0
+soundCategory_master:0.5093897
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
