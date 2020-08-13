@@ -2,7 +2,7 @@
 #All configuration items related to the core gameplay
 [gameplay]
 	#AI Update rate, increase to improve performance, throttles citizen updates. [Default: 1]
-	#Range: 0 ~ 100
+	#Range: 1 ~ 100
 	updaterate = 1
 	#Automatically fix orphaned chunks which were caused by chunk loading and saving issues. [Default: false]
 	fixorphanedchunks = false
@@ -44,6 +44,9 @@
 	#Quantity of dirt per Compost filling. [Default: 1]
 	#Range: 0 ~ 100
 	dirtfromcompost = 1
+	#Chance to get a prismarine shard or crystal drop for the fisherman starting at level 3. Overall chance of prismarine is 2x this number [Default: 2.5]
+	#Range: 0.0 ~ 100.0
+	fisherprismarinechance = 2.5
 	#Chat frequency of worker requests. [Default: 30]
 	#Range: 1 ~ 100
 	chatfrequency = 30
@@ -53,7 +56,7 @@
 	#Delay modifier to mine a block (Decreasing it, decreases the delay) [Default: 500]
 	#Range: 1 ~ 10000
 	blockminingdelaymodifier = 500
-	#Chance to get a sponge drop for the fisherman starting at level 4. [Default: 0.1]
+	#Chance to get a sponge drop for the fisherman starting at level 3. [Default: 0.1]
 	#Range: 0.0 ~ 100.0
 	fisherspongechance = 0.1
 	#Should Players be sent entering/leaving colony notifications? [Default: true]
@@ -289,6 +292,8 @@
 	bandaid = ["minecraft:golden_carrot*1"]
 	#minecolonies.config.biodegradable.comment
 	biodegradable = ["minecraft:bone_meal*64"]
+	#minecolonies.config.arrowpierce.comment
+	arrowpierce = ["minecraft:arrow*64", "minecraft:redstone*64"]
 	#minecolonies.config.healingcream.comment
 	healingcream = ["minecraft:golden_carrot*8"]
 	#minecolonies.config.masterbowman.comment
@@ -419,12 +424,16 @@
 	dodge = ["minecraft:leather*16"]
 	#minecolonies.config.pavetheroad.comment
 	pavetheroad = ["minecraft:white_concrete*32"]
+	#minecolonies.config.knockbackaoe.comment
+	knockbackaoe = ["minecraft:redstone*64", "minecraft:gold_ingot*64", "minecraft:lapis_lazuli*128"]
 	#minecolonies.config.recipebook.comment
 	recipebook = ["minecraft:paper*128"]
 	#minecolonies.config.beanstalk.comment
 	beanstalk = ["minecraft:cooked_chicken*512"]
 	#minecolonies.config.rtm.comment
 	rtm = ["minecraft:paper*256"]
+	#minecolonies.config.arrowuse.comment
+	arrowuse = ["minecraft:arrow*64"]
 	#minecolonies.config.higherlearning.comment
 	higherlearning = ["minecraft:book*3"]
 	#minecolonies.config.phd.comment

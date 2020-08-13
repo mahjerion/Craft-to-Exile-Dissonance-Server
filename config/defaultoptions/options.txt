@@ -14,7 +14,7 @@ reducedDebugInfo:false
 snooperEnabled:false
 showSubtitles:false
 touchscreen:false
-fullscreen:true
+fullscreen:false
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -30,7 +30,7 @@ fancyGraphics:true
 ao:2
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","packmenu","file/CrafttoExileMusic","file/CustomQuests-Book.zip"]
+resourcePacks:["vanilla","mod_resources","packmenu"]
 incompatibleResourcePacks:[]
 lastServer:127.0.0.1
 lang:en_us
