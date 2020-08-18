@@ -3292,8 +3292,8 @@
     {
       "id": 75,
       "icon": "lycanitesmobs:doomfireballcharge",
-      "title": "Source Of Negativity",
-      "text": "Lobbers are firing balls of negative energy. Exterminate them! Watch for the flames!",
+      "title": "Flame On!",
+      "text": "Lava monsters can be found in most dimensions that have lava. They're not very cool!",
       "dependencies": [
         71
       ],
@@ -3302,8 +3302,8 @@
           "type": "KILL_MOB",
           "sub_requirements": [
             {
-              "entity": "lycanitesmobs:lobber",
-              "amount": 15
+              "entity": "lava_monster:lava_monster",
+              "amount": 10
             }
           ]
         }
