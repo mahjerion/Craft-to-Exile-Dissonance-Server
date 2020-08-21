@@ -11,7 +11,7 @@
       "command.team"
     ],
     "bannedCommands": [
-      "command.customquests",
+      "command.ftbquests",
       "command.bo",
       "command.crafttweaker",
       "command.ie",
@@ -38,7 +38,6 @@
     "all_non_op": true,
     "allowedCommands": [],
     "bannedCommands": [
-      "command.customquests"
     ]
   }
 }
