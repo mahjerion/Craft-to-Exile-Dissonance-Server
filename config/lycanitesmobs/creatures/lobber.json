@@ -10,7 +10,9 @@
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [],
+    "spawners": [
+		"lava"
+	],
     "disableSubspecies": false,
     "dimensionIds": [
 		"goodnightsleep:nightmare"
@@ -110,7 +112,7 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 1,
+  "hitboxScale": 2,
   "flags": [
     {
       "name": "blockMeltingRadius",
