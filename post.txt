@@ -4,13 +4,18 @@ Craft to Exile is a modpack designed around progression. Mods in Craft to ExileÂ
 
 Craft to Exile has a focus on progression with more dimensions becoming available as you increase your level.
 
-Featured:
+Featuring:
+- An official server provided by Akliz!
+- Over 100 custom items (uniques, sets, runewords).
+- Thousands of lines of configuration via datapacks, CraftTweaker.
+
+Mods:
 - Mine and Slash - turns Minecraft into an ARPG!
 - The Bumblezone, Endergetic Expansion, Atum 2: Return to the Sands, Good Night's Sleep, The Midnight, TofuCraft.
 - Custom Quests - with fully developed quest log.
 - Traverse: Legacy, Valhelsia Structures, Dungeon Crawl, Dungeons Plus - for fun world gen.
 - Create and Immersive Engineering - fully integrated into the quest log and with each other.
-- MineColonies, Simple Farming, Pam's HarvestCraft 2, Aquaculture 2
+- MineColonies, Simple Farming, Pam's HarvestCraft 2, Aquaculture 2.
 - Spice of Life: Carrot Edition - fully integrated with Mine and Slash!
 - A unique summoning system from a stripped-down Lycanites Mobs - summon 2 of 6 primal elementals to fuse them into stronger para-elementals!
 - And many more!
