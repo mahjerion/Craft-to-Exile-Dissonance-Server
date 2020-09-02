@@ -5,9 +5,10 @@ Craft to Exile is a modpack designed around progression. Mods in Craft to ExileÂ
 Craft to Exile has a focus on progression with more dimensions becoming available as you increase your level.
 
 Featuring:
-- An official server provided by Akliz!
+- Over 220 quests!
 - Over 100 custom items (uniques, sets, runewords).
-- Thousands of lines of configuration via datapacks, CraftTweaker.
+- Thousands of lines of configuration via datapacks and CraftTweaker.
+- An official server provided by Akliz!
 
 Mods:
 - Mine and Slash - turns Minecraft into an ARPG!
