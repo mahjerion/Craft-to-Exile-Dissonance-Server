@@ -38,7 +38,7 @@
     "all_non_op": true,
     "allowedCommands": [],
     "bannedCommands": [
-      "command.customquests",
+      "command.customquests"
     ]
   }
 }
