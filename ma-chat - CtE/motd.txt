@@ -3,3 +3,5 @@
 &6Use &c/slash party &6and &c/team &6for party play!
 &6All messages are linked with &c#server-chat&6 on &cDiscord&6!
 &6Current players &c%players%&6/&c%max_players%
+&6Note: &cdue to certain circumstances, quests will periodically reset (save your quest items!).
+&cSorry for the inconvenience.
