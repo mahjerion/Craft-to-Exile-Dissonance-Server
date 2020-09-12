@@ -1,25 +1,19 @@
 {
-  "quests": [
-    {
+  "quests": [{
       "id": 0,
       "icon": "minecraft:crafting_table",
       "title": "Getting Started",
       "text": "Welcome to Craft to Exile! This progression log aims to provide you with some direction as to where to go next. For starters, it\u0027s recommended that you do some light exploring in the Overworld just as you would normally, and to set up camp. Please make sure to redeem your rewards as you progress!",
       "dependencies": [],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecraft:crafting_table",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "minecraft:crafting_table",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:apple",
@@ -63,19 +57,14 @@
       "dependencies": [
         0
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "minecraft:skeleton",
-              "amount": 2
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "minecraft:skeleton",
+          "amount": 2
+        }]
+      }],
+      "rewards": [{
           "type": "COMMAND",
           "content": {
             "command": "slash give gear @p sword 3 2 1"
@@ -113,27 +102,23 @@
       "dependencies": [
         1
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "minecraft:zombie",
-              "amount": 2
-            },
-            {
-              "entity": "minecraft:skeleton",
-              "amount": 4
-            },
-            {
-              "entity": "minecraft:creeper",
-              "amount": 1
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+            "entity": "minecraft:zombie",
+            "amount": 2
+          },
+          {
+            "entity": "minecraft:skeleton",
+            "amount": 4
+          },
+          {
+            "entity": "minecraft:creeper",
+            "amount": 1
+          }
+        ]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:identify_tome",
@@ -161,20 +146,15 @@
       "dependencies": [
         7
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "the_bumblezone:porous_honeycomb_block",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "the_bumblezone:porous_honeycomb_block",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore0",
@@ -202,20 +182,15 @@
       "dependencies": [
         1
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "mmorpg:ore0",
-              "amount": 25,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "mmorpg:ore0",
+          "amount": 25,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore0",
@@ -243,20 +218,15 @@
       "dependencies": [
         2
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "mmorpg:currency/orb_of_transmutation",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "mmorpg:currency/orb_of_transmutation",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:currency/add_secondary_stat",
@@ -292,20 +262,15 @@
       "dependencies": [
         4
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "mmorpg:repair_station",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "mmorpg:repair_station",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:capacitor0",
@@ -333,20 +298,15 @@
       "dependencies": [
         5
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "mmorpg:modify_station",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "mmorpg:modify_station",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:identify_tome",
@@ -374,20 +334,15 @@
       "dependencies": [
         7
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "mmorpg:salvage_station",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "mmorpg:salvage_station",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:diamond",
@@ -415,30 +370,24 @@
       "dependencies": [
         8
       ],
-      "requirements": [
-        {
+      "requirements": [{
           "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "mmorpg:currency_bag",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
+          "sub_requirements": [{
+            "item": "mmorpg:currency_bag",
+            "amount": 1,
+            "nbt": "{}"
+          }]
         },
         {
           "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "mmorpg:loot_bag",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
+          "sub_requirements": [{
+            "item": "mmorpg:loot_bag",
+            "amount": 1,
+            "nbt": "{}"
+          }]
         }
       ],
-      "rewards": [
-        {
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore2",
@@ -466,25 +415,21 @@
       "dependencies": [
         3
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "minecraft:honey_bottle",
-              "amount": 2,
-              "nbt": "{}"
-            },
-            {
-              "item": "the_bumblezone:honey_crystal_shards",
-              "amount": 4,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+            "item": "minecraft:honey_bottle",
+            "amount": 2,
+            "nbt": "{}"
+          },
+          {
+            "item": "the_bumblezone:honey_crystal_shards",
+            "amount": 4,
+            "nbt": "{}"
+          }
+        ]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore1",
@@ -512,19 +457,14 @@
       "dependencies": [
         10
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "minecraft:bee",
-              "amount": 6
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "minecraft:bee",
+          "amount": 6
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:honey_bottle",
@@ -552,35 +492,31 @@
       "dependencies": [
         11
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "beesourceful:iron_bee",
-              "amount": 5
-            },
-            {
-              "entity": "beesourceful:gold_bee",
-              "amount": 3
-            },
-            {
-              "entity": "beesourceful:diamond_bee",
-              "amount": 1
-            },
-            {
-              "entity": "beesourceful:emerald_bee",
-              "amount": 1
-            },
-            {
-              "entity": "minecraft:bee",
-              "amount": 5
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+            "entity": "beesourceful:iron_bee",
+            "amount": 5
+          },
+          {
+            "entity": "beesourceful:gold_bee",
+            "amount": 3
+          },
+          {
+            "entity": "beesourceful:diamond_bee",
+            "amount": 1
+          },
+          {
+            "entity": "beesourceful:emerald_bee",
+            "amount": 1
+          },
+          {
+            "entity": "minecraft:bee",
+            "amount": 5
+          }
+        ]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "buzzierbees:honey_bread",
@@ -616,26 +552,20 @@
       "dependencies": [
         11
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "the_bumblezone:sugar_water_bottle",
-              "amount": 2,
-              "nbt": "{}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "the_bumblezone:sugar_water_bottle",
+          "amount": 2,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 21000"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 21000"
-          }
-        }
-      ],
+      }],
       "position": [
         100,
         0
@@ -649,66 +579,61 @@
       "dependencies": [
         13
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "minecraft:honeycomb",
-              "amount": 1,
-              "nbt": "{}"
-            },
-            {
-              "item": "beesourceful:gold_honeycomb",
-              "amount": 1,
-              "nbt": "{}"
-            },
-            {
-              "item": "beesourceful:lapis_honeycomb",
-              "amount": 1,
-              "nbt": "{}"
-            },
-            {
-              "item": "beesourceful:redstone_honeycomb",
-              "amount": 1,
-              "nbt": "{}"
-            },
-            {
-              "item": "beesourceful:iron_honeycomb",
-              "amount": 1,
-              "nbt": "{}"
-            },
-            {
-              "item": "beesourceful:diamond_honeycomb",
-              "amount": 1,
-              "nbt": "{}"
-            },
-            {
-              "item": "beesourceful:emerald_honeycomb",
-              "amount": 1,
-              "nbt": "{}"
-            },
-            {
-              "item": "beesourceful:ender_honeycomb",
-              "amount": 1,
-              "nbt": "{}"
-            },
-            {
-              "item": "minecraft:honey_bottle",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 28125"
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+            "item": "minecraft:honeycomb",
+            "amount": 1,
+            "nbt": "{}"
+          },
+          {
+            "item": "beesourceful:gold_honeycomb",
+            "amount": 1,
+            "nbt": "{}"
+          },
+          {
+            "item": "beesourceful:lapis_honeycomb",
+            "amount": 1,
+            "nbt": "{}"
+          },
+          {
+            "item": "beesourceful:redstone_honeycomb",
+            "amount": 1,
+            "nbt": "{}"
+          },
+          {
+            "item": "beesourceful:iron_honeycomb",
+            "amount": 1,
+            "nbt": "{}"
+          },
+          {
+            "item": "beesourceful:diamond_honeycomb",
+            "amount": 1,
+            "nbt": "{}"
+          },
+          {
+            "item": "beesourceful:emerald_honeycomb",
+            "amount": 1,
+            "nbt": "{}"
+          },
+          {
+            "item": "beesourceful:ender_honeycomb",
+            "amount": 1,
+            "nbt": "{}"
+          },
+          {
+            "item": "minecraft:honey_bottle",
+            "amount": 1,
+            "nbt": "{}"
           }
+        ]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 28125"
         }
-      ],
+      }],
       "position": [
         150,
         0
@@ -722,20 +647,15 @@
       "dependencies": [
         14
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecraft:netherrack",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "minecraft:netherrack",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:gold_ingot",
@@ -763,19 +683,14 @@
       "dependencies": [
         7
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "minecraft:zombie_pigman",
-              "amount": 10
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "minecraft:zombie_pigman",
+          "amount": 10
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:teleport_scroll",
@@ -803,20 +718,15 @@
       "dependencies": [
         18
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "structurize:sceptergold",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "structurize:sceptergold",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore1",
@@ -844,20 +754,15 @@
       "dependencies": [
         0
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecolonies:supplycampdeployer",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "minecolonies:supplycampdeployer",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore0",
@@ -885,20 +790,15 @@
       "dependencies": [
         176
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecolonies:blockhutbuilder",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "minecolonies:blockhutbuilder",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:identify_tome",
@@ -926,20 +826,15 @@
       "dependencies": [
         206
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "minecraft:diamond",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+          "item": "minecraft:diamond",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "COMMAND",
           "content": {
             "command": "slash give map @p 60 random 4 5 5"
@@ -965,20 +860,15 @@
       "dependencies": [
         7
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "minecraft:quartz",
-              "amount": 50,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+          "item": "minecraft:quartz",
+          "amount": 50,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore1",
@@ -1006,20 +896,15 @@
       "dependencies": [
         21
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "minecraft:glowstone",
-              "amount": 30,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+          "item": "minecraft:glowstone",
+          "amount": 30,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore1",
@@ -1047,20 +932,15 @@
       "dependencies": [
         22
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "minecraft:nether_wart",
-              "amount": 25,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+          "item": "minecraft:nether_wart",
+          "amount": 25,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore2",
@@ -1088,20 +968,15 @@
       "dependencies": [
         0
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecraft:fishing_rod",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "minecraft:fishing_rod",
+          "amount": 1,
+          "nbt": "{Damage:0}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "aquaculture:worm",
@@ -1129,20 +1004,15 @@
       "dependencies": [
         24
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "aquaculture:tackle_box",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "aquaculture:tackle_box",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "aquaculture:fishing_line",
@@ -1170,20 +1040,15 @@
       "dependencies": [
         25
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "aquaculture:iron_hook",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "aquaculture:iron_hook",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "aquaculture:worm",
@@ -1211,20 +1076,15 @@
       "dependencies": [
         26
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "aquaculture:iron_fishing_rod",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "aquaculture:iron_fishing_rod",
+          "amount": 1,
+          "nbt": "{Damage:0}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "aquaculture:bobber",
@@ -1252,20 +1112,15 @@
       "dependencies": [
         27
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "aquaculture:neptunium_ingot",
-              "amount": 9,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+          "item": "aquaculture:neptunium_ingot",
+          "amount": 9,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:currency/item_levelup",
@@ -1293,19 +1148,14 @@
       "dependencies": [
         16
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "minecraft:blaze",
-              "amount": 20
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "minecraft:blaze",
+          "amount": 20
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:identify_tome",
@@ -1333,20 +1183,15 @@
       "dependencies": [
         29
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "minecraft:ghast_tear",
-              "amount": 3,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+          "item": "minecraft:ghast_tear",
+          "amount": 3,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore3",
@@ -1374,20 +1219,15 @@
       "dependencies": [
         30
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecraft:wither_skeleton_skull",
-              "amount": 3,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "minecraft:wither_skeleton_skull",
+          "amount": 3,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore4",
@@ -1415,19 +1255,14 @@
       "dependencies": [
         31
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "minecraft:wither",
-              "amount": 1
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "minecraft:wither",
+          "amount": 1
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_4",
@@ -1456,20 +1291,15 @@
         23,
         32
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "minecraft:nether_star",
-              "amount": 3,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+          "item": "minecraft:nether_star",
+          "amount": 3,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/big_currency_lootbox_3",
@@ -1497,26 +1327,20 @@
       "dependencies": [
         32
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecraft:ender_eye",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "minecraft:ender_eye",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 50000"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 50000"
-          }
-        }
-      ],
+      }],
       "position": [
         250,
         0
@@ -1530,26 +1354,20 @@
       "dependencies": [
         34
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecraft:end_stone",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "minecraft:end_stone",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 62500"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 62500"
-          }
-        }
-      ],
+      }],
       "position": [
         0,
         0
@@ -1563,19 +1381,14 @@
       "dependencies": [
         35
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "minecraft:ender_dragon",
-              "amount": 1
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "minecraft:ender_dragon",
+          "amount": 1
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/big_currency_lootbox_4",
@@ -1635,20 +1448,15 @@
       "dependencies": [
         36
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecraft:shulker_shell",
-              "amount": 2,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "minecraft:shulker_shell",
+          "amount": 2,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore3",
@@ -1676,25 +1484,21 @@
       "dependencies": [
         37
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "goodnightsleep:hope_mushroom",
-              "amount": 1,
-              "nbt": "{}"
-            },
-            {
-              "item": "goodnightsleep:despair_mushroom",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+            "item": "goodnightsleep:hope_mushroom",
+            "amount": 1,
+            "nbt": "{}"
+          },
+          {
+            "item": "goodnightsleep:despair_mushroom",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        ]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:red_bed",
@@ -1722,26 +1526,20 @@
       "dependencies": [
         38
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "atum:scarab",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "atum:scarab",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 75000"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 75000"
-          }
-        }
-      ],
+      }],
       "position": [
         200,
         0
@@ -1755,26 +1553,20 @@
       "dependencies": [
         153
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "goodnightsleep:dream_dirt",
-              "amount": 1,
-              "nbt": ""
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "goodnightsleep:dream_dirt",
+          "amount": 1,
+          "nbt": ""
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 77500"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 77500"
-          }
-        }
-      ],
+      }],
       "position": [
         0,
         0
@@ -1788,26 +1580,20 @@
       "dependencies": [
         153
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "goodnightsleep:dead_log",
-              "amount": 1,
-              "nbt": ""
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "goodnightsleep:dead_log",
+          "amount": 1,
+          "nbt": ""
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 77500"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 77500"
-          }
-        }
-      ],
+      }],
       "position": [
         0,
         200
@@ -1821,20 +1607,15 @@
       "dependencies": [
         223
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "waystones:warp_stone",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "waystones:warp_stone",
+          "amount": 1,
+          "nbt": "{Damage:0}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:ender_pearl",
@@ -1862,20 +1643,15 @@
       "dependencies": [
         42
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "waystones:return_scroll",
-              "amount": 3,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "waystones:return_scroll",
+          "amount": 3,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:ender_pearl",
@@ -1903,20 +1679,15 @@
       "dependencies": [
         43
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "waystones:warp_scroll",
-              "amount": 3,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "waystones:warp_scroll",
+          "amount": 3,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "waystones:bound_scroll",
@@ -1952,20 +1723,15 @@
       "dependencies": [
         12
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "the_bumblezone:dead_honeycomb_larva_block",
-              "amount": 12,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+          "item": "the_bumblezone:dead_honeycomb_larva_block",
+          "amount": 12,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
@@ -1993,19 +1759,14 @@
       "dependencies": [
         45
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "buzzierbees:honey_slime",
-              "amount": 3
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "buzzierbees:honey_slime",
+          "amount": 3
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore3",
@@ -2033,23 +1794,19 @@
       "dependencies": [
         179
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "minecolonies:chiefbarbarian",
-              "amount": 1
-            },
-            {
-              "entity": "minecolonies:barbarian",
-              "amount": 10
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+            "entity": "minecolonies:chiefbarbarian",
+            "amount": 1
+          },
+          {
+            "entity": "minecolonies:barbarian",
+            "amount": 10
+          }
+        ]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/medium_currency_lootbox_3",
@@ -2073,23 +1830,18 @@
       "id": 48,
       "icon": "lycanitesmobs:equipmentpart_astarothclaw",
       "title": "Exploring Fiery Depths",
-      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside! Hunt down and kill Astaroth.",
       "dependencies": [
         36
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:astaroth",
-              "amount": 3
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lycanitesmobs:astaroth",
+          "amount": 3
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_3",
@@ -2113,23 +1865,18 @@
       "id": 49,
       "icon": "lycanitesmobs:equipmentpart_argustail",
       "title": "Squashing Bugs",
-      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside! Hunt down and kill trite.",
       "dependencies": [
         36
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:trite",
-              "amount": 10
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lycanitesmobs:trite",
+          "amount": 10
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
@@ -2153,23 +1900,18 @@
       "id": 50,
       "icon": "lycanitesmobs:boulderblastcharge",
       "title": "Burning Hides",
-      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside! Hunt down and kill salamander.",
       "dependencies": [
         36
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:salamander",
-              "amount": 3
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lycanitesmobs:salamander",
+          "amount": 3
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_3",
@@ -2193,23 +1935,18 @@
       "id": 51,
       "icon": "lycanitesmobs:beastspawn",
       "title": "Heebie Jeebies",
-      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside! Hunt down and kill belph!",
       "dependencies": [
         36
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:belph",
-              "amount": 3
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lycanitesmobs:belph",
+          "amount": 3
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_3",
@@ -2233,23 +1970,18 @@
       "id": 52,
       "icon": "lycanitesmobs:scorchfireballcharge",
       "title": "Firebolt!",
-      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside! Hunt down and kill afrit.",
       "dependencies": [
         36
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:afrit",
-              "amount": 5
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lycanitesmobs:afrit",
+          "amount": 5
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
@@ -2273,23 +2005,18 @@
       "id": 53,
       "icon": "lycanitesmobs:raw_pinky_meat",
       "title": "And The Brain",
-      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside! Hunt down and kill pinky.",
       "dependencies": [
         36
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:pinky",
-              "amount": 5
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lycanitesmobs:pinky",
+          "amount": 5
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_3",
@@ -2313,23 +2040,18 @@
       "id": 54,
       "icon": "lycanitesmobs:embercharge",
       "title": "Finding The Source",
-      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside!",
+      "text": "Interrogate the hellish minions by force to find out where the Demons Lords Reside! Hunt down and kill behemoth.",
       "dependencies": [
         36
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:behemoth",
-              "amount": 3
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lycanitesmobs:behemoth",
+          "amount": 3
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/medium_currency_lootbox_3",
@@ -2363,23 +2085,19 @@
         53,
         54
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:asmodeus",
-              "amount": 1
-            },
-            {
-              "entity": "lycanitesmobs:rahovart",
-              "amount": 1
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+            "entity": "lycanitesmobs:asmodeus",
+            "amount": 1
+          },
+          {
+            "entity": "lycanitesmobs:rahovart",
+            "amount": 1
+          }
+        ]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/medium_gear_lootbox_4",
@@ -2407,19 +2125,14 @@
       "dependencies": [
         37
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "minecraft:enderman",
-              "amount": 10
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "minecraft:enderman",
+          "amount": 10
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/medium_currency_lootbox_3",
@@ -2447,19 +2160,14 @@
       "dependencies": [
         56
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:trite",
-              "amount": 30
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lycanitesmobs:trite",
+          "amount": 30
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/medium_currency_lootbox_3",
@@ -2483,23 +2191,18 @@
       "id": 58,
       "icon": "lycanitesmobs:geistliver",
       "title": "What Are These Anyway?",
-      "text": "These morbid undead beings feed on dead energy. Due to the unstable energy they possess, they explode upon death. Be careful!",
+      "text": "These morbid undead beings feed on dead energy. Due to the unstable energy they possess, they explode upon death. Be careful! Hunt down and kill geist.",
       "dependencies": [
         57
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:geist",
-              "amount": 15
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lycanitesmobs:geist",
+          "amount": 15
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/medium_gear_lootbox_3",
@@ -2523,23 +2226,18 @@
       "id": 59,
       "icon": "lycanitesmobs:cooked_pinky_meat",
       "title": "And The Brain II",
-      "text": "Kill these creatures in The End to prevent some from leaving the void and into the Overworld.",
+      "text": "Kill these creatures in The End to prevent some from leaving the void and into the Overworld. Hunt down and kill pinky.",
       "dependencies": [
         57
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:pinky",
-              "amount": 5
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lycanitesmobs:pinky",
+          "amount": 5
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/medium_currency_lootbox_3",
@@ -2563,23 +2261,18 @@
       "id": 60,
       "icon": "lycanitesmobs:demonicblastcharge",
       "title": "Firing That Lazer",
-      "text": "Kill these creatures in The End to prevent some from leaving the void and into the Overworld.",
+      "text": "Kill these creatures in The End to prevent some from leaving the void and into the Overworld. Hunt down and kill astaroth.",
       "dependencies": [
         57
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:astaroth",
-              "amount": 3
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lycanitesmobs:astaroth",
+          "amount": 3
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/medium_currency_lootbox_4",
@@ -2607,20 +2300,15 @@
       "dependencies": [
         40
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "goodnightsleep:luxurious_bed_item",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "goodnightsleep:luxurious_bed_item",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_3",
@@ -2656,30 +2344,26 @@
       "dependencies": [
         61
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "goodnightsleep:dream_plank",
-              "amount": 64,
-              "nbt": "{}"
-            },
-            {
-              "item": "goodnightsleep:white_plank",
-              "amount": 64,
-              "nbt": "{}"
-            },
-            {
-              "item": "goodnightsleep:dream_dirt",
-              "amount": 32,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+            "item": "goodnightsleep:dream_plank",
+            "amount": 64,
+            "nbt": "{}"
+          },
+          {
+            "item": "goodnightsleep:white_plank",
+            "amount": 64,
+            "nbt": "{}"
+          },
+          {
+            "item": "goodnightsleep:dream_dirt",
+            "amount": 32,
+            "nbt": "{}"
+          }
+        ]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_3",
@@ -2715,19 +2399,14 @@
       "dependencies": [
         62
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "goodnightsleep:unicorn",
-              "amount": 10
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "goodnightsleep:unicorn",
+          "amount": 10
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/big_gear_lootbox_3",
@@ -2763,20 +2442,15 @@
       "dependencies": [
         62
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "goodnightsleep:candy",
-              "amount": 32,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+          "item": "goodnightsleep:candy",
+          "amount": 32,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_3",
@@ -2812,20 +2486,15 @@
       "dependencies": [
         64
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "goodnightsleep:rainbow_ingot",
-              "amount": 32,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+          "item": "goodnightsleep:rainbow_ingot",
+          "amount": 32,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_3",
@@ -2861,20 +2530,15 @@
       "dependencies": [
         65
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "goodnightsleep:positite_gem",
-              "amount": 16,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+          "item": "goodnightsleep:positite_gem",
+          "amount": 16,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/big_gear_lootbox_3",
@@ -2910,20 +2574,15 @@
       "dependencies": [
         61
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "goodnightsleep:lolipop",
-              "amount": 32,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "goodnightsleep:lolipop",
+          "amount": 32,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_3",
@@ -2959,20 +2618,15 @@
       "dependencies": [
         67
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "goodnightsleep:rainbow_seeds",
-              "amount": 32,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "goodnightsleep:rainbow_seeds",
+          "amount": 32,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_3",
@@ -3008,20 +2662,15 @@
       "dependencies": [
         68
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "goodnightsleep:rainbow_berries",
-              "amount": 64,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "goodnightsleep:rainbow_berries",
+          "amount": 64,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_3",
@@ -3057,20 +2706,15 @@
       "dependencies": [
         41
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "goodnightsleep:wretched_bed_item",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "goodnightsleep:wretched_bed_item",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_3",
@@ -3106,25 +2750,21 @@
       "dependencies": [
         70
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "goodnightsleep:blood_plank",
-              "amount": 32,
-              "nbt": "{}"
-            },
-            {
-              "item": "goodnightsleep:dead_plank",
-              "amount": 32,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+            "item": "goodnightsleep:blood_plank",
+            "amount": 32,
+            "nbt": "{}"
+          },
+          {
+            "item": "goodnightsleep:dead_plank",
+            "amount": 32,
+            "nbt": "{}"
+          }
+        ]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_3",
@@ -3160,20 +2800,15 @@
       "dependencies": [
         71
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "goodnightsleep:necrum",
-              "amount": 32,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+          "item": "goodnightsleep:necrum",
+          "amount": 32,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_3",
@@ -3209,20 +2844,15 @@
       "dependencies": [
         72
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "goodnightsleep:zitrite_ingot",
-              "amount": 32,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+          "item": "goodnightsleep:zitrite_ingot",
+          "amount": 32,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_3",
@@ -3258,20 +2888,15 @@
       "dependencies": [
         73
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "goodnightsleep:negatite_gem",
-              "amount": 16,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+          "item": "goodnightsleep:negatite_gem",
+          "amount": 16,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_4",
@@ -3307,19 +2932,14 @@
       "dependencies": [
         71
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lava_monster:lava_monster",
-              "amount": 10
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lava_monster:lava_monster",
+          "amount": 10
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/medium_currency_lootbox_3",
@@ -3347,19 +2967,14 @@
       "dependencies": [
         75
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:spectre",
-              "amount": 3
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lycanitesmobs:spectre",
+          "amount": 3
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/big_currency_lootbox_3",
@@ -3389,19 +3004,14 @@
         74,
         76
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:reaper",
-              "amount": 10
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lycanitesmobs:reaper",
+          "amount": 10
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "midnight:malignant_red_plant_block",
@@ -3429,26 +3039,20 @@
       "dependencies": [
         77
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "midnight:dirt",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "midnight:dirt",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 225000"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 225000"
-          }
-        }
-      ],
+      }],
       "position": [
         0,
         0
@@ -3462,20 +3066,15 @@
       "dependencies": [
         6
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "mmorpg:capacitor2",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "mmorpg:capacitor2",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore2",
@@ -3511,20 +3110,15 @@
       "dependencies": [
         9
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "mmorpg:master_bag",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "mmorpg:master_bag",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/big_currency_lootbox_4",
@@ -3552,23 +3146,19 @@
       "dependencies": [
         36
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "rotten_creatures:spear_eskimo",
-              "amount": 5
-            },
-            {
-              "entity": "rotten_creatures:ancient_mummy",
-              "amount": 5
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+            "entity": "rotten_creatures:spear_eskimo",
+            "amount": 5
+          },
+          {
+            "entity": "rotten_creatures:ancient_mummy",
+            "amount": 5
+          }
+        ]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/big_currency_lootbox_3",
@@ -3596,19 +3186,14 @@
       "dependencies": [
         36
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "pandoras_creatures:arachnon",
-              "amount": 8
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "pandoras_creatures:arachnon",
+          "amount": 8
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/big_currency_lootbox_3",
@@ -3636,19 +3221,14 @@
       "dependencies": [
         36
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "betteranimalsplus:hirschgeist",
-              "amount": 1
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "betteranimalsplus:hirschgeist",
+          "amount": 1
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/big_currency_lootbox_3",
@@ -3676,23 +3256,19 @@
       "dependencies": [
         36
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "rotten_creatures:inmortal",
-              "amount": 1
-            },
-            {
-              "entity": "rotten_creatures:dead_beard",
-              "amount": 1
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+            "entity": "rotten_creatures:inmortal",
+            "amount": 1
+          },
+          {
+            "entity": "rotten_creatures:dead_beard",
+            "amount": 1
+          }
+        ]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/big_currency_lootbox_3",
@@ -3720,19 +3296,14 @@
       "dependencies": [
         36
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "endreborn:endguard",
-              "amount": 5
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "endreborn:endguard",
+          "amount": 5
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/big_currency_lootbox_3",
@@ -3760,19 +3331,14 @@
       "dependencies": [
         36
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "pandoras_creatures:end_troll",
-              "amount": 5
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "pandoras_creatures:end_troll",
+          "amount": 5
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/big_currency_lootbox_3",
@@ -3800,20 +3366,15 @@
       "dependencies": [
         0
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "sereneseasons:calendar",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "sereneseasons:calendar",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "simplefarming:sweet_potato_seeds",
@@ -3857,20 +3418,15 @@
       "dependencies": [
         87
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecraft:milk_bucket",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "minecraft:milk_bucket",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:glass_bottle",
@@ -3906,20 +3462,15 @@
       "dependencies": [
         88
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "simplefarming:cheese_block",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "simplefarming:cheese_block",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "simplefarming:cheeseburger",
@@ -3955,20 +3506,15 @@
       "dependencies": [
         89
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "cookingforblockheads:recipe_book",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "cookingforblockheads:recipe_book",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "cookingforblockheads:fruit_basket",
@@ -4004,20 +3550,15 @@
       "dependencies": [
         90
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "cookingforblockheads:cabinet",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "cookingforblockheads:cabinet",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "simplefarming:honeydew_seeds",
@@ -4053,20 +3594,15 @@
       "dependencies": [
         91
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "cookingforblockheads:oven",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "cookingforblockheads:oven",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:iron_block",
@@ -4102,20 +3638,15 @@
       "dependencies": [
         90
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "cookingforblockheads:no_filter_edition",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "cookingforblockheads:no_filter_edition",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "simplefarming:cheese_block",
@@ -4151,20 +3682,15 @@
       "dependencies": [
         92
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "cookingforblockheads:cooking_table",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "cookingforblockheads:cooking_table",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "cookingforblockheads:spice_rack",
@@ -4198,20 +3724,15 @@
       "title": "I Can\u0027t Carry Anymore",
       "text": "Sometimes you just want the good old fashioned travel storage solution.",
       "dependencies": [],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "usefulbackpacks:backpack_small",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "usefulbackpacks:backpack_small",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:diamond",
@@ -4240,20 +3761,15 @@
         112,
         134
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "immersiveengineering:manual",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "immersiveengineering:manual",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
@@ -4281,19 +3797,14 @@
       "dependencies": [
         78
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "midnight:rifter",
-              "amount": 20
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "midnight:rifter",
+          "amount": 20
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/big_currency_lootbox_3",
@@ -4321,19 +3832,14 @@
       "dependencies": [
         78
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "midnight:nova",
-              "amount": 20
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "midnight:nova",
+          "amount": 20
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/big_currency_lootbox_3",
@@ -4361,19 +3867,14 @@
       "dependencies": [
         78
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "midnight:stinger",
-              "amount": 20
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "midnight:stinger",
+          "amount": 20
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/big_currency_lootbox_3",
@@ -4401,19 +3902,14 @@
       "dependencies": [
         78
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "midnight:skulk",
-              "amount": 20
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "midnight:skulk",
+          "amount": 20
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/big_currency_lootbox_3",
@@ -4441,20 +3937,15 @@
       "dependencies": [
         78
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "midnight:dark_stick",
-              "amount": 64,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+          "item": "midnight:dark_stick",
+          "amount": 64,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_4",
@@ -4482,20 +3973,15 @@
       "dependencies": [
         101
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "midnight:nightstone",
-              "amount": 64,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+          "item": "midnight:nightstone",
+          "amount": 64,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_4",
@@ -4523,20 +4009,15 @@
       "dependencies": [
         102
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "midnight:rockshroom_clump",
-              "amount": 64,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+          "item": "midnight:rockshroom_clump",
+          "amount": 64,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_4",
@@ -4564,20 +4045,15 @@
       "dependencies": [
         103
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "midnight:ebonite",
-              "amount": 48,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+          "item": "midnight:ebonite",
+          "amount": 48,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_4",
@@ -4605,20 +4081,15 @@
       "dependencies": [
         104
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "midnight:nagrilite_ingot",
-              "amount": 32,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+          "item": "midnight:nagrilite_ingot",
+          "amount": 32,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_4",
@@ -4646,20 +4117,15 @@
       "dependencies": [
         105
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DELIVER",
-          "sub_requirements": [
-            {
-              "item": "midnight:tenebrum_ingot",
-              "amount": 32,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DELIVER",
+        "sub_requirements": [{
+          "item": "midnight:tenebrum_ingot",
+          "amount": 32,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_4",
@@ -4687,20 +4153,15 @@
       "dependencies": [
         36
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "mmorpg:map_device",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "mmorpg:map_device",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "COMMAND",
           "content": {
             "command": "slash give map @p 30 random 0 0 3"
@@ -4726,20 +4187,15 @@
       "dependencies": [
         96
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "immersiveengineering:seed",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "immersiveengineering:seed",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "immersiveengineering:plate_steel",
@@ -4767,35 +4223,31 @@
       "dependencies": [
         6
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecraft:iron_helmet",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            },
-            {
-              "item": "minecraft:iron_chestplate",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            },
-            {
-              "item": "minecraft:iron_leggings",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            },
-            {
-              "item": "minecraft:iron_boots",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+            "item": "minecraft:iron_helmet",
+            "amount": 1,
+            "nbt": "{Damage:0}"
+          },
+          {
+            "item": "minecraft:iron_chestplate",
+            "amount": 1,
+            "nbt": "{Damage:0}"
+          },
+          {
+            "item": "minecraft:iron_leggings",
+            "amount": 1,
+            "nbt": "{Damage:0}"
+          },
+          {
+            "item": "minecraft:iron_boots",
+            "amount": 1,
+            "nbt": "{Damage:0}"
+          }
+        ]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:iron_sword",
@@ -4831,20 +4283,15 @@
       "dependencies": [
         95
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecraft:shield",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "minecraft:shield",
+          "amount": 1,
+          "nbt": "{Damage:0}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore1",
@@ -4872,20 +4319,15 @@
       "dependencies": [
         13
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "the_bumblezone:honey_crystal_shield",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "the_bumblezone:honey_crystal_shield",
+          "amount": 1,
+          "nbt": "{Damage:0}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore1",
@@ -4913,20 +4355,15 @@
       "dependencies": [
         35
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "mining_dimension:teleporter",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "mining_dimension:teleporter",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:iron_pickaxe",
@@ -4954,28 +4391,22 @@
       "dependencies": [
         20
       ],
-      "requirements": [
-        {
-          "type": "TRAVEL_TO",
-          "sub_requirements": [
-            {
-              "dim": "mmorpg:resettable_dungeon",
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "radius": 5000
-            }
-          ]
+      "requirements": [{
+        "type": "TRAVEL_TO",
+        "sub_requirements": [{
+          "dim": "mmorpg:resettable_dungeon",
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "radius": 5000
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 250000"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 250000"
-          }
-        }
-      ],
+      }],
       "position": [
         250,
         250
@@ -4989,20 +4420,15 @@
       "dependencies": [
         95
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "storagedrawers:oak_full_drawers_1",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "storagedrawers:oak_full_drawers_1",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "storagedrawers:oak_half_drawers_1",
@@ -5030,20 +4456,15 @@
       "dependencies": [
         44
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "globalxp:xp_block",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "globalxp:xp_block",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:experience_bottle",
@@ -5071,20 +4492,15 @@
       "dependencies": [
         115
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "comforts:sleeping_bag_white",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "comforts:sleeping_bag_white",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore2",
@@ -5112,20 +4528,15 @@
       "dependencies": [
         89
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "solcarrot:food_book",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "solcarrot:food_book",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "simplefarming:banana_bread",
@@ -5153,20 +4564,15 @@
       "dependencies": [
         92
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "pamhc2foodcore:cuttingboarditem",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "pamhc2foodcore:cuttingboarditem",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:bowl",
@@ -5194,20 +4600,15 @@
       "dependencies": [
         118
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "pamhc2foodcore:grilledcheeseitem",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "pamhc2foodcore:grilledcheeseitem",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:brick",
@@ -5235,20 +4636,15 @@
       "dependencies": [
         0
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "create:andesite_alloy",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "create:andesite_alloy",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "create:zinc_nugget",
@@ -5276,20 +4672,15 @@
       "dependencies": [
         120
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "create:shaft",
-              "amount": 4,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "create:shaft",
+          "amount": 4,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "create:shaft",
@@ -5317,20 +4708,15 @@
       "dependencies": [
         121
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "create:cogwheel",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "create:cogwheel",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "create:large_cogwheel",
@@ -5358,20 +4744,15 @@
       "dependencies": [
         122
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "create:mechanical_press",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "create:mechanical_press",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "create:andesite_casing",
@@ -5399,20 +4780,15 @@
       "dependencies": [
         123
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "create:belt_connector",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "create:belt_connector",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "create:belt_connector",
@@ -5440,20 +4816,15 @@
       "dependencies": [
         124
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "create:extractor",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "create:extractor",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:chest",
@@ -5481,20 +4852,15 @@
       "dependencies": [
         125
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "create:funnel",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "create:funnel",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:chest",
@@ -5522,20 +4888,15 @@
       "dependencies": [
         123
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "create:water_wheel",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "create:water_wheel",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:oak_planks",
@@ -5563,26 +4924,20 @@
       "dependencies": [
         127
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "create:goggles",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "create:goggles",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 500"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 500"
-          }
-        }
-      ],
+      }],
       "position": [
         200,
         50
@@ -5596,26 +4951,20 @@
       "dependencies": [
         128
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "create:speedometer",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "create:speedometer",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 1000"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 1000"
-          }
-        }
-      ],
+      }],
       "position": [
         250,
         50
@@ -5629,26 +4978,20 @@
       "dependencies": [
         129
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "create:stressometer",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "create:stressometer",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 1000"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 1000"
-          }
-        }
-      ],
+      }],
       "position": [
         300,
         50
@@ -5662,20 +5005,15 @@
       "dependencies": [
         127
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "create:iron_sheet",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "create:iron_sheet",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:iron_ingot",
@@ -5703,20 +5041,15 @@
       "dependencies": [
         131
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "create:wrench",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "create:wrench",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:gold_ingot",
@@ -5744,26 +5077,20 @@
       "dependencies": [
         132
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "create:electron_tube",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "create:electron_tube",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 500"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 500"
-          }
-        }
-      ],
+      }],
       "position": [
         350,
         0
@@ -5777,20 +5104,15 @@
       "dependencies": [
         133
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "create:mechanical_mixer",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "create:mechanical_mixer",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "create:brass_ingot",
@@ -5818,20 +5140,15 @@
       "dependencies": [
         108
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "immersiveengineering:blastbrick",
-              "amount": 4,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "immersiveengineering:blastbrick",
+          "amount": 4,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:iron_block",
@@ -5859,20 +5176,15 @@
       "dependencies": [
         135
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "immersiveengineering:cokebrick",
-              "amount": 4,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "immersiveengineering:cokebrick",
+          "amount": 4,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:coal",
@@ -5900,26 +5212,20 @@
       "dependencies": [
         136
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "immersiveengineering:wirecutter",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "immersiveengineering:wirecutter",
+          "amount": 1,
+          "nbt": "{Damage:0}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 1000"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 1000"
-          }
-        }
-      ],
+      }],
       "position": [
         200,
         150
@@ -5933,26 +5239,20 @@
       "dependencies": [
         137
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "immersiveengineering:wirecoil_copper",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "immersiveengineering:wirecoil_copper",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 1000"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 1000"
-          }
-        }
-      ],
+      }],
       "position": [
         200,
         200
@@ -5966,26 +5266,20 @@
       "dependencies": [
         138
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "immersiveengineering:connector_lv",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "immersiveengineering:connector_lv",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 1000"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 1000"
-          }
-        }
-      ],
+      }],
       "position": [
         150,
         200
@@ -5999,20 +5293,15 @@
       "dependencies": [
         139
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "immersiveengineering:capacitor_lv",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "immersiveengineering:capacitor_lv",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "create:cogwheel",
@@ -6040,20 +5329,15 @@
       "dependencies": [
         140
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "createintegration:dynamo",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "createintegration:dynamo",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "create:electron_tube",
@@ -6081,20 +5365,15 @@
       "dependencies": [
         141
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "immersiveengineering:dynamo",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "immersiveengineering:dynamo",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:redstone_block",
@@ -6122,20 +5401,15 @@
       "dependencies": [
         142
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "immersiveengineering:watermill",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "immersiveengineering:watermill",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:water_bucket",
@@ -6163,20 +5437,15 @@
       "dependencies": [
         141
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "immersiveengineering:furnace_heater",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "immersiveengineering:furnace_heater",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:furnace",
@@ -6204,20 +5473,15 @@
       "dependencies": [
         39
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "atum:sand",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "atum:sand",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:torch",
@@ -6245,19 +5509,14 @@
       "dependencies": [
         145
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "atum:mummy",
-              "amount": 10
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "atum:mummy",
+          "amount": 10
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "atum:cloth_scrap",
@@ -6285,19 +5544,14 @@
       "dependencies": [
         146
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "betteranimalsplus:tarantula",
-              "amount": 20
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "betteranimalsplus:tarantula",
+          "amount": 20
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "atum:flax_seeds",
@@ -6325,19 +5579,14 @@
       "dependencies": [
         146
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "atum:nomad",
-              "amount": 8
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "atum:nomad",
+          "amount": 8
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "atum:short_bow",
@@ -6365,27 +5614,23 @@
       "dependencies": [
         148
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "atum:barbarian",
-              "amount": 3
-            },
-            {
-              "entity": "atum:brigand",
-              "amount": 3
-            },
-            {
-              "entity": "atum:sergeant",
-              "amount": 1
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+            "entity": "atum:barbarian",
+            "amount": 3
+          },
+          {
+            "entity": "atum:brigand",
+            "amount": 3
+          },
+          {
+            "entity": "atum:sergeant",
+            "amount": 1
+          }
+        ]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "atum:dagger_poison",
@@ -6413,19 +5658,14 @@
       "dependencies": [
         145
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "atum:stoneguard",
-              "amount": 2
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "atum:stoneguard",
+          "amount": 2
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "atum:khnumite",
@@ -6453,19 +5693,14 @@
       "dependencies": [
         147
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "atum:wraith",
-              "amount": 4
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "atum:wraith",
+          "amount": 4
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "atum:fish_forsaken",
@@ -6494,19 +5729,14 @@
         149,
         151
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "atum:sergeant",
-              "amount": 3
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "atum:sergeant",
+          "amount": 3
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "atum:pharaoh_torch",
@@ -6534,19 +5764,14 @@
       "dependencies": [
         152
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "atum:pharaoh",
-              "amount": 1
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "atum:pharaoh",
+          "amount": 1
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "atum:radiant_beacon",
@@ -6574,26 +5799,20 @@
       "dependencies": [
         145
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "atum:sand",
-              "amount": 16,
-              "nbt": "{}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "atum:sand",
+          "amount": 16,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 65000"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 65000"
-          }
-        }
-      ],
+      }],
       "position": [
         200,
         50
@@ -6607,20 +5826,15 @@
       "dependencies": [
         154
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "atum:limestone",
-              "amount": 16,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "atum:limestone",
+          "amount": 16,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:iron_pickaxe",
@@ -6648,25 +5862,21 @@
       "dependencies": [
         155
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "atum:kiln",
-              "amount": 1,
-              "nbt": "{}"
-            },
-            {
-              "item": "atum:spinning_wheel",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+            "item": "atum:kiln",
+            "amount": 1,
+            "nbt": "{}"
+          },
+          {
+            "item": "atum:spinning_wheel",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        ]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "atum:papyrus_plant",
@@ -6694,20 +5904,15 @@
       "dependencies": [
         154
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "atum:palm_log",
-              "amount": 4,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "atum:palm_log",
+          "amount": 4,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "atum:palm_sapling",
@@ -6735,20 +5940,15 @@
       "dependencies": [
         157
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "atum:linen_cloth",
-              "amount": 2,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "atum:linen_cloth",
+          "amount": 2,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "atum:flax_seeds",
@@ -6776,20 +5976,15 @@
       "dependencies": [
         158
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "atum:desert_chest_diamond",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "atum:desert_chest_diamond",
+          "amount": 1,
+          "nbt": "{Damage:0}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:diamond",
@@ -6817,20 +6012,15 @@
       "dependencies": [
         158
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "atum:disenchanting_scroll",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "atum:disenchanting_scroll",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "atum:disenchanting_scroll",
@@ -6858,26 +6048,20 @@
       "dependencies": [
         153
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "goodnightsleep:strange_bed_item",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "goodnightsleep:strange_bed_item",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 75000"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 75000"
-          }
-        }
-      ],
+      }],
       "position": [
         200,
         200
@@ -6891,26 +6075,20 @@
       "dependencies": [
         116
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "speedyladders:stone_ladder",
-              "amount": 8,
-              "nbt": "{}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "speedyladders:stone_ladder",
+          "amount": 8,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 4000"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 4000"
-          }
-        }
-      ],
+      }],
       "position": [
         250,
         200
@@ -6924,19 +6102,14 @@
       "dependencies": [
         36
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:amalgalich",
-              "amount": 1
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lycanitesmobs:amalgalich",
+          "amount": 1
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/big_currency_lootbox_3",
@@ -6964,26 +6137,20 @@
       "dependencies": [
         5
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "lycanitesmobs:sturdysummoningstaff",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "lycanitesmobs:sturdysummoningstaff",
+          "amount": 1,
+          "nbt": "{Damage:0}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 1500"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 1500"
-          }
-        }
-      ],
+      }],
       "position": [
         200,
         0
@@ -6997,26 +6164,20 @@
       "dependencies": [
         164
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "lycanitesmobs:savagesummoningstaff",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "lycanitesmobs:savagesummoningstaff",
+          "amount": 1,
+          "nbt": "{Damage:0}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 1500"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 1500"
-          }
-        }
-      ],
+      }],
       "position": [
         90,
         75
@@ -7030,26 +6191,20 @@
       "dependencies": [
         164
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "lycanitesmobs:stablesummoningstaff",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "lycanitesmobs:stablesummoningstaff",
+          "amount": 1,
+          "nbt": "{Damage:0}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 1500"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 1500"
-          }
-        }
-      ],
+      }],
       "position": [
         60,
         75
@@ -7063,25 +6218,19 @@
       "dependencies": [
         164
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:djinn",
-              "amount": 3
-            }
-          ]
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lycanitesmobs:djinn",
+          "amount": 3
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 1500"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 1500"
-          }
-        }
-      ],
+      }],
       "position": [
         50,
         25
@@ -7095,25 +6244,19 @@
       "dependencies": [
         164
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:geonach",
-              "amount": 3
-            }
-          ]
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lycanitesmobs:geonach",
+          "amount": 3
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 1500"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 1500"
-          }
-        }
-      ],
+      }],
       "position": [
         100,
         125
@@ -7127,25 +6270,19 @@
       "dependencies": [
         164
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:jengu",
-              "amount": 3
-            }
-          ]
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lycanitesmobs:jengu",
+          "amount": 3
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 1500"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 1500"
-          }
-        }
-      ],
+      }],
       "position": [
         50,
         125
@@ -7159,25 +6296,19 @@
       "dependencies": [
         164
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:cinder",
-              "amount": 3
-            }
-          ]
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lycanitesmobs:cinder",
+          "amount": 3
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 1500"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 1500"
-          }
-        }
-      ],
+      }],
       "position": [
         100,
         25
@@ -7191,25 +6322,19 @@
       "dependencies": [
         164
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:aegis",
-              "amount": 3
-            }
-          ]
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lycanitesmobs:aegis",
+          "amount": 3
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 1500"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 1500"
-          }
-        }
-      ],
+      }],
       "position": [
         25,
         75
@@ -7223,25 +6348,19 @@
       "dependencies": [
         164
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "lycanitesmobs:argus",
-              "amount": 3
-            }
-          ]
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "lycanitesmobs:argus",
+          "amount": 3
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 1500"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 1500"
-          }
-        }
-      ],
+      }],
       "position": [
         125,
         75
@@ -7255,20 +6374,15 @@
       "dependencies": [
         95
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "dwmh:ocarina",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "dwmh:ocarina",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:saddle",
@@ -7302,20 +6416,15 @@
       "dependencies": [
         173
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "pandoras_creatures:herb_bundle",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "pandoras_creatures:herb_bundle",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "pandoras_creatures:bufflon_saddle",
@@ -7343,30 +6452,26 @@
       "dependencies": [
         91
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "embellishcraft:white_oak_fancy_bed",
-              "amount": 1,
-              "nbt": "{}"
-            },
-            {
-              "item": "mcwfurnitures:nightstand",
-              "amount": 1,
-              "nbt": "{}"
-            },
-            {
-              "item": "cfm:white_sofa",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+            "item": "embellishcraft:white_oak_fancy_bed",
+            "amount": 1,
+            "nbt": "{}"
+          },
+          {
+            "item": "mcwfurnitures:nightstand",
+            "amount": 1,
+            "nbt": "{}"
+          },
+          {
+            "item": "cfm:white_sofa",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        ]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mapperbase:raw_bitumen",
@@ -7394,20 +6499,15 @@
       "dependencies": [
         17
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecolonies:blockhuttownhall",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "minecolonies:blockhuttownhall",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:cooked_porkchop",
@@ -7435,20 +6535,15 @@
       "dependencies": [
         19
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecolonies:blockhutlumberjack",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "minecolonies:blockhutlumberjack",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:iron_axe",
@@ -7476,20 +6571,15 @@
       "dependencies": [
         177
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecolonies:blockhutminer",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "minecolonies:blockhutminer",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:iron_pickaxe",
@@ -7517,20 +6607,15 @@
       "dependencies": [
         19
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecolonies:blockhutguardtower",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "minecolonies:blockhutguardtower",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:iron_sword",
@@ -7558,20 +6643,15 @@
       "dependencies": [
         178
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecolonies:blockhutfisherman",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "minecolonies:blockhutfisherman",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "aquaculture:worm",
@@ -7599,20 +6679,15 @@
       "dependencies": [
         178
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecolonies:blockhutuniversity",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "minecolonies:blockhutuniversity",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:book",
@@ -7640,20 +6715,15 @@
       "dependencies": [
         178
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecolonies:blockhutcitizen",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "minecolonies:blockhutcitizen",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:oak_log",
@@ -7681,20 +6751,15 @@
       "dependencies": [
         182
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecolonies:blockhuttavern",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "minecolonies:blockhuttavern",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
@@ -7722,20 +6787,15 @@
       "dependencies": [
         14
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "beesourceful:centrifuge",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "beesourceful:centrifuge",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:diamond",
@@ -7763,20 +6823,15 @@
       "dependencies": [
         184
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "beesourceful:ender_honeycomb",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "beesourceful:ender_honeycomb",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:ender_pearl",
@@ -7804,20 +6859,15 @@
       "dependencies": [
         184
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "beesourceful:beeswax",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "beesourceful:beeswax",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore3",
@@ -7845,30 +6895,26 @@
       "dependencies": [
         112
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "immersiveengineering:ore_lead",
-              "amount": 1,
-              "nbt": "{}"
-            },
-            {
-              "item": "immersiveengineering:ore_nickel",
-              "amount": 1,
-              "nbt": "{}"
-            },
-            {
-              "item": "immersiveengineering:ore_aluminum",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+            "item": "immersiveengineering:ore_lead",
+            "amount": 1,
+            "nbt": "{}"
+          },
+          {
+            "item": "immersiveengineering:ore_nickel",
+            "amount": 1,
+            "nbt": "{}"
+          },
+          {
+            "item": "immersiveengineering:ore_aluminum",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        ]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore3",
@@ -7896,20 +6942,15 @@
       "dependencies": [
         107
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "mmorpg:teleport_scroll",
-              "amount": 4,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "mmorpg:teleport_scroll",
+          "amount": 4,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:teleport_scroll",
@@ -7937,20 +6978,15 @@
       "dependencies": [
         2
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "mmorpg:identify_tome",
-              "amount": 10,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "mmorpg:identify_tome",
+          "amount": 10,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore1",
@@ -7978,19 +7014,14 @@
       "dependencies": [
         149
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "atum:forsaken",
-              "amount": 15
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "atum:forsaken",
+          "amount": 15
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore4",
@@ -8022,20 +7053,15 @@
         100,
         105
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "tofucraft:tofugrilled",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "tofucraft:tofugrilled",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_3",
@@ -8063,26 +7089,20 @@
       "dependencies": [
         212
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "tofucraft:tofustick",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "tofucraft:tofustick",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 300000"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 300000"
-          }
-        }
-      ],
+      }],
       "position": [
         250,
         100
@@ -8096,26 +7116,20 @@
       "dependencies": [
         192
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "tofucraft:tofukinu",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "tofucraft:tofukinu",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 375000"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 375000"
-          }
-        }
-      ],
+      }],
       "position": [
         0,
         0
@@ -8129,20 +7143,15 @@
       "dependencies": [
         193
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "tofucraft:tofumomen",
-              "amount": 32,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "tofucraft:tofumomen",
+          "amount": 32,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
@@ -8170,25 +7179,21 @@
       "dependencies": [
         194
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "tofucraft:tofuzunda",
-              "amount": 16,
-              "nbt": "{}"
-            },
-            {
-              "item": "tofucraft:tofuishi",
-              "amount": 16,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+            "item": "tofucraft:tofuzunda",
+            "amount": 16,
+            "nbt": "{}"
+          },
+          {
+            "item": "tofucraft:tofuishi",
+            "amount": 16,
+            "nbt": "{}"
+          }
+        ]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
@@ -8216,20 +7221,15 @@
       "dependencies": [
         195
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "tofucraft:tofudiamond",
-              "amount": 4,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "tofucraft:tofudiamond",
+          "amount": 4,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
@@ -8257,30 +7257,26 @@
       "dependencies": [
         196
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "tofucraft:toolsolidpickaxe",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            },
-            {
-              "item": "tofucraft:swordsolid",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            },
-            {
-              "item": "tofucraft:armorsolidchestplate",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+            "item": "tofucraft:toolsolidpickaxe",
+            "amount": 1,
+            "nbt": "{Damage:0}"
+          },
+          {
+            "item": "tofucraft:swordsolid",
+            "amount": 1,
+            "nbt": "{Damage:0}"
+          },
+          {
+            "item": "tofucraft:armorsolidchestplate",
+            "amount": 1,
+            "nbt": "{Damage:0}"
+          }
+        ]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "tofucraft:armorsolidhelmet",
@@ -8308,25 +7304,21 @@
       "dependencies": [
         197
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "tofucraft:tofuishi_shield",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            },
-            {
-              "item": "tofucraft:zundabow",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+            "item": "tofucraft:tofuishi_shield",
+            "amount": 1,
+            "nbt": "{Damage:0}"
+          },
+          {
+            "item": "tofucraft:zundabow",
+            "amount": 1,
+            "nbt": "{Damage:0}"
+          }
+        ]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_3",
@@ -8354,35 +7346,31 @@
       "dependencies": [
         196
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "tofucraft:armordiamondhelmet",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            },
-            {
-              "item": "tofucraft:armordiamondchestplate",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            },
-            {
-              "item": "tofucraft:armordiamondleggins",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            },
-            {
-              "item": "tofucraft:armordiamondboots",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+            "item": "tofucraft:armordiamondhelmet",
+            "amount": 1,
+            "nbt": "{Damage:0}"
+          },
+          {
+            "item": "tofucraft:armordiamondchestplate",
+            "amount": 1,
+            "nbt": "{Damage:0}"
+          },
+          {
+            "item": "tofucraft:armordiamondleggins",
+            "amount": 1,
+            "nbt": "{Damage:0}"
+          },
+          {
+            "item": "tofucraft:armordiamondboots",
+            "amount": 1,
+            "nbt": "{Damage:0}"
+          }
+        ]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
@@ -8410,19 +7398,14 @@
       "dependencies": [
         193
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "tofucraft:tofuslime",
-              "amount": 32
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "tofucraft:tofuslime",
+          "amount": 32
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore4",
@@ -8450,19 +7433,14 @@
       "dependencies": [
         200
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "tofucraft:tofucreeper",
-              "amount": 8
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "tofucraft:tofucreeper",
+          "amount": 8
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_gear_lootbox_3",
@@ -8490,25 +7468,19 @@
       "dependencies": [
         201
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "tofucraft:tofuspider",
-              "amount": 16
-            }
-          ]
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "tofucraft:tofuspider",
+          "amount": 16
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 400000"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 400000"
-          }
-        }
-      ],
+      }],
       "position": [
         150,
         0
@@ -8522,20 +7494,15 @@
       "dependencies": [
         200
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "tofucraft:tofuradar",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "tofucraft:tofuradar",
+          "amount": 1,
+          "nbt": "{Damage:0}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "tofucraft:tofumetal",
@@ -8563,19 +7530,14 @@
       "dependencies": [
         202
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "tofucraft:tofu_chinger",
-              "amount": 8
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "tofucraft:tofu_chinger",
+          "amount": 8
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "tofucraft:tofudiamond",
@@ -8603,19 +7565,14 @@
       "dependencies": [
         204
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "tofucraft:tofunian",
-              "amount": 8
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "tofucraft:tofunian",
+          "amount": 8
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/big_currency_lootbox_4",
@@ -8643,19 +7600,14 @@
       "dependencies": [
         204
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "tofucraft:tofugandlem",
-              "amount": 1
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "tofucraft:tofugandlem",
+          "amount": 1
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_4",
@@ -8683,20 +7635,15 @@
       "dependencies": [
         198
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "tofucraft:tofucookie",
-              "amount": 8,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "tofucraft:tofucookie",
+          "amount": 8,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "tofucraft:tofumomen",
@@ -8724,20 +7671,15 @@
       "dependencies": [
         207
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "tofucraft:zundamochi",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "tofucraft:zundamochi",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "tofucraft:rice",
@@ -8765,20 +7707,15 @@
       "dependencies": [
         208
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "tofucraft:soymilk",
-              "amount": 3,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "tofucraft:soymilk",
+          "amount": 3,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "tofucraft:tofuhamburg_raw",
@@ -8806,20 +7743,15 @@
       "dependencies": [
         209
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "tofucraft:morijio",
-              "amount": 3,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "tofucraft:morijio",
+          "amount": 3,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:ore4",
@@ -8847,26 +7779,20 @@
       "dependencies": [
         208
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "tofucraft:fukumame",
-              "amount": 1,
-              "nbt": "{Damage:0}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "tofucraft:fukumame",
+          "amount": 1,
+          "nbt": "{Damage:0}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 450000"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 450000"
-          }
-        }
-      ],
+      }],
       "position": [
         100,
         200
@@ -8880,26 +7806,20 @@
       "dependencies": [
         191
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "tofucraft:salt_furnace",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "tofucraft:salt_furnace",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 300000"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 300000"
-          }
-        }
-      ],
+      }],
       "position": [
         200,
         100
@@ -8913,20 +7833,15 @@
       "dependencies": [
         109
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "quiver:quiver",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "quiver:quiver",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:arrow",
@@ -8954,20 +7869,15 @@
       "dependencies": [
         87
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "farmingforblockheads:market",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "farmingforblockheads:market",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:bone_meal",
@@ -8995,30 +7905,26 @@
       "dependencies": [
         214
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "farmingforblockheads:green_fertilizer",
-              "amount": 1,
-              "nbt": "{}"
-            },
-            {
-              "item": "farmingforblockheads:yellow_fertilizer",
-              "amount": 1,
-              "nbt": "{}"
-            },
-            {
-              "item": "farmingforblockheads:red_fertilizer",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+            "item": "farmingforblockheads:green_fertilizer",
+            "amount": 1,
+            "nbt": "{}"
+          },
+          {
+            "item": "farmingforblockheads:yellow_fertilizer",
+            "amount": 1,
+            "nbt": "{}"
+          },
+          {
+            "item": "farmingforblockheads:red_fertilizer",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        ]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:wheat_seeds",
@@ -9046,20 +7952,15 @@
       "dependencies": [
         215
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "farmingforblockheads:feeding_trough",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "farmingforblockheads:feeding_trough",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:wheat",
@@ -9087,20 +7988,15 @@
       "dependencies": [
         216
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "farmingforblockheads:chicken_nest",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "farmingforblockheads:chicken_nest",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:lootbox/small_currency_lootbox_3",
@@ -9128,19 +8024,14 @@
       "dependencies": [
         1
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "minecraft:cave_spider",
-              "amount": 8
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "minecraft:cave_spider",
+          "amount": 8
+        }]
+      }],
+      "rewards": [{
           "type": "COMMAND",
           "content": {
             "command": "slash give gear @p plate_chest 5 2 1"
@@ -9178,19 +8069,14 @@
       "dependencies": [
         218
       ],
-      "requirements": [
-        {
-          "type": "KILL_MOB",
-          "sub_requirements": [
-            {
-              "entity": "minecraft:witch",
-              "amount": 3
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "KILL_MOB",
+        "sub_requirements": [{
+          "entity": "minecraft:witch",
+          "amount": 3
+        }]
+      }],
+      "rewards": [{
           "type": "COMMAND",
           "content": {
             "command": "slash give gear @p shield 7 2 1"
@@ -9221,29 +8107,23 @@
       "text": "Eventually, you'll need to get to the Nether if you want to progress in Craft to Exile. Craft flint and steel, and make a Nether portal out of obsidian to access the Nether!",
       "dependencies": [
         80,
-		110,
-		162
+        110,
+        162
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "minecraft:netherrack",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "minecraft:netherrack",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 10000"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 10000"
-          }
-        }
-      ],
+      }],
       "position": [
         250,
         150
@@ -9257,20 +8137,15 @@
       "dependencies": [
         2
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "mmorpg:alchemy/instant/misc/reset_stats",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "mmorpg:alchemy/instant/misc/reset_stats",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:alchemy/instant/misc/reset_spells",
@@ -9278,7 +8153,7 @@
             "nbt": "{}"
           }
         },
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:alchemy/instant/misc/reset_talents",
@@ -9306,20 +8181,15 @@
       "dependencies": [
         112
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "mining_helmet:mining_helmet",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "mining_helmet:mining_helmet",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:teleport_scroll",
@@ -9347,20 +8217,15 @@
       "dependencies": [
         0
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "telepass:gold_telepass",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "telepass:gold_telepass",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:ender_pearl",
@@ -9388,26 +8253,20 @@
       "dependencies": [
         0
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "toolbelt:belt",
-              "amount": 1,
-              "nbt": ""
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "toolbelt:belt",
+          "amount": 1,
+          "nbt": ""
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 500"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 500"
-          }
-        }
-      ],
+      }],
       "position": [
         0,
         250
@@ -9421,26 +8280,20 @@
       "dependencies": [
         224
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "toolbelt:pouch",
-              "amount": 1,
-              "nbt": ""
-            }
-          ]
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "toolbelt:pouch",
+          "amount": 1,
+          "nbt": ""
+        }]
+      }],
+      "rewards": [{
+        "type": "COMMAND",
+        "content": {
+          "command": "slash give exp @p 1000"
         }
-      ],
-      "rewards": [
-        {
-          "type": "COMMAND",
-          "content": {
-            "command": "slash give exp @p 1000"
-          }
-        }
-      ],
+      }],
       "position": [
         50,
         250
@@ -9454,20 +8307,15 @@
       "dependencies": [
         114
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "dankstorage:dank_1",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "dankstorage:dank_1",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "minecraft:leather",
@@ -9493,23 +8341,18 @@
       "title": "Dank Storage II",
       "text": "Upgrading your Dank Storage will increase the amount of items it can hold, and increase the stack limits for each item. In Craft to Exile, custom recipes are used to integrate Dank Storage with the technology mods and Mine and Slash. There are 2 ways to upgrade your storage. You can either break the block and upgrade it using the Dank 2 recipe, or you can craft a 1 to 2 upgrade module and apply it to you currently existing Dank chest.",
       "dependencies": [
-		123,
+        123,
         226
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "dankstorage:dank_2",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "dankstorage:dank_2",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "dankstorage:1_to_2",
@@ -9535,23 +8378,18 @@
       "title": "Dank Storage IV",
       "text": "Upgrading your Dank Storage will increase the amount of items it can hold, and increase the stack limits for each item. In Craft to Exile, custom recipes are used to integrate Dank Storage with the technology mods and Mine and Slash. There are 2 ways to upgrade your storage. You can either break the block and upgrade it using the Dank 2 recipe, or you can craft a 1 to 2 upgrade module and apply it to you currently existing Dank chest.",
       "dependencies": [
-		96,
+        96,
         226
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "dankstorage:dank_4",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "dankstorage:dank_4",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "dankstorage:3_to_4",
@@ -9577,22 +8415,17 @@
       "title": "Dank Storage VI",
       "text": "Upgrading your Dank Storage will increase the amount of items it can hold, and increase the stack limits for each item. In Craft to Exile, custom recipes are used to integrate Dank Storage with the technology mods and Mine and Slash. There are 2 ways to upgrade your storage. You can either break the block and upgrade it using the Dank 2 recipe, or you can craft a 1 to 2 upgrade module and apply it to you currently existing Dank chest.",
       "dependencies": [
-		228
+        228
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "dankstorage:dank_6",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "dankstorage:dank_6",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "dankstorage:5_to_6",
@@ -9620,20 +8453,15 @@
       "dependencies": [
         223
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "endermail:package",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "endermail:package",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "endermail:packing_tape",
@@ -9669,20 +8497,15 @@
       "dependencies": [
         230
       ],
-      "requirements": [
-        {
-          "type": "ITEM_DETECT",
-          "sub_requirements": [
-            {
-              "item": "endermail:locker",
-              "amount": 1,
-              "nbt": "{}"
-            }
-          ]
-        }
-      ],
-      "rewards": [
-        {
+      "requirements": [{
+        "type": "ITEM_DETECT",
+        "sub_requirements": [{
+          "item": "endermail:locker",
+          "amount": 1,
+          "nbt": "{}"
+        }]
+      }],
+      "rewards": [{
           "type": "ITEMS",
           "content": {
             "item": "endermail:package",
