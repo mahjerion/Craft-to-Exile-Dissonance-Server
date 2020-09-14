@@ -1769,6 +1769,14 @@
       ],
       "rewards": [
         {
+          "type": "ITEMS",
+          "content": {
+            "item": "goodnightsleep:positite_gem",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
+        {
           "type": "COMMAND",
           "content": {
             "command": "slash give exp @p 77500"
@@ -1801,6 +1809,14 @@
         }
       ],
       "rewards": [
+        {
+          "type": "ITEMS",
+          "content": {
+            "item": "goodnightsleep:negatite_gem",
+            "amount": 1,
+            "nbt": "{}"
+          }
+        },
         {
           "type": "COMMAND",
           "content": {
@@ -3264,7 +3280,7 @@
           "sub_requirements": [
             {
               "item": "goodnightsleep:negatite_gem",
-              "amount": 16,
+              "amount": 4,
               "nbt": "{}"
             }
           ]
