@@ -1,0 +1,12 @@
+{
+  "isFeedbackEnabled": true,
+  "tasks": [
+    {
+      "dimension": "minecraft:overworld",
+      "centerX": 798,
+      "centerZ": -189,
+      "radius": 125,
+      "chunkIndex": 32489
+    }
+  ]
+}

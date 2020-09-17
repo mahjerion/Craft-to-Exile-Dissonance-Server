@@ -1762,7 +1762,7 @@
             {
               "item": "goodnightsleep:dream_dirt",
               "amount": 1,
-              "nbt": ""
+              "nbt": "{}"
             }
           ]
         }
@@ -1803,7 +1803,7 @@
             {
               "item": "goodnightsleep:dead_log",
               "amount": 1,
-              "nbt": ""
+              "nbt": "{}"
             }
           ]
         }
@@ -3319,7 +3319,7 @@
       "id": 75,
       "icon": "lycanitesmobs:doomfireballcharge",
       "title": "Flame On!",
-      "text": "Lava monsters can be found in most dimensions that have lava. They're not very cool!",
+      "text": "Lava monsters can be found in most dimensions that have lava. They\u0027re not very cool!",
       "dependencies": [
         71
       ],
@@ -7267,7 +7267,7 @@
       "id": 173,
       "icon": "minecraft:saddle",
       "title": "Ocarina Of Time",
-      "text": "The Ocarina is a powerful lasso-like tool that can be crafted. By sneaking and right-clicking a friendly entity you can \u0027claim\u0027 the entity. Right-click again to bring the entity to you. This item can only bind one entity at a time. Be careful! Due to technical limitations, you must keep your mount near you. If it's left in a chunk that gets unloaded, it's possible to lose your mount!",
+      "text": "The Ocarina is a powerful lasso-like tool that can be crafted. By sneaking and right-clicking a friendly entity you can \u0027claim\u0027 the entity. Right-click again to bring the entity to you. This item can only bind one entity at a time. Be careful! Due to technical limitations, you must keep your mount near you. If it\u0027s left in a chunk that gets unloaded, it\u0027s possible to lose your mount!",
       "dependencies": [
         95
       ],
@@ -9234,11 +9234,11 @@
       "id": 220,
       "icon": "minecraft:netherrack",
       "title": "Taking The Long Route",
-      "text": "Eventually, you'll need to get to the Nether if you want to progress in Craft to Exile. Craft flint and steel, and make a Nether portal out of obsidian to access the Nether!",
+      "text": "Eventually, you\u0027ll need to get to the Nether if you want to progress in Craft to Exile. Craft flint and steel, and make a Nether portal out of obsidian to access the Nether!",
       "dependencies": [
         80,
-		110,
-		162
+        110,
+        162
       ],
       "requirements": [
         {
@@ -9269,7 +9269,7 @@
       "id": 221,
       "icon": "mmorpg:alchemy/instant/misc/reset_talents",
       "title": "Mistakes Were Made",
-      "text": "If you've looked at the talent tree and skill trees, it's easy to be overwhelmed by the number of choices. Luckily, Craft to Exile makes it easy to reset your skills and stats by making reset potions available for crafting. Try crafting the stat reset potion and I'll give you the other reset potions, free!",
+      "text": "If you\u0027ve looked at the talent tree and skill trees, it\u0027s easy to be overwhelmed by the number of choices. Luckily, Craft to Exile makes it easy to reset your skills and stats by making reset potions available for crafting. Try crafting the stat reset potion and I\u0027ll give you the other reset potions, free!",
       "dependencies": [
         2
       ],
@@ -9294,7 +9294,7 @@
             "nbt": "{}"
           }
         },
-		{
+        {
           "type": "ITEMS",
           "content": {
             "item": "mmorpg:alchemy/instant/misc/reset_talents",
@@ -9329,7 +9329,7 @@
             {
               "item": "mining_helmet:mining_helmet",
               "amount": 1,
-              "nbt": "{}"
+              "nbt": "{Damage:0}"
             }
           ]
         }
@@ -9411,7 +9411,7 @@
             {
               "item": "toolbelt:belt",
               "amount": 1,
-              "nbt": ""
+              "nbt": "{}"
             }
           ]
         }
@@ -9433,7 +9433,7 @@
       "id": 225,
       "icon": "toolbelt:pouch",
       "title": "Handyman+",
-      "text": "The tool belt by default only comes with 2 slots. That's not nearly enough for all of your tools! Upgrade your tool belt using an anvil with a pouch to increase the number of tools you can have equipped.",
+      "text": "The tool belt by default only comes with 2 slots. That\u0027s not nearly enough for all of your tools! Upgrade your tool belt using an anvil with a pouch to increase the number of tools you can have equipped.",
       "dependencies": [
         224
       ],
@@ -9444,7 +9444,7 @@
             {
               "item": "toolbelt:pouch",
               "amount": 1,
-              "nbt": ""
+              "nbt": "{}"
             }
           ]
         }
@@ -9466,7 +9466,7 @@
       "id": 226,
       "icon": "dankstorage:dank_1",
       "title": "Dank Storage",
-      "text": "Dank Storage is a mod that adds an extremely versatile block that can store very large stacks of items. Additionally, you can upgrade the block from Dank 1 --> Dank 7. Higher tiers of the block will store more items and larger stacks. One neat feature of these Dank Storage containers is that they are modal. By pressing the mode key (Default: N), you can change between chest, backpack, and construction modes. The chest mode function intuitively - place the block down and access it like a chest. Backpack mode lets you bring the block with you and access its contents on the move. Lastly, in construction mode, the block can no longer be placed down and will gain the enchantment glow to show that it's in construction mode. While in construction mode, the Dank Storage block has a selected slot - sneak+mousewheel will change the selected slot (skipping over empty ones). Right-clicking while the dank is in this state will attempt to use the currently selected item whether it be a block, a snowball, or even shears. Even potions and most food items can be consumed this way. Finishing this quest will allow you to access the Dank Storage quests located in the Technology chapter. You will need to progress the technology quest line to unlock the Dank upgrades!",
+      "text": "Dank Storage is a mod that adds an extremely versatile block that can store very large stacks of items. Additionally, you can upgrade the block from Dank 1 --\u003e Dank 7. Higher tiers of the block will store more items and larger stacks. One neat feature of these Dank Storage containers is that they are modal. By pressing the mode key (Default: N), you can change between chest, backpack, and construction modes. The chest mode function intuitively - place the block down and access it like a chest. Backpack mode lets you bring the block with you and access its contents on the move. Lastly, in construction mode, the block can no longer be placed down and will gain the enchantment glow to show that it\u0027s in construction mode. While in construction mode, the Dank Storage block has a selected slot - sneak+mousewheel will change the selected slot (skipping over empty ones). Right-clicking while the dank is in this state will attempt to use the currently selected item whether it be a block, a snowball, or even shears. Even potions and most food items can be consumed this way. Finishing this quest will allow you to access the Dank Storage quests located in the Technology chapter. You will need to progress the technology quest line to unlock the Dank upgrades!",
       "dependencies": [
         114
       ],
@@ -9509,7 +9509,7 @@
       "title": "Dank Storage II",
       "text": "Upgrading your Dank Storage will increase the amount of items it can hold, and increase the stack limits for each item. In Craft to Exile, custom recipes are used to integrate Dank Storage with the technology mods and Mine and Slash. There are 2 ways to upgrade your storage. You can either break the block and upgrade it using the Dank 2 recipe, or you can craft a 1 to 2 upgrade module and apply it to you currently existing Dank chest.",
       "dependencies": [
-		123,
+        123,
         226
       ],
       "requirements": [
@@ -9551,7 +9551,7 @@
       "title": "Dank Storage IV",
       "text": "Upgrading your Dank Storage will increase the amount of items it can hold, and increase the stack limits for each item. In Craft to Exile, custom recipes are used to integrate Dank Storage with the technology mods and Mine and Slash. There are 2 ways to upgrade your storage. You can either break the block and upgrade it using the Dank 2 recipe, or you can craft a 1 to 2 upgrade module and apply it to you currently existing Dank chest.",
       "dependencies": [
-		96,
+        96,
         226
       ],
       "requirements": [
@@ -9593,7 +9593,7 @@
       "title": "Dank Storage VI",
       "text": "Upgrading your Dank Storage will increase the amount of items it can hold, and increase the stack limits for each item. In Craft to Exile, custom recipes are used to integrate Dank Storage with the technology mods and Mine and Slash. There are 2 ways to upgrade your storage. You can either break the block and upgrade it using the Dank 2 recipe, or you can craft a 1 to 2 upgrade module and apply it to you currently existing Dank chest.",
       "dependencies": [
-		228
+        228
       ],
       "requirements": [
         {
