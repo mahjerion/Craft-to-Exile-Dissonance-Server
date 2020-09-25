@@ -724,8 +724,8 @@
       "MAX_LEVEL": 30,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
-      "DMG_MULTI": 1.5,
-      "HP_MULTI": 1.5,
+      "DMG_MULTI": 1.0,
+      "HP_MULTI": 1.2,
       "STAT_MULTI": 1.1
     },
     "minecraft:wither": {
@@ -737,9 +737,9 @@
       "MAX_LEVEL": 26,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 0,
-      "DMG_MULTI": 1.05,
-      "HP_MULTI": 1.05,
-      "STAT_MULTI": 1.05
+      "DMG_MULTI": 0.5,
+      "HP_MULTI": 0.8,
+      "STAT_MULTI": 1.0
     },
     "nasty:skeleton": {
       "LOOT_MULTI": 2.0,
@@ -750,7 +750,7 @@
       "MAX_LEVEL": 2147483647,
       "LEVEL_TO_NEAREST_PLAYER": false,
       "LEVEL_MODIFIER": 1,
-      "DMG_MULTI": 1.2,
+      "DMG_MULTI": 0.9,
       "HP_MULTI": 1.0,
       "STAT_MULTI": 1.0
     },

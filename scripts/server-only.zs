@@ -4,3 +4,4 @@ import mods.jei.JEI;
 
 //Riddle Chests
 mods.jei.JEI.hideItem(<item:createintegration:chunk_loader>);
+craftingTable.removeRecipe(<item:createintegration:chunk_loader>);

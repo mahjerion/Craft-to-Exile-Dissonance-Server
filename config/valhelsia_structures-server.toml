@@ -4,7 +4,7 @@
 	[structures.global]
 		#How flat does terrain need to be for surface structures to spawn? (in blocks) [default: 3]
 		#Range: 0 ~ 64
-		flatness_delta = 3
+		flatness_delta = 4
 
 	[structures.castle]
 		#Generate Castles?
