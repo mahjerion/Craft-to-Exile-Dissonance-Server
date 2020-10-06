@@ -549,6 +549,37 @@
 					}
 				}
 			]
+		},
+		{
+			title: "Don't Bee Shelfish!",
+			x: 4.5d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: ["Apotheosis brings more than just one type of bookshelf!"],
+			min_required_dependencies: 0,
+			dependencies: [I;110],
+			dependency_requirement: "all_completed",
+			id: 1958,
+			tasks: [{
+				id: 1959,
+				type: "item",
+				item: "apotheosis:beeshelf",
+				count: 4L
+			}],
+			rewards: [{
+				id: 1960,
+				type: "item",
+				title: "25000 Experience",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 25000
+					}
+				}
+			}]
 		}
 	]
 }
