@@ -299,7 +299,7 @@
 		{
 			title: "Identification, Please",
 			x: 3.0d,
-			y: 1.5d,
+			y: -1.5d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -1551,7 +1551,7 @@
 		{
 			title: "Double Double Toil and Trouble",
 			x: 3.0d,
-			y: -1.5d,
+			y: -3.0d,
 			shape: "default",
 			subtitle: "",
 			size: 1.0d,
@@ -1987,6 +1987,38 @@
 					Count: 1b,
 					tag: {
 						exp: 2000
+					}
+				}
+			}]
+		},
+		{
+			title: "Magic!",
+			x: 3.0d,
+			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"In Craft to Exile [Dissonance] you can craft staves from Atum! Check the JEI for more information.",
+				""
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;10],
+			dependency_requirement: "all_completed",
+			id: 2057,
+			tasks: [{
+				id: 2058,
+				type: "item",
+				item: "atum:loot_dirty_scepter"
+			}],
+			rewards: [{
+				id: 2059,
+				type: "item",
+				item: {
+					id: "mmorpg:give_exp",
+					Count: 1b,
+					tag: {
+						exp: 1500
 					}
 				}
 			}]
