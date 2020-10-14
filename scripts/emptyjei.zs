@@ -182,13 +182,6 @@ mods.jei.JEI.hideItem(<item:atum:loot_sapphire_broach>);
 mods.jei.JEI.hideItem(<item:atum:loot_ruby_broach>);
 mods.jei.JEI.hideItem(<item:atum:loot_emerald_broach>);
 mods.jei.JEI.hideItem(<item:atum:loot_diamond_broach>);
-mods.jei.JEI.hideItem(<item:atum:loot_dirty_scepter>);
-mods.jei.JEI.hideItem(<item:atum:loot_silver_scepter>);
-mods.jei.JEI.hideItem(<item:atum:loot_gold_scepter>);
-mods.jei.JEI.hideItem(<item:atum:loot_sapphire_scepter>);
-mods.jei.JEI.hideItem(<item:atum:loot_ruby_scepter>);
-mods.jei.JEI.hideItem(<item:atum:loot_emerald_scepter>);
-mods.jei.JEI.hideItem(<item:atum:loot_diamond_scepter>);
 mods.jei.JEI.hideItem(<item:atum:idol_of_labor>);
 mods.jei.JEI.hideItem(<item:atum:short_bow>);
 mods.jei.JEI.hideItem(<item:atum:iron_dagger>);
@@ -523,4 +516,3 @@ mods.jei.JEI.hideItem(<item:valhelsia_structures:dark_oak_post>);
 //Waystones
 mods.jei.JEI.hideItem(<item:waystones:waystone>);
 mods.jei.JEI.hideItem(<item:waystones:mossy_waystone>);
-mods.jei.JEI.hideItem(<item:waystones:sandy_waystone>);
