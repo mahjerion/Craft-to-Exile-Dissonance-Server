@@ -4,7 +4,7 @@
 	#Turn the notification the player gets when joining and the mod detected an invalid .jar on and off.
 	shouldShowInvalidJarMessage = true
 	#Turn the notification the player gets when joining and a the mod wasnt able to check for a new version on and off.
-	shouldShowUpdateCheckFailedMessage = true
+	shouldShowUpdateCheckFailedMessage = false
 	#Turn the notification the player gets when joining and a new update has been found on and off.
 	shouldShowUpdateMessage = false
 

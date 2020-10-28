@@ -11,7 +11,7 @@
 	maxcitizenpercolony = 50
 	#Amount of blocks the Builder checks (to decrease lag). [Default: 1000]
 	#Range: 1000 ~ 100000
-	maxblockscheckedbybuilder = 900
+	maxblockscheckedbybuilder = 1000
 	#How common diseases are. 1 = Very common, 100 = extremely rare. [Default: 5]
 	#Range: 1 ~ 100
 	diseasemodifier = 10
@@ -198,7 +198,7 @@
 #All permission configuration options
 [permissions]
 	#Blocks players should be able to interact with in any colony (ex: vending machines)
-	freetointeractblocks = ["minecraft:dirt", "0 0 0", "waystones:sandy_waystone", "waystones:waystone", "waystones:mossy_waystone", "calemiutils:trading_post", "calemiutils:market", "calemiutils:bank", "minecraft:ender_chest", "farmingforblockheads:market", "corpse:corpse"]
+	freetointeractblocks = ["waystones:sandy_waystone", "waystones:waystone", "waystones:mossy_waystone", "calemiutils:trading_post", "calemiutils:market", "calemiutils:bank", "minecraft:ender_chest", "farmingforblockheads:market", "corpse:corpse"]
 	#Should colony protection be enabled? [Default: true]
 	enablecolonyprotection = true
 	#Independent from the colony protection, should explosions be turned off inside colonies? [Default: true]
@@ -466,6 +466,8 @@
 	stamina = ["minecraft:carrot*1"]
 	#minecolonies.config.richveins.comment
 	richveins = ["minecraft:gold_ore*32"]
+	#minecolonies.config.knowtheend.comment
+	knowtheend = ["minecraft:chorus_fruit*64"]
 	#minecolonies.config.improvedevasion.comment
 	improvedevasion = ["minecraft:diamond*16"]
 	#minecolonies.config.space.comment
