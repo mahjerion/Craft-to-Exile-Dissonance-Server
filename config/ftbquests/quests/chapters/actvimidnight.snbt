@@ -98,7 +98,7 @@
 				id: 398,
 				type: "kill",
 				entity: "midnight:nova",
-				value: 20L
+				value: 10L
 			}],
 			rewards: [
 				{
