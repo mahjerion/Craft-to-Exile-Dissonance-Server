@@ -2,19 +2,22 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:lily_pad"
         }
       ],
-	  "conditions": [
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
 		{
-		  "type": "forge:mod_loaded",
-		  "modid": "allthemodium"
+		  "condition": "minecraft:random_chance",
+		  "chance": 0
 		}
-	  ]
+      ]
     }
   ]
 }
