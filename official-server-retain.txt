@@ -1,0 +1,6 @@
+ma-chat/
+scripts/official_server_only.zs
+config/dcintegration-common.toml
+config/dynview-common.toml
+config/ftbbackups-common.toml
+config/minecolonies-common.toml
