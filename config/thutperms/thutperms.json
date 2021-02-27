@@ -8,8 +8,8 @@
     "all": false,
     "all_non_op": true,
     "allowedCommands": [
-	  "command.team"
-	],
+      "command.team"
+    ],
     "bannedCommands": [
       "command.ftbquests",
       "command.bo",
