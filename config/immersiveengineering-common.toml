@@ -31,7 +31,7 @@
 	#A config setting to enable debug features. These features may vary between releases, may cause crashes, and are unsupported. Do not enable unless asked to by a developer of IE.
 	enableDebug = false
 	#Set this to false to hide the update news in the manual
-	showUpdateNews = false
+	showUpdateNews = true
 	#Set this to false to disable the super awesome looking nixie tube front for the voltmeter and other things
 	nixietubeFont = true
 	#A list of preferred Mod IDs that results of IE processes should stem from, aka which mod you want the copper to come from.
@@ -291,7 +291,7 @@
 
 [ores]
 	#A blacklist of dimensions in which IE ores won't spawn. By default this is Nether and End
-	dimension_blocklist = ["minecraft:the_nether", "minecraft:the_end", "minecraft:overworld", "the_bumblezone:bumblezone", "goodnightsleep:nightmare", "goodnightsleep:good_dream", "atum:atum", "midnight:midnight"]
+	dimension_blocklist = ["minecraft:the_nether", "minecraft:the_end", "minecraft:overworld", "the_bumblezone:bumblezone", "goodnightsleep:nightmare", "goodnightsleep:good_dream", "atum:atum", "midnight:midnight", "overworldmirror:dimension"]
 	#Set this to false to disable the logging of the chunks that were flagged for retrogen.
 	retrogen_log_flagChunk = true
 	#The retrogeneration key. Basically IE checks if this key is saved in the chunks data. If it isn't, it will perform retrogen on all ores marked for retrogen.
