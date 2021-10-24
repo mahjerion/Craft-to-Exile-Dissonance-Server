@@ -1,5 +1,5 @@
 version:2230
-autoJump:true
+autoJump:false
 autoSuggestions:true
 chatColors:true
 chatLinks:true
@@ -32,7 +32,7 @@ biomeBlendRadius:1
 renderClouds:true
 resourcePacks:[]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:127.0.0.1
 lang:en_us
 chatVisibility:0
 chatOpacity:1.0
@@ -57,7 +57,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 soundCategory_master:1.0
 soundCategory_music:0.5
 soundCategory_record:1.0
