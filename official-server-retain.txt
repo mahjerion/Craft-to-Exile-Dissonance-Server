@@ -4,3 +4,4 @@ config/dcintegration-common.toml
 config/dynview-common.toml
 config/ftbbackups-common.toml
 config/minecolonies-common.toml
+Craft to Exile Public Server/serverconfig/waystones-server.toml
