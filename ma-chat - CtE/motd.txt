@@ -2,5 +2,6 @@
 &6You are currently on world: &cTristram
 &6You can view the rules by typing &c/rules
 &6Use &c/slash party &6and &c/team &6for party play!
+&6Claim your area using &cMinecolonies &6and press &cP &6for the quest log!
 &6All messages are linked with &c#server-chat&6 on &cDiscord&6!
 &6Current players &c%players%&6/&c%max_players%
