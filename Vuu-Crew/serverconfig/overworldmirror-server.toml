@@ -1,0 +1,26 @@
+
+#Seed settings
+[seed]
+	#If you have set this to "SEED" then the seedValue value will be treated as new seed, else if its set to "ADDITION" the value will be added to the main world seed.
+	#Allowed Values: SEED, ADDITION
+	seedType = "ADDITION"
+	#The seed value. See seedType for more information.
+	#Range: -9223372036854775808 ~ 9223372036854775807
+	seedValue = 100000
+
+#Generation settings
+[generator]
+	#Generator type e.g. default, flat, buffet, ... (See here for a list: https://minecraft.gamepedia.com/World_type)
+	generatorType = "default"
+	#Generator settings for the generator type. The snbt string must be valid json and escaped. For flat worlds you must use the snbt variant like this: ({"biome":"minecraft:plains","layers":[{"block":"minecraft:bedrock","height":1},{"block":"minecraft:dirt","height":2},{"block":"minecraft:grass_block","height":1}],"structures":{"village":{}}}) and not the client side preset code (minecraft:bedrock,30*minecraft:dirt,minecraft:grass_block;minecraft:plains;village)
+	generatorSettings = ""
+
+#Portal settings
+[portal]
+	#Movement factor. Like in the nether you move 8 times the block length as in the overworld
+	#Range: 0.0 ~ 1.0E10
+	movementFactor = 1.0
+	#How many blocks the portal can be from the normal spawn location to not create a new one. The value is not in sqrt cause of lag reduction. 400 = 20 Blocks, 900 = 30 Blocks, etc
+	#Range: 1.0 ~ 1.0E20
+	portalDistance = 400.0
+

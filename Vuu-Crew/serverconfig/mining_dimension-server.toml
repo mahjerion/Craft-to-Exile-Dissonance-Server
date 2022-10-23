@@ -1,0 +1,55 @@
+#The dimension from where you can teleport to the mining dimension and back
+overworld_dimension = "minecraft:overworld"
+
+[world_generation]
+	#Range: 0.0 ~ 1.0
+	canyon_percentage = 0.04
+	#If lava should be generated in caves below level 11
+	lava = true
+	ores = true
+	#Range: 0.0 ~ 1.0
+	cave_percentage = 0.5
+	stone_variants = true
+	lava_lakes = true
+	spawners = true
+	#Note that setting this to false can cause players to fall into the void
+	bedrock_floor = true
+	#Note that setting this to false causes the game to spawn mobs on top of the world
+	bedrock_ceiling = true
+
+	[world_generation.coal_ore]
+		#Range: 1 ~ 256
+		max_height = 128
+		#Range: 1 ~ 512
+		count = 20
+
+	[world_generation.iron_ore]
+		#Range: 1 ~ 256
+		max_height = 64
+		#Range: 1 ~ 512
+		count = 20
+
+	[world_generation.gold_ore]
+		#Range: 1 ~ 256
+		max_height = 32
+		#Range: 1 ~ 512
+		count = 2
+
+	[world_generation.redstone_ore]
+		#Range: 1 ~ 256
+		max_height = 16
+		#Range: 1 ~ 512
+		count = 8
+
+	[world_generation.diamond_ore]
+		#Range: 1 ~ 256
+		max_height = 16
+		#Range: 1 ~ 512
+		count = 1
+
+	[world_generation.lapis_lazuli_ore]
+		#Range: 1 ~ 256
+		baseline = 16
+		#Range: 1 ~ 512
+		count = 1
+
