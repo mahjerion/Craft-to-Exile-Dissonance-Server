@@ -1,0 +1,19 @@
+{
+  "modId": "ctecu",
+  "group": {
+    "name": "Trick or Treat",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "simplefarming:candy",
+	  "count": 32
+    },
+    "defaultCategory": "farmingforblockheads:other"
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "ctecu:pumpkin_seed"
+      }
+    }
+  ]
+}

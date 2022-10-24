@@ -1,0 +1,60 @@
+{
+  "modId": "ctecu",
+  "group": {
+    "name": "Halloween Tier 1",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "ctecu:pumpkin_seed",
+	  "count": 5
+    },
+    "defaultCategory": "farmingforblockheads:other"
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "mmorpg:events/pumpkin_juice"
+      }
+    },
+    {
+      "output": {
+        "item": "calemiutils:coin_nickel"
+      }
+    },
+    {
+      "output": {
+        "item": "lycanitesmobs:doomfire",
+		"count": 16
+      }
+    },
+    {
+      "output": {
+        "item": "lycanitesmobs:frostfire",
+		"count": 16
+      }
+    },
+    {
+      "output": {
+        "item": "lycanitesmobs:hellfire",
+		"count": 16
+      }
+    },
+    {
+      "output": {
+        "item": "lycanitesmobs:icefire",
+		"count": 16
+      }
+    },
+    {
+      "output": {
+        "item": "lycanitesmobs:scorchfire",
+		"count": 16
+      }
+    },
+    {
+      "output": {
+        "item": "lycanitesmobs:shadowfire",
+		"count": 16
+      }
+    }
+  ]
+}

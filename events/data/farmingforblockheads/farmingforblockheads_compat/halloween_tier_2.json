@@ -1,0 +1,29 @@
+{
+  "modId": "ctecu",
+  "group": {
+    "name": "Halloween Tier 2",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "ctecu:pumpkin_seed",
+	  "count": 50
+    },
+    "defaultCategory": "farmingforblockheads:other"
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "ctecu:ring_of_the_undying"
+      }
+    },
+    {
+      "output": {
+        "item": "ctecu:guardians_charm"
+      }
+    },
+    {
+      "output": {
+        "item": "calemiutils:sledgehammer_diamond"
+      }
+    }
+  ]
+}
