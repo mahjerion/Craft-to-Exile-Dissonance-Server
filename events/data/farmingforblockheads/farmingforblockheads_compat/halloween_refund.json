@@ -1,0 +1,19 @@
+{
+  "modId": "ctecu",
+  "group": {
+    "name": "Halloween Refund",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "calemiutils:sledgehammer_diamond"
+    },
+    "defaultCategory": "farmingforblockheads:other"
+  },
+  "customEntries": [
+    {
+      "output": {
+        "item": "ctecu:pumpkin_seed",
+		"count": 50
+      }
+    }
+  ]
+}
